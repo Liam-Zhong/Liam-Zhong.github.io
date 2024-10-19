@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags | Liam&#39;s Blog</title>
+    <link>https://liam-zhong.github.io/tags/</link>
+      <atom:link href="https://liam-zhong.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tags</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en</language><copyright>© 2024, liam</copyright><lastBuildDate>Fri, 18 Oct 2024 22:45:53 +0800</lastBuildDate>
+  </channel>
+</rss>
