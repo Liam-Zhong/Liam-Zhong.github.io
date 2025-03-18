@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts | Chlzhong</title>
-    <link>https://chlzhong.org/post/</link>
-      <atom:link href="https://chlzhong.org/post/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/post/</link>
+      <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en</language><copyright>© 2024, liam</copyright><lastBuildDate>Fri, 31 Jan 2025 04:30:02 +0800</lastBuildDate>  
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en</language><copyright>© 2024, liam</copyright><lastBuildDate>Fri, 07 Mar 2025 19:41:14 +0800</lastBuildDate>  
     <item>
       <title>印象中的钢笔们</title>
-      <link>https://chlzhong.org/post/fountainpens/</link>
+      <link>http://localhost:1313/post/fountainpens/</link>
       <pubDate>Tue, 10 Sep 2024 21:15:28 +0800</pubDate>
-      <guid>https://chlzhong.org/post/fountainpens/</guid>
+      <guid>http://localhost:1313/post/fountainpens/</guid>
       <description>&lt;ol&gt;
 &lt;li&gt;
-&lt;h4 id=&#34;1883-watermanhttpswwwwaterman-zhcn&#34;&gt;1883 &lt;a href=&#34;https://www.waterman-zh.cn/&#34;&gt;Waterman&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;1883-威迪文httpswwwwaterman-zhcn&#34;&gt;1883 &lt;a href=&#34;https://www.waterman-zh.cn/&#34;&gt;威迪文&lt;/a&gt;&lt;/h4&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;del&gt;梦中情笔，入坑起源。&lt;/del&gt; 整天吹嘘法产的美国品牌， &lt;strong&gt;不买&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;梦中情笔，入坑起源。&lt;/del&gt; 设计感强，笔夹做得很不错。整天吹嘘法产的美国品牌， &lt;strong&gt;不买&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.waterman-zh.cn/exception-pens-china.html&#34;&gt;智尊&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.waterman-zh.cn/carene-pens-china.html&#34;&gt;海韵&lt;/a&gt;&lt;/p&gt;
 &lt;ol start=&#34;2&#34;&gt;
@@ -26,12 +26,12 @@
 &lt;/ol&gt;
 &lt;p&gt;国内没有官网。祖上风光的印度钢笔， &lt;strong&gt;不买&lt;/strong&gt;。&lt;/p&gt;
 &lt;ol start=&#34;3&#34;&gt;
-&lt;li&gt;&lt;strong&gt;1906&lt;/strong&gt; &lt;a href=&#34;https://www.montblanc.cn/cn/zh-cn/home.html&#34;&gt;Montblanc&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;h4 id=&#34;1906-万宝龙httpswwwmontblanccncnzh-cnhomehtml&#34;&gt;&lt;strong&gt;1906&lt;/strong&gt; &lt;a href=&#34;https://www.montblanc.cn/cn/zh-cn/home.html&#34;&gt;万宝龙&lt;/a&gt;&lt;/h4&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;德产瑞士奢侈品， &lt;strong&gt;不买&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.montblanc.cn/cn/zh-cn/collection/writing-instruments/meisterstuck/mb132468-meisterstueck-platinum-coated-classique-fountain-pen-m.html&#34;&gt;大班 145&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.montblanc.cn/cn/zh-cn/collection/writing-instruments/meisterstuck/mb132443-meisterstueck-platinum-coated-legrand-fountain-pen-m.html&#34;&gt;大班 146&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.montblanc.cn/cn/zh-cn/collection/writing-instruments/meisterstuck/mb132104-meisterstueck-platinum-coated-149-fountain-pen-f.html&#34;&gt;大班 149&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.montblanc.cn/cn/zh-cn/collection/writing-instruments/meisterstuck.html&#34;&gt;大班&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.montblanc.cn/cn/zh-cn/collection/writing-instruments/starwalker.html&#34;&gt;星际行者&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.montblanc.cn/cn/zh-cn/collection/writing-instruments/heritage.html&#34;&gt;传承&lt;/a&gt;&lt;/p&gt;
 &lt;ol start=&#34;4&#34;&gt;
@@ -39,16 +39,12 @@
 &lt;h4 id=&#34;1838-pelikanhttpswwwpelikancom&#34;&gt;1838 &lt;a href=&#34;https://www.pelikan.com/&#34;&gt;Pelikan&lt;/a&gt;&lt;/h4&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;国内没有官网。德产法国钢笔，全系活塞不好洗，且邮件回太慢， &lt;strong&gt;不买&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.pelikan-passion.com/int/writing/premium/souveraen/souveran-400-black.html&#34;&gt;SOUVERÄN 400&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.pelikan-passion.com/int/writing/premium/souveraen/souveran-600-black.html&#34;&gt;SOUVERÄN 600&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.pelikan-passion.com/int/writing/premium/souveraen/souveran-800-black.html&#34;&gt;SOUVERÄN 800&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.pelikan-passion.com/int/writing/premium/souveraen/souveran-1000-black.html&#34;&gt;SOUVERÄN 1000&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.pelikan-passion.com/int/writing/premium/toledo/toledo-m-700-black.html&#34;&gt;TOLEDO 700&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.pelikan-passion.com/int/writing/premium/toledo/toledo-m-900-black.html&#34;&gt;TOLEDO 900&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;国内没有官网。德产法国钢笔，全系活塞， &lt;strong&gt;不买&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.pelikan-passion.com/int/writing/premium/souveraen.html&#34;&gt;SOUVERÄN&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.pelikan-passion.com/int/writing/premium/toledo.html&#34;&gt;TOLEDO&lt;/a&gt;&lt;/p&gt;
 &lt;ol start=&#34;5&#34;&gt;
 &lt;li&gt;
-&lt;h4 id=&#34;1888-parkerhttpswwwparkerpencn&#34;&gt;1888 &lt;a href=&#34;https://www.parkerpen.cn/&#34;&gt;Parker&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;1888-派克httpswwwparkerpencn&#34;&gt;1888 &lt;a href=&#34;https://www.parkerpen.cn/&#34;&gt;派克&lt;/a&gt;&lt;/h4&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;历史上最成功的钢笔厂，现产吃相难看， &lt;strong&gt;不买&lt;/strong&gt;。&lt;/p&gt;
@@ -64,15 +60,15 @@
 &lt;p&gt;国内没有官网。可能是美国死得最晚的传统笔厂，且总统不写字， &lt;strong&gt;不买&lt;/strong&gt;。&lt;/p&gt;
 &lt;ol start=&#34;7&#34;&gt;
 &lt;li&gt;
-&lt;h4 id=&#34;1761-a-hrefhttpswwwfaber-castellcn-stylecolorredfaber-castella&#34;&gt;1761 &lt;a href=&#34;https://www.faber-castell.cn/&#34; style=&#34;color:red;&#34;&gt;Faber-Castell&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;1761-a-hrefhttpswwwfaber-castellcn-stylecolorred辉柏嘉a&#34;&gt;1761 &lt;a href=&#34;https://www.faber-castell.cn/&#34; style=&#34;color:red;&#34;&gt;辉柏嘉&lt;/a&gt;&lt;/h4&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;国内约等于没有官网（算上 1993 &lt;a href=&#34;http://www.graf-von-faber-castell.com.cn/&#34;&gt;伯爵&lt;/a&gt;）。密恐笔尖， &lt;strong&gt;不买&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.graf-von-faber-castell.com/products/classic/24-24-11-fountain-pen#&#34;&gt;Classic&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.graf-von-faber-castell.com/products/guilloche/24-24-11-fountain-pen#&#34;&gt;Guilloche&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.graf-von-faber-castell.com/products/magnum/24-24-11-fountain-pen#&#34;&gt;Magnum&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.graf-von-faber-castell.com/products/classic-anello/24-24-11-fountain-pen#&#34;&gt;Classic Anello&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.graf-von-faber-castell.com/products/bentley/24-24-11-fountain-pen#&#34;&gt;Bentley&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;国内约等于没有官网（算上 1993 &lt;a href=&#34;http://www.graf-von-faber-castell.com.cn/&#34;&gt;GVFC&lt;/a&gt;）。金属细笔握， Bock 套着丑， &lt;strong&gt;不买&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.graf-von-faber-castell.com/products/magnum&#34;&gt;Magnum&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.graf-von-faber-castell.com/products/classic&#34;&gt;Classic&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.graf-von-faber-castell.com/products/guilloche&#34;&gt;Guilloche&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.graf-von-faber-castell.com/products/classic-anello&#34;&gt;Classic Anello&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.graf-von-faber-castell.com/products/bentley&#34;&gt;Bentley&lt;/a&gt;&lt;/p&gt;
 &lt;ol start=&#34;8&#34;&gt;
 &lt;li&gt;
 &lt;h4 id=&#34;1883-kawecohttpswwwkaweco-pencom&#34;&gt;1883 &lt;a href=&#34;https://www.kaweco-pen.com/&#34;&gt;Kaweco&lt;/a&gt;&lt;/h4&gt;
@@ -128,9 +124,10 @@
 &lt;p&gt;&lt;a href=&#34;https://www.pilot.co.jp/products/pen/fountain/fountain/elite95s/&#34;&gt;Elite 95 S&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;1925 &lt;a href=&#34;https://www.pilot-namiki.com/en/&#34;&gt;并木&lt;/a&gt; 国内没有官网。不喜欢莳绘， &lt;strong&gt;不买&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;1919 &lt;a href=&#34;https://www.platinum-pen.co.jp/&#34; style=&#34;color:red;&#34;&gt;白金&lt;/a&gt; 港独钢笔。国内没有官网。老 3776 丑得别致，鱼雷造型乏善可陈， &lt;strong&gt;不买&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.platinum-pen.co.jp/brands/3776-century/&#34;&gt;# 3776 CENTURY&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.platinum-pen.co.jp/brands/bikoh/&#34;&gt;美巧&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.platinum-pen.co.jp/brands/izumo/&#34;&gt;出云&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.platinum-pen.co.jp/brands/3776-century/&#34;&gt;# 3776 CENTURY&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.platinum-pen.co.jp/brands/president/&#34;&gt;总统&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.platinum-pen.co.jp/brands/bikoh/&#34;&gt;美巧&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.platinum-pen.co.jp/products/fountain-pen/2129/&#34;&gt;直纹银&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.platinum-pen.co.jp/products/fountain-pen/2126/&#34;&gt;锤纹银&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;1999 &lt;a href=&#34;https://www.nakaya.org/&#34;&gt;中屋&lt;/a&gt; 国内没有官网。背鳍和十角好看，笔尖 3776 同款， &lt;strong&gt;不买&lt;/strong&gt;&lt;/p&gt;
@@ -150,10 +147,53 @@
     </item>
       
     <item>
+      <title>双休新闻</title>
+      <link>http://localhost:1313/post/high-school-life/</link>
+      <pubDate>Fri, 07 Mar 2025 19:41:14 +0800</pubDate>
+      <guid>http://localhost:1313/post/high-school-life/</guid>
+      <description>&lt;p&gt;书&lt;br&gt;
+教室&lt;br&gt;
+背古文&lt;br&gt;
+上课讲话&lt;br&gt;
+五毛下饭菜&lt;br&gt;
+化学课抄笔记&lt;br&gt;
+看不懂的物理题&lt;br&gt;
+屁股久坐的痛谁懂&lt;br&gt;
+吐槽不完食堂做的菜&lt;br&gt;
+男孩子下课抢饭的模样&lt;br&gt;
+学校里看广告都觉得好看&lt;br&gt;
+忘记同学礼物非常过意不去&lt;br&gt;
+女孩子围成一团讨论自家老公&lt;br&gt;
+学了很久抬头看见窗外粉色的云&lt;br&gt;
+全班一起听安军吹牛开会吃大西瓜&lt;br&gt;
+会考前一沓又一沓写不完的文科卷子&lt;br&gt;
+信息技术老师欠的几节专门打游戏的课&lt;br&gt;
+盯着手机到深夜只为安慰一个伤心的灵魂&lt;br&gt;
+运动会上男孩子们竭尽全力湿透的衣服&lt;br&gt;
+数学考试交的税都为鼓励学霸做贡献&lt;br&gt;
+百日倒数日贴桌子上的小动物纸条&lt;br&gt;
+争分夺秒掐点到班上成功的自豪&lt;br&gt;
+故作镇定的送喜欢的人一本书&lt;br&gt;
+物理考试与二班的八分定律&lt;br&gt;
+男孩子激烈讨论游戏策略&lt;br&gt;
+提心吊胆地查高考成绩&lt;br&gt;
+永远忘不了的中国人&lt;br&gt;
+耳机里喜欢的音乐&lt;br&gt;
+意味深长成人礼&lt;br&gt;
+老师笑讲人生&lt;br&gt;
+录取通知书&lt;br&gt;
+毕业典礼&lt;br&gt;
+喜讯来&lt;br&gt;
+欢笑&lt;br&gt;
+妳&lt;br&gt;&lt;/p&gt;
+</description>
+    </item>
+      
+    <item>
       <title>相见欢</title>
-      <link>https://chlzhong.org/post/joyful-reunion/</link>
+      <link>http://localhost:1313/post/joyful-reunion/</link>
       <pubDate>Fri, 31 Jan 2025 04:30:02 +0800</pubDate>
-      <guid>https://chlzhong.org/post/joyful-reunion/</guid>
+      <guid>http://localhost:1313/post/joyful-reunion/</guid>
       <description>&lt;p&gt;喜欢的作家有一个标新立异的句子：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;人生本来只有别离时好，再见时好，这时我们不俗。&lt;/p&gt;
@@ -180,9 +220,9 @@
       
     <item>
       <title>研殇</title>
-      <link>https://chlzhong.org/post/the-tragic-end-of-a-graduate-student/</link>
+      <link>http://localhost:1313/post/the-tragic-end-of-a-graduate-student/</link>
       <pubDate>Fri, 24 Jan 2025 10:19:01 +0800</pubDate>
-      <guid>https://chlzhong.org/post/the-tragic-end-of-a-graduate-student/</guid>
+      <guid>http://localhost:1313/post/the-tragic-end-of-a-graduate-student/</guid>
       <description>&lt;p&gt;“学委，你知道……”，“学委，你有……”&lt;/p&gt;
 &lt;p&gt;长久以来总辜负大家对我的信任，对这两个字也只是嘻嘻哈哈的接受。今天写一点对考研的想法，也算是敷衍这个“学”字。&lt;/p&gt;
 &lt;p&gt;作为一个 20 岁的活人，凡事应有个目的而不是网上所流行的虚无，那么读研更是如此。对于这样会影响个体的人生方向之选择，我们不妨像学新东西一样来思考—— &lt;strong&gt;What?Why?How?&lt;/strong&gt; 这样子总会明白读研利害。&lt;/p&gt;
@@ -217,9 +257,9 @@
       
     <item>
       <title>贞操论</title>
-      <link>https://chlzhong.org/post/theory-of-chastity/</link>
+      <link>http://localhost:1313/post/theory-of-chastity/</link>
       <pubDate>Mon, 20 Jan 2025 17:50:53 +0800</pubDate>
-      <guid>https://chlzhong.org/post/theory-of-chastity/</guid>
+      <guid>http://localhost:1313/post/theory-of-chastity/</guid>
       <description>&lt;p&gt;笔者最近在阅读金瓶梅，对社会问题的漠漠使我自然地关注到男女之事上，遂作此文。&lt;/p&gt;
 &lt;p&gt;逐一盘点西门庆的她们，非但男子的贞操，连女子的贞操，也不为书中各角色所在意：除正室吴月娘，哪位不是别人的妻子？就拿潘金莲来说，西门庆没有嫌弃她从卖饼的武大郎那里出来，照样娶进门，为后来“禁书”的评价留下诸多描写。还有李瓶儿，除去钱财的 buff，花子虚死后又和另一位男子结婚，就这样西门庆也没有嫌人家“不是白纸”，盖新楼娶了过来还育一子。&lt;/p&gt;
 &lt;p&gt;实际上，书里写当时城市里的女人不守妇道、改嫁的故事，除把当时社会的真实情况给展现以外（在钱和利益面前，那些传统的贞洁观念根本不堪一击）还得以使现代读者瞥见当时那么自由的&lt;strong&gt;道德观念&lt;/strong&gt;。&lt;/p&gt;
@@ -233,54 +273,54 @@
       
     <item>
       <title>Keep Dying</title>
-      <link>https://chlzhong.org/post/keep-dying/</link>
+      <link>http://localhost:1313/post/keep-dying/</link>
       <pubDate>Wed, 15 Jan 2025 16:31:50 +0800</pubDate>
-      <guid>https://chlzhong.org/post/keep-dying/</guid>
+      <guid>http://localhost:1313/post/keep-dying/</guid>
       <description>&lt;p&gt;&lt;strong&gt;The sun is a morning star.&lt;/strong&gt;&lt;/p&gt;
 </description>
     </item>
       
     <item>
       <title>Eudemonia - 见雨后</title>
-      <link>https://chlzhong.org/post/eudemonia-07/</link>
+      <link>http://localhost:1313/post/eudemonia-07/</link>
       <pubDate>Tue, 17 Dec 2024 20:46:59 +0800</pubDate>
-      <guid>https://chlzhong.org/post/eudemonia-07/</guid>
+      <guid>http://localhost:1313/post/eudemonia-07/</guid>
       <description>&lt;div style=&#34;display: flex; justify-content: center; flex-direction: column; align-items: center;&#34;&gt;
-  &lt;img src=&#34;https://chlzhong.org/images/chuiyachiya.jpg&#34; alt=&#34;是你的童心吗&#34; class=&#34;img-apple&#34;&gt;
+  &lt;img src=&#34;http://localhost:1313/images/chuiyachiya.jpg&#34; alt=&#34;是你的童心吗&#34; class=&#34;img-apple&#34;&gt;
   &lt;small style=&#34;text-align: center;&#34;&gt;是你的童心吗&lt;/small&gt;
 &lt;/div&gt;
 &lt;br&gt;
 &lt;div style=&#34;display: flex; justify-content: center; flex-direction: column; align-items: center;&#34;&gt;
-  &lt;img src=&#34;https://chlzhong.org/images/down_sun.jpg&#34; alt=&#34;西下圆一个虚幻&#34; class=&#34;img-apple&#34;&gt;
+  &lt;img src=&#34;http://localhost:1313/images/down_sun.jpg&#34; alt=&#34;西下圆一个虚幻&#34; class=&#34;img-apple&#34;&gt;
   &lt;small style=&#34;text-align: center;&#34;&gt;西下圆一个虚幻&lt;/small&gt;
 &lt;/div&gt;
 &lt;br&gt;
 &lt;div style=&#34;display: flex; justify-content: center; flex-direction: column; align-items: center;&#34;&gt;
-  &lt;img src=&#34;https://chlzhong.org/images/white_tower.jpg&#34; alt=&#34;她善画眉&#34; class=&#34;img-apple&#34;&gt;
+  &lt;img src=&#34;http://localhost:1313/images/white_tower.jpg&#34; alt=&#34;她善画眉&#34; class=&#34;img-apple&#34;&gt;
   &lt;small style=&#34;text-align: center;&#34;&gt;她善画眉&lt;/small&gt;
 &lt;/div&gt;
 &lt;br&gt;
 &lt;div style=&#34;display: flex; justify-content: center; flex-direction: column; align-items: center;&#34;&gt;
-  &lt;img src=&#34;https://chlzhong.org/images/mememe.jpg&#34; alt=&#34;全身上下没有一口袋放✒&#34; class=&#34;img-apple&#34;&gt;
+  &lt;img src=&#34;http://localhost:1313/images/mememe.jpg&#34; alt=&#34;全身上下没有一口袋放✒&#34; class=&#34;img-apple&#34;&gt;
   &lt;small style=&#34;text-align: center;&#34;&gt;全身上下没有一口袋放✒&lt;/small&gt;
 &lt;/div&gt;
 &lt;br&gt;
 &lt;div style=&#34;display: flex; justify-content: center; flex-direction: column; align-items: center;&#34;&gt;
-  &lt;img src=&#34;https://chlzhong.org/images/same_thing.jpg&#34; alt=&#34;冬，同？&#34;class=&#34;img-apple&#34;&gt;
+  &lt;img src=&#34;http://localhost:1313/images/same_thing.jpg&#34; alt=&#34;冬，同？&#34;class=&#34;img-apple&#34;&gt;
   &lt;small style=&#34;text-align: center;&#34;&gt;你也是这样吗&lt;/small&gt;
 &lt;/div&gt;
 &lt;br&gt;
 &lt;div style=&#34;display: flex; justify-content: center; flex-direction: column; align-items: center;&#34;&gt;
-  &lt;img src=&#34;https://chlzhong.org/images/blue_me.jpg&#34; alt=&#34;冷到变色&#34;class=&#34;img-apple&#34;&gt;
+  &lt;img src=&#34;http://localhost:1313/images/blue_me.jpg&#34; alt=&#34;冷到变色&#34;class=&#34;img-apple&#34;&gt;
   &lt;small style=&#34;text-align: center;&#34;&gt;冷到变色&lt;/small&gt;
 &lt;/div&gt;</description>
     </item>
       
     <item>
       <title>如何批量生产铁链女——董志民在第二十届会议上的讲话</title>
-      <link>https://chlzhong.org/post/how-to-spawn-chained-girls-in-bulk/</link>
+      <link>http://localhost:1313/post/how-to-spawn-chained-girls-in-bulk/</link>
       <pubDate>Mon, 16 Dec 2024 21:07:08 +0800</pubDate>
-      <guid>https://chlzhong.org/post/how-to-spawn-chained-girls-in-bulk/</guid>
+      <guid>http://localhost:1313/post/how-to-spawn-chained-girls-in-bulk/</guid>
       <description>&lt;p&gt;各位教授好，我们研究组长期致力于探究如何批量生产铁链女的话题。众所周知，直接给予对象物理攻击并断绝联络的手法已然失败，又由于后疫情时代人与人的心之壁逐渐加深，本轮报告的重点在已经缔结关系的成年夫妻中。&lt;/p&gt;
 &lt;p&gt;由自由夫妻组成的研究对象中，广泛分布在农村的样本纷纷显示出他们想拥有一个铁链女的愿望，然而事实很遗憾，那一个会主动将脱逃铁链女绑回家的美好社会在瓦解。同时，维护她们的成本正变得越来越高，不仅要费心于她们的逃离，还要保证在生活上的支出小于她们所承担的所有家务劳动。自十九次会议来我们不断进行实践探索和理论思考，终于形成了一套高效的批量生产铁链女的办法。&lt;/p&gt;
 &lt;p&gt;我们的研究表明，在初始阶段，要采取循序渐进的方式建立控制。根据数据分析，第一阶段应该从经济控制入手。对一个脱产者来说她一切的行动力都需要我们的支持。统计数据显示 91.3% 的铁链女们在婚后三个月内表现出对我们成员的强烈信任，这与我们预期的行为模式高度吻合。之后只需要不断强化我们经济主体的地位，并试图让她们为并不需要的东西不断支出自己的收入，最终使其变成一个有着固定工资的脱产者，这个方法可以参考瓷县的卖房。希望广大同志们在实践中踊跃发现那些让铁链女为之奋斗的东西。在我们的样本中，农村地区的这个东西为孩子的置信度是最高的。&lt;/p&gt;
@@ -293,9 +333,9 @@
       
     <item>
       <title>How to Stop Windows 11 Update</title>
-      <link>https://chlzhong.org/post/how-to-stop-windows-11-update/</link>
+      <link>http://localhost:1313/post/how-to-stop-windows-11-update/</link>
       <pubDate>Sun, 15 Dec 2024 20:59:13 +0800</pubDate>
-      <guid>https://chlzhong.org/post/how-to-stop-windows-11-update/</guid>
+      <guid>http://localhost:1313/post/how-to-stop-windows-11-update/</guid>
       <description>&lt;p&gt;Hey, Are You Frustrated with Windows Automatic Updates? Here Are Some Methods to Stop Them :&lt;/p&gt;
 &lt;p&gt;Via Services Settings&lt;/p&gt;
 &lt;ul&gt;
@@ -331,9 +371,9 @@
       
     <item>
       <title>泡面拿来</title>
-      <link>https://chlzhong.org/post/bring-instant-noodles/</link>
+      <link>http://localhost:1313/post/bring-instant-noodles/</link>
       <pubDate>Sat, 14 Dec 2024 11:48:25 +0800</pubDate>
-      <guid>https://chlzhong.org/post/bring-instant-noodles/</guid>
+      <guid>http://localhost:1313/post/bring-instant-noodles/</guid>
       <description>&lt;p&gt;我和你讲过吗？&lt;/p&gt;
 &lt;p&gt;重庆的季节都不怎么流动，一如既往的极端气候，感觉不需要看清未来的走向，只要停留在这个地方。&lt;/p&gt;
 &lt;p&gt;我不知道有意在今天是什么感觉，也不清楚无意在过去有什么感受。时序上的差异或多或少会影响人的想法。我不知道现在的情绪是真情实感的表达还是文学作品的加工，这其实都不重要。&lt;/p&gt;
@@ -354,45 +394,45 @@
       
     <item>
       <title>三峡——思君在渝州</title>
-      <link>https://chlzhong.org/post/san_xia/</link>
+      <link>http://localhost:1313/post/san_xia/</link>
       <pubDate>Sun, 08 Dec 2024 23:36:19 +0800</pubDate>
-      <guid>https://chlzhong.org/post/san_xia/</guid>
+      <guid>http://localhost:1313/post/san_xia/</guid>
       <description>&lt;p&gt;秋远。峡谷的叶子也越来越红，一早一晚是它们最爱的时间，大概吝啬似细植也爱妩媚的江山。风起的时候，我常常站在队尾看风吹山红们，把生命枯萎的叶片吹掉，留下羞而热情的被风吹得透彻的叶子。&lt;/p&gt;
 &lt;p&gt;这次出游的小伙伴很多，定了行程发现实在匆匆忙忙（甚至带上了电脑……），神经本该绷得紧了些。却忍不住给自己喘口轻松气，&lt;del&gt;呼吸下学校 6 点的空气&lt;/del&gt;，呼吸下山野里水波和着红叶的清新。&lt;/p&gt;
 &lt;p&gt;气喘得其实有点长。半日天光从瞿塘峡站出来，看到漾漾新波沿着山道走半小时，就能瞥见那道骇人的“六十六道拐”。曲折之下是数不清的捷径，然而作为命名特色的“拐”似乎也在暗示之后行程的故事。&lt;/p&gt;
 &lt;p&gt;阳光从云端斜射进江波里，照得河水亮青青，一直延伸到天边，交融在雾与云的影里，越发沉得满山红叶的灵气来。行程里的小伙伴们，除&lt;a href=&#34;https://chlzhong.org/post/a-new-old-play/&#34;&gt;学长&lt;/a&gt;外最红则要数小琳与拾光：朝气蓬勃的年纪没有像我一般孑身霉味。&lt;/p&gt;
 &lt;div style=&#34;display: flex; justify-content: center; flex-direction: column; align-items: center;&#34;&gt;
-  &lt;img src=&#34;https://chlzhong.org/images/sanxia.png&#34; alt=&#34;三峡&#34; class=&#34;img-apple&#34;&gt;
+  &lt;img src=&#34;http://localhost:1313/images/sanxia.png&#34; alt=&#34;三峡&#34; class=&#34;img-apple&#34;&gt;
   &lt;small style=&#34;text-align: center;&#34;&gt;三峡&lt;/small&gt;
 &lt;/div&gt;
 &lt;p&gt;拾光其人如名，常醉而不知光不可拾。大概是那种能把严肃瞬间缓解的人。初识是在车上的破冰游戏，寥寥笑声蓦地轻盈而又不经意，像山间忽然窜过的一阵风，带着些许狡黠与天真。风过又山路蜿蜒，我们在这些弯转里，像被其带过的树叶，轻盈而坚韧。虽然顶峰遥遥无期，一心却只想往前直走。奋袂成风，挥汗如雨，而拾光的幽默像山间猴王，时而轻浮，时而深沉。他说话时总带着些许醉意，眼神里藏着未被完全捕捉的光。于是登山杖是要丢的，白衣服是要被晕染的，冷着冻着浑然不顾肚皮是自己的，哦，延三也是要有的…&lt;strong&gt;光&lt;/strong&gt;是&lt;strong&gt;拾&lt;/strong&gt;起山间飘落的一片红叶，不经意间就能点亮整个旅途的氛围。&lt;/p&gt;
 &lt;div style=&#34;display: flex; justify-content: center; flex-direction: column; align-items: center;&#34;&gt;
-  &lt;img src=&#34;https://chlzhong.org/images/shiguang.png&#34; alt=&#34;拾光&#34; class=&#34;img-apple&#34;&gt;
+  &lt;img src=&#34;http://localhost:1313/images/shiguang.png&#34; alt=&#34;拾光&#34; class=&#34;img-apple&#34;&gt;
   &lt;small style=&#34;text-align: center;&#34;&gt;拾光&lt;/small&gt;
 &lt;/div&gt;
 与小琳的相遇则是在启程前夜——知道了名字该怎么写。第二天早的碰面却在车前，你好你好，妳好妳好。小琳的爬山浑身是劲，涉云似飞，登高启路：差点令我“不知木兰是女郎”。仿佛携带着某种未被定义的热情似的。这种情绪总会在许多‘拾光’里拼接在一起，于是更上层楼。她唱歌时声音穿透静悄悄山谷，像一缕挣脱的阳光，明亮而不刺眼。浑然不知一背包里的水哗啦作响似一匹脱缰的野马，山路便是它无拘无束的疆场。
 &lt;div style=&#34;display: flex; justify-content: center; flex-direction: column; align-items: center;&#34;&gt;
-  &lt;img src=&#34;https://chlzhong.org/images/xiaolin.png&#34; alt=&#34;小琳&#34; class=&#34;img-apple&#34;&gt;
+  &lt;img src=&#34;http://localhost:1313/images/xiaolin.png&#34; alt=&#34;小琳&#34; class=&#34;img-apple&#34;&gt;
   &lt;small style=&#34;text-align: center;&#34;&gt;小琳&lt;/small&gt;
 &lt;/div&gt;
 冬日的峡谷正慢慢褪去夏日的绿意，红叶如血，像是大地藏在皮肤下的温柔。三峡之巅出来后继续走向龙脊群山。6 小时的行程仿佛穿越了几个世纪。路过几座山峰，其状不过郦道元苏轼所述，那是千百年如一日的绝景。偶尔飘落的叶子下，藏着几代人的辛勤：那些曾经在这些绝壁上留下的汗水，或是血肉，今天都化作这万山红遍。而坐落在峡谷之间的巫山县，带着宋玉写下的神女，悠悠然倒在江边。
 &lt;div style=&#34;display: flex; justify-content: center; flex-direction: column; align-items: center;&#34;&gt;
-  &lt;img src=&#34;https://chlzhong.org/images/red_c.jpg&#34; alt=&#34;红叶&#34; class=&#34;img-apple&#34;&gt;
+  &lt;img src=&#34;http://localhost:1313/images/red_c.jpg&#34; alt=&#34;红叶&#34; class=&#34;img-apple&#34;&gt;
   &lt;small style=&#34;text-align: center;&#34;&gt;红叶&lt;/small&gt;
 &lt;/div&gt;
 &lt;p&gt;与第一天 200 一颗橘子万古长夜黑的印象不同，这里的人民很有自己的故事。有的拙诚，有的威严，有的慈祥……煮鱼算账都不在行的大姐会发自内心地祝我们尽兴而归；上车时板着脸的司机谈起本地景点则胸有成竹论起此地之兴隆，仿佛亲眼所见其未诞生时代；杀猪的大叔、卤蛋的阿姨、推销的老奶奶，无不显露出传统农人的淳朴，把日子过得越来越长，慢慢地成为历史的诗篇。&lt;/p&gt;
 &lt;p&gt;但是题目起在这里大概是要写一点学长的？我向新媒体投降罢&lt;/p&gt;
 &lt;div style=&#34;display: flex; justify-content: center; flex-direction: column; align-items: center;&#34;&gt;
-  &lt;img src=&#34;https://chlzhong.org/images/hs.jpg&#34; alt=&#34;&#34; class=&#34;img-apple&#34;&gt;
+  &lt;img src=&#34;http://localhost:1313/images/hs.jpg&#34; alt=&#34;&#34; class=&#34;img-apple&#34;&gt;
   &lt;small style=&#34;text-align: center;&#34;&gt;hello world&lt;/small&gt;
 &lt;/div&gt;</description>
     </item>
       
     <item>
       <title>SVM 支持向量机</title>
-      <link>https://chlzhong.org/post/svm/</link>
+      <link>http://localhost:1313/post/svm/</link>
       <pubDate>Thu, 05 Dec 2024 18:18:22 +0800</pubDate>
-      <guid>https://chlzhong.org/post/svm/</guid>
+      <guid>http://localhost:1313/post/svm/</guid>
       <description>&lt;p&gt;写这篇博客时看到知乎一篇 16 年的&lt;a href=&#34;https://www.zhihu.com/question/41066458/answer/102865064&#34;&gt;文章&lt;/a&gt;，作者指出传统 SVM 在对一些稀奇古怪的样本进行分类时有比较好的效果，但是评论区纷纷表示：多来几层神经网络就搞定了。由于我知识储备有限，在此就简单讲讲我的理解。&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;svm基本形式求解&#34;&gt;SVM基本形式求解&lt;/h3&gt;
@@ -462,9 +502,9 @@ $$&lt;/p&gt;
       
     <item>
       <title>线性回归</title>
-      <link>https://chlzhong.org/post/linear-regression/</link>
+      <link>http://localhost:1313/post/linear-regression/</link>
       <pubDate>Thu, 05 Dec 2024 12:32:24 +0800</pubDate>
-      <guid>https://chlzhong.org/post/linear-regression/</guid>
+      <guid>http://localhost:1313/post/linear-regression/</guid>
       <description>&lt;p&gt;线性回归理解起来很简单，当参数样本只有一个特征与一个标签时就是高中学最小二乘法的那个模型，两个特征及以上时则是大学概率论上学的参数估计，只不过估计参数时选用了梯度下降法。&lt;/p&gt;
 &lt;p&gt;值得注意的是损失函数的选择，为什么是&lt;strong&gt;平方误差函数&lt;/strong&gt;而不是差的绝对值呢？这里其实是因为我们假定偏差的分布符合高斯分布，其对应的概率密度函数就是平方和形式，而且&lt;strong&gt;差的绝对值&lt;/strong&gt;（拉普拉斯分布）所对应的极大似然函数没法方便寻优。&lt;/p&gt;
 &lt;p&gt;而说到梯度下降，在工程实现方面其实也不难，具体见后文代码，主要谈谈背后的数学。&lt;/p&gt;
@@ -622,9 +662,9 @@ $\theta_{k+1} = \theta_k - \eta \nabla f(\theta_k)θk+1=θk−η∇f(θk)$&lt;/l
       
     <item>
       <title>朴素贝叶斯算法与垃圾短信识别</title>
-      <link>https://chlzhong.org/post/navie-bayes-classifer/</link>
+      <link>http://localhost:1313/post/navie-bayes-classifer/</link>
       <pubDate>Tue, 03 Dec 2024 21:17:52 +0800</pubDate>
-      <guid>https://chlzhong.org/post/navie-bayes-classifer/</guid>
+      <guid>http://localhost:1313/post/navie-bayes-classifer/</guid>
       <description>&lt;p&gt;关于朴素贝叶斯算法的介绍可谓前人之述备矣，在此不多加阐述。只要了解概率论中的全概率公式即可。这里主要结合一个具体例子进行分析，同时也是我的机器学习作业。&lt;/p&gt;
 &lt;center&gt;$P(B|A)=\frac{P(A|B)⋅P(B)}{P(A)}$&lt;/center&gt;
 &lt;br&gt;
@@ -742,9 +782,9 @@ $\theta_{k+1} = \theta_k - \eta \nabla f(\theta_k)θk+1=θk−η∇f(θk)$&lt;/l
       
     <item>
       <title>诚信友善</title>
-      <link>https://chlzhong.org/post/integrity-and-kindness/</link>
+      <link>http://localhost:1313/post/integrity-and-kindness/</link>
       <pubDate>Sun, 24 Nov 2024 20:47:05 +0800</pubDate>
-      <guid>https://chlzhong.org/post/integrity-and-kindness/</guid>
+      <guid>http://localhost:1313/post/integrity-and-kindness/</guid>
       <description>&lt;p&gt;笔者自 2020 年来，便鲜少在网络社交平台上发表任何言论。缘由有二：一方面，疫情期间我们见证了太多情绪化的言辞，言辞激烈，脆弱的人心在这些情绪化的语言中往往容易受到伤害；另一方面，许多平台的设计不能提供诸如“我的评论”一类的功能，用户很难方便地管理或回顾自己的评论，除非有他人回复，否则你再也无法找到那条曾经自己留下的观点。正是因为这些原因，我逐渐疏远了社交平台，直到我遇见了钢笔，这种新的爱好给了我一个回归的理由。&lt;/p&gt;
 &lt;p&gt;在 &lt;a href=&#34;https://fountainpennetwork.com/&#34;&gt;FPN&lt;/a&gt; 网站上，尽管地理上的距离和文化的差异使得人与人之间的交流带有一定的局限性，但钢笔爱好者群体的互相尊重与严谨却让我久违地感受到了人与人之间的温暖与欣喜。或许是因为这个社区的用户大多来自于国外，而钢笔这一传统文化的持有者大多为中老年人，大家在交流时往往会更加细致与体贴。这种氛围让我不禁&lt;strong&gt;反思&lt;/strong&gt;（😒），网络社交平台为何不能有更多这样的交流空间呢？&lt;/p&gt;
 &lt;p&gt;在简体中文的互联网（当然，不涉及东南亚等地区的语言环境，这里专指中国大陆）上，有一个显著的问题，那就是互联网与我们的生活之间的隔阂太大。从注册第一个社交账号，选择头像的那一刻开始，社交平台便如同一个虚拟的“他者”，好像那个在屏幕另一端的“我”，并非真实的自己。直到今天，很多人仍然把网络社交看作是一个可以自由表达、重新定义自我的空间。然而，事与愿违，这些所谓的虚拟身份，往往在某个时间点被某些隐形的&lt;strong&gt;实体&lt;/strong&gt;所操控，而在中国，这些网民的年龄层次与构成错综复杂。中学生在某些地区尚不能自由使用手机，而每年约有 1000 万的大学生毕业，上班摸鱼的职员、无害爱猫与大龄光棍们&amp;hellip;&amp;hellip;当你处于一个完全匿名、彼此不相识的环境时，人与人之间的互动便变得非常容易流于表面。你可以在一个帖子下随便发泄情绪，甚至发表攻击性言论，因为，除了你的用户名，别人根本不知道你是谁。那一刻，你的指责、抱怨、愤怒，在键盘的敲击声中似乎找到了一个可以释放的出口，而这种短暂的满足，往往会让人感觉一种居高临下的快感和心理的舒缓。&lt;/p&gt;
@@ -755,9 +795,9 @@ $\theta_{k+1} = \theta_k - \eta \nabla f(\theta_k)θk+1=θk−η∇f(θk)$&lt;/l
       
     <item>
       <title>报告格式——通往知识的路上给你绊一跤</title>
-      <link>https://chlzhong.org/post/report-format-complaints/</link>
+      <link>http://localhost:1313/post/report-format-complaints/</link>
       <pubDate>Sat, 23 Nov 2024 22:25:19 +0800</pubDate>
-      <guid>https://chlzhong.org/post/report-format-complaints/</guid>
+      <guid>http://localhost:1313/post/report-format-complaints/</guid>
       <description>&lt;p&gt;早在今年 &lt;a href=&#34;https://chlzhong.org/post/crazy-life_1/&#34;&gt;6 月 3 号&lt;/a&gt;，我就已经被格式这东西折磨过一遍了。如果说大学的知识还能勉强算是人类进步的阶梯，那么格式就是这个阶梯的绊脚石，放着好好的 Markdown 不用，给一个 95 年的 &lt;code&gt;.doc&lt;/code&gt; 修修改改（各种格式刷字号间距什么的），收齐给老师之后除了收到是什么都没得的一个东西。实在是反人类。&lt;/p&gt;
 &lt;p&gt;幸好，还有 &lt;a href=&#34;https://github.com/jgm/pandoc/releases/tag/3.5&#34;&gt;pandoc&lt;/a&gt; 。尽管博主只是第一次接触这个东西，但已经控制不住安利给同学们的冲动，因为你甚至不需要在饼子上搜索学习它的种种用法，只需要准备一个完成的&lt;code&gt;样例.docx&lt;/code&gt;、你写好的 &lt;code&gt;name.md&lt;/code&gt;，放在同一个目录下，终端敲一句简单的：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pandoc name.md -o output.docx --reference-doc&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;样例.docx
@@ -767,9 +807,9 @@ $\theta_{k+1} = \theta_k - \eta \nabla f(\theta_k)θk+1=θk−η∇f(θk)$&lt;/l
       
     <item>
       <title>无外乎叹息</title>
-      <link>https://chlzhong.org/post/nothing-but-sighs/</link>
+      <link>http://localhost:1313/post/nothing-but-sighs/</link>
       <pubDate>Tue, 19 Nov 2024 12:04:29 +0800</pubDate>
-      <guid>https://chlzhong.org/post/nothing-but-sighs/</guid>
+      <guid>http://localhost:1313/post/nothing-but-sighs/</guid>
       <description>&lt;p&gt;心事听起来没那么精致，无外乎叹息。&lt;/p&gt;
 &lt;p&gt;铃声是上课时响起来的。他的疲倦了的知觉，又好像被有丧事人家的啼哭所惊醒，解锁之后那三个字却惊人更厉害。J 君比时就在图书馆，一时间纯和而又聪明的她，就来到 2115 除灯光外便是黑暗的教室里。心里的话很多虽然都听见，除了嗯是没有清晰的回复的。&lt;/p&gt;
 </description>
@@ -777,18 +817,18 @@ $\theta_{k+1} = \theta_k - \eta \nabla f(\theta_k)θk+1=θk−η∇f(θk)$&lt;/l
       
     <item>
       <title>头发二辑</title>
-      <link>https://chlzhong.org/post/my-hair_2/</link>
+      <link>http://localhost:1313/post/my-hair_2/</link>
       <pubDate>Sun, 03 Nov 2024 23:23:19 +0800</pubDate>
-      <guid>https://chlzhong.org/post/my-hair_2/</guid>
+      <guid>http://localhost:1313/post/my-hair_2/</guid>
       <description>&lt;div style=&#34;display: flex; justify-content: center; flex-direction: column; align-items: center;&#34;&gt;
-  &lt;img src=&#34;https://chlzhong.org/images/white.JPEG&#34; alt=&#34;黑&#34; class=&#34;img-apple&#34;&gt;
+  &lt;img src=&#34;http://localhost:1313/images/white.JPEG&#34; alt=&#34;黑&#34; class=&#34;img-apple&#34;&gt;
   &lt;small style=&#34;text-align: center;&#34;&gt;&lt;/small&gt;
 &lt;/div&gt;
 &lt;blockquote&gt;
 &lt;p&gt;我跟你说！栀子花的花瓣真的是一瓣一瓣打开的，每瓣花打开的时候，都会有很轻微的‘啪’的一声，‘啪’的一声打开一瓣，‘啪’的一声再打开一瓣。那天黄昏我就在那儿坐了两三个小时，等它一瓣瓣绽开。外边的花店最爱写三个词语：陌上花开，橘子花开，栀子花开，还有首歌叫《栀子花开》，可有多少人听到过栀子花开的声音？&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;div style=&#34;display: flex; justify-content: center; flex-direction: column; align-items: center;&#34;&gt;
-  &lt;img src=&#34;https://chlzhong.org/images/black.JPEG&#34; alt=&#34;黑&#34; class=&#34;img-apple&#34;&gt;
+  &lt;img src=&#34;http://localhost:1313/images/black.JPEG&#34; alt=&#34;黑&#34; class=&#34;img-apple&#34;&gt;
   &lt;small style=&#34;text-align: center;&#34;&gt;&lt;/small&gt;
 &lt;/div&gt;
 &lt;blockquote&gt;
@@ -802,9 +842,9 @@ $\theta_{k+1} = \theta_k - \eta \nabla f(\theta_k)θk+1=θk−η∇f(θk)$&lt;/l
       
     <item>
       <title>计算机网络习题</title>
-      <link>https://chlzhong.org/post/computer-network-train/</link>
+      <link>http://localhost:1313/post/computer-network-train/</link>
       <pubDate>Thu, 31 Oct 2024 22:43:43 +0800</pubDate>
-      <guid>https://chlzhong.org/post/computer-network-train/</guid>
+      <guid>http://localhost:1313/post/computer-network-train/</guid>
       <description>&lt;h2 id=&#34;第1次作业&#34;&gt;第1次作业&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;一、使用电路交换，要传送的报文共 10000 bit。从源点到终点共经过 5 段链路，每段链路的传播时延为 0.1 s，数据率为 10 kbit/s。在电路交换时电路的建立时间为 0.2 s。在分组交换时分组长度为 4000 bit，且各结点的排队等待时间可忽略不计。试比较分组交换与电路交换的时延大小。若报文长度为 $10^9$ bit，结果如何？&lt;/p&gt;
@@ -1051,9 +1091,9 @@ $&lt;/p&gt;
       
     <item>
       <title>Its OK , Its OK</title>
-      <link>https://chlzhong.org/post/its-ok-its-ok/</link>
+      <link>http://localhost:1313/post/its-ok-its-ok/</link>
       <pubDate>Mon, 28 Oct 2024 22:08:24 +0800</pubDate>
-      <guid>https://chlzhong.org/post/its-ok-its-ok/</guid>
+      <guid>http://localhost:1313/post/its-ok-its-ok/</guid>
       <description>&lt;p&gt;Today, a  student who goes by &amp;ldquo;Orange Jam&amp;rdquo; messaged me on QQ, asking if I&amp;rsquo;d be willing to speak as an &amp;ldquo;outstanding class monitor&amp;rdquo; at Thursday&amp;rsquo;s meeting. My first reaction was a mental &amp;ldquo;Me?!&amp;rdquo; filled with disbelief.
 &lt;img src=&#34;https://pics0.baidu.com/feed/faedab64034f78f0ddc152f44bc29758b1191ceb.jpeg?token=e8c409a2a0aa22934fd164a4ae0161fd&#34; alt=&#34;我吗&#34;&gt;
 Throughout my three years as a class monitor, I only bothered showing up at a few &amp;ldquo;academic atmosphere improvement&amp;rdquo; meetings during the first year. After that, I mostly coasted by, relying on volunteers to handle things. My only notable achievement was patiently tracking down students who hadn&amp;rsquo;t submitted their assignments last year - a practice I haven&amp;rsquo;t even maintained until now. What qualifications did I have to speak as an exemplary representative?
@@ -1076,25 +1116,25 @@ So,&lt;/p&gt;
       
     <item>
       <title>Denso Internship</title>
-      <link>https://chlzhong.org/post/denso-internship/</link>
+      <link>http://localhost:1313/post/denso-internship/</link>
       <pubDate>Mon, 21 Oct 2024 11:54:14 +0800</pubDate>
-      <guid>https://chlzhong.org/post/denso-internship/</guid>
+      <guid>http://localhost:1313/post/denso-internship/</guid>
       <description>&lt;p&gt;I won&amp;rsquo;t update this post anymore.&lt;/p&gt;
 </description>
     </item>
       
     <item>
       <title>Eudemonia - 烟波山上使人愁</title>
-      <link>https://chlzhong.org/post/eudemonia-06/</link>
+      <link>http://localhost:1313/post/eudemonia-06/</link>
       <pubDate>Fri, 18 Oct 2024 22:45:53 +0800</pubDate>
-      <guid>https://chlzhong.org/post/eudemonia-06/</guid>
+      <guid>http://localhost:1313/post/eudemonia-06/</guid>
       <description>&lt;div style=&#34;display: flex; justify-content: center; flex-direction: column; align-items: center;&#34;&gt;
-  &lt;img src=&#34;https://chlzhong.org/images/fangyuhang_water.JPEG&#34; alt=&#34;俳壹&#34; class=&#34;img-apple&#34;&gt;
+  &lt;img src=&#34;http://localhost:1313/images/fangyuhang_water.JPEG&#34; alt=&#34;俳壹&#34; class=&#34;img-apple&#34;&gt;
   &lt;small style=&#34;text-align: center;&#34;&gt;既秋又夜且雨，&lt;br&gt;我却一事无成，&lt;br&gt;所喜一诗无成。&lt;/small&gt;
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;div style=&#34;display: flex; justify-content: center; flex-direction: column; align-items: center;&#34;&gt;
-  &lt;img src=&#34;https://chlzhong.org/images/zhihu_water.png&#34; alt=&#34;俳贰&#34; class=&#34;img-apple&#34;&gt;
+  &lt;img src=&#34;http://localhost:1313/images/zhihu_water.png&#34; alt=&#34;俳贰&#34; class=&#34;img-apple&#34;&gt;
   &lt;small style=&#34;text-align: center;&#34;&gt;登舟的登舟，&lt;br&gt;弃岸的弃岸，&lt;br&gt;冷落清秋节。&lt;br&gt;
 &lt;/small&gt;
 &lt;/div&gt;
@@ -1103,9 +1143,9 @@ So,&lt;/p&gt;
       
     <item>
       <title>EsterBrook Yes !</title>
-      <link>https://chlzhong.org/post/esterbrook-yes/</link>
+      <link>http://localhost:1313/post/esterbrook-yes/</link>
       <pubDate>Wed, 16 Oct 2024 22:57:16 +0800</pubDate>
-      <guid>https://chlzhong.org/post/esterbrook-yes/</guid>
+      <guid>http://localhost:1313/post/esterbrook-yes/</guid>
       <description>&lt;p&gt;Dear Esterbrook Team,&lt;br&gt;
 I hope this email finds you well. My name is 赵连硕 (Zhao Lianshuo), and I am writing to you as an enthusiastic pen collector from China.&lt;br&gt;
 I have two inquiries that I hope you can assist me with:&lt;br&gt;&lt;/p&gt;
@@ -1131,9 +1171,9 @@ Best regards, 赵连硕&lt;/p&gt;
       
     <item>
       <title>So How?</title>
-      <link>https://chlzhong.org/post/sohow/</link>
+      <link>http://localhost:1313/post/sohow/</link>
       <pubDate>Sun, 13 Oct 2024 23:25:25 +0800</pubDate>
-      <guid>https://chlzhong.org/post/sohow/</guid>
+      <guid>http://localhost:1313/post/sohow/</guid>
       <description>&lt;p&gt;In this information age, no matter what you&amp;rsquo;re trying to learn, the first crucial step is &lt;strong&gt;learning how to ask questions&lt;/strong&gt;. If Google and Bing can solve your problem, don&amp;rsquo;t bother others with it.&lt;/p&gt;
 &lt;p&gt;I have a friend who always likes to ask me extremely abstract questions (concrete ones are fine too, as long as they&amp;rsquo;re easily answerable just by looking at the words, even though I know they mean something else). Especially when done through WeChat, it turns already inefficient communication into a grueling ordeal. She just drop a question that&amp;rsquo;s pointless to ask and quickly open a new chat window, which ultimately benefits neither of us. I don&amp;rsquo;t mean anything else by this, I just think that while abstract weirdos are fine in entertainment, in academics, one should be more specific no matter what. Don&amp;rsquo;t be a riddler.&lt;/p&gt;
 </description>
@@ -1141,9 +1181,9 @@ Best regards, 赵连硕&lt;/p&gt;
       
     <item>
       <title>承春的诗</title>
-      <link>https://chlzhong.org/post/poem-from-he_cheng_chun/</link>
+      <link>http://localhost:1313/post/poem-from-he_cheng_chun/</link>
       <pubDate>Thu, 10 Oct 2024 22:35:22 +0800</pubDate>
-      <guid>https://chlzhong.org/post/poem-from-he_cheng_chun/</guid>
+      <guid>http://localhost:1313/post/poem-from-he_cheng_chun/</guid>
       <description>&lt;p&gt;《岁月》&lt;/p&gt;
 &lt;p&gt;一年一度花相似， &lt;br&gt;
 岁岁月月人不同！ &lt;br&gt;
@@ -1158,9 +1198,9 @@ Best regards, 赵连硕&lt;/p&gt;
       
     <item>
       <title>你需要多大「内存」的手机？</title>
-      <link>https://chlzhong.org/post/how-much-storage-do-you-need-on-your-phone/</link>
+      <link>http://localhost:1313/post/how-much-storage-do-you-need-on-your-phone/</link>
       <pubDate>Tue, 08 Oct 2024 14:32:47 +0800</pubDate>
-      <guid>https://chlzhong.org/post/how-much-storage-do-you-need-on-your-phone/</guid>
+      <guid>http://localhost:1313/post/how-much-storage-do-you-need-on-your-phone/</guid>
       <description>&lt;p&gt;刷知乎时偶然看到这个提问：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;128g 的内存在大学够吗？ - 知乎
@@ -1168,7 +1208,7 @@ Best regards, 赵连硕&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;顺手看了下问题日志：&lt;/p&gt;
 &lt;div style=&#34;display: flex; justify-content: center; flex-direction: column; align-items: center;&#34;&gt;
-  &lt;img src=&#34;https://chlzhong.org/images/问题日志_10_10.png&#34; alt=&#34;问题日志_10_10&#34; class=&#34;img-apple&#34;&gt;
+  &lt;img src=&#34;http://localhost:1313/images/问题日志_10_10.png&#34; alt=&#34;问题日志_10_10&#34; class=&#34;img-apple&#34;&gt;
   &lt;small style=&#34;text-align: center;&#34;&gt; &lt;/small&gt;
 &lt;/div&gt;
 &lt;p&gt;看样子是一个搞错了 RAM 和 Storage 的大学生提出的问题，正好最近与根哥聊天时很有吐槽意思，那不妨来看看这些「计算机术语」&lt;/p&gt;
@@ -1235,9 +1275,9 @@ Best regards, 赵连硕&lt;/p&gt;
       
     <item>
       <title>【转】国庆日之朝</title>
-      <link>https://chlzhong.org/post/china-day/</link>
+      <link>http://localhost:1313/post/china-day/</link>
       <pubDate>Mon, 07 Oct 2024 21:30:30 +0800</pubDate>
-      <guid>https://chlzhong.org/post/china-day/</guid>
+      <guid>http://localhost:1313/post/china-day/</guid>
       <description>&lt;p&gt;一年一度，&lt;del&gt;双十节&lt;/del&gt;终又来到。不管是意识的或是不意识的，这天的街头总有一种特殊的热闹。回想过去若干年以来我一直在北京，每逢国庆日大概要到街上去走走的。每到这一天总觉得比别的日子不同，比之“新年”在我还有更生的气概。这是说自己在那天有种反省的机会罢了。至说对国庆本身决没有什么多大的没我的欢欣。今年国庆日从早醒时起就听见冷风刮着落叶在院子的砖瓦上起出一种干枯之声。“桂花香里”，在北方真是迅速的三二天罢了，这早已是过去完了。“丛菊纷披”，这尚属未来。走到枯败的院子里益深萧索之感了。我在这种时候就大不满意于北方生活。要在南方正是黄金的成熟时期，离严冬的寒威尚远不可来的样子。特别的今年今日有这种感想。上午在家。也不能静心。十时有来客。因为中午有人设宴称庆，就带早出门与来客到外面顺便走走。街头照例点缀了些旗彩之类。殊属单调之至。车过天安门，往年常开国民大会的天安门也是一样。听说本年奉有命令要隆重庆祝的，但实际可说不如从前。可见强颜作笑是不可能的。见到“普天同庆”，“薄海腾观”的彩牌楼，心弦上起出异样的难受。这难受只是异样罢了，并无多大的厉害。所以只说“难受”而已。这两字实在已足够表明那种比较复杂的情绪了罢。在那种难受之中，同行的来客忽又握别了。于是只好再坐车去赴 C 家之晏。其实也只同瞻仰彩牌楼一样而已。不过以为 D 老可到，一领他的謦欬大足解颐。谁知在 C 家满堂宾客中未见此公。竟其连&lt;a href=&#34;https://www.baidu.com/link?url=eywNjMAWF5xRIefQewTf_97FyDB9l7ZDlEC0ceZ1GzPOa-0I9exFmwQ5iIUQ0FI4sF8-bRYc8mFC3B3-_kNPxfTmdaYY9dg--U0vYohd8Pei0QTaUXOWarZECFNMEmt1&amp;amp;wd=&amp;amp;eqid=c17cf04301367fc2000000066703e323&#34;&gt;启翁&lt;/a&gt;也不见来到，不然在陌生居多的人中有一熟人随便谈谈省得去尊姓大名了。他们二人竟终席未见。所以回家来极早。而启翁来信早在我的案头等候了。国庆日尚只过一半，下午晚上本亦有可记处。但是题目标明“但是题目标明只限朝晨的感想所以本刊补白栏只有照抄一段启翁来书或能填满一栏余乎。书中有曰 C 公赐晏想必有盛大举动，唯佞懒于出门一半由于刮大风恐未必能去领赐耳。日前往北海访友，顺便在小骨董店中买一石印，文曰“以酒为衣”，边款五行云“有酒曾歌雅无衣漫咏豳一樽凭泛蚁百结抵悬鹑但学刘伶醉浑忘范叔贫瓮头谋卒岁缸面暖回春戊戌秋七月朔日冯敏昌”虽系赋得上文四字，亦颇可玩耳。匆匆。云云。重读启翁书罢感到我之赋得国庆亦大可休矣云尔。&lt;/p&gt;
 &lt;p&gt;Excerpt From&lt;br&gt;
 废名集&lt;br&gt;
@@ -1247,9 +1287,9 @@ Best regards, 赵连硕&lt;/p&gt;
       
     <item>
       <title>融创小镇：渝西南游乐行</title>
-      <link>https://chlzhong.org/post/rong-chuang-town-day/</link>
+      <link>http://localhost:1313/post/rong-chuang-town-day/</link>
       <pubDate>Sat, 05 Oct 2024 21:36:45 +0800</pubDate>
-      <guid>https://chlzhong.org/post/rong-chuang-town-day/</guid>
+      <guid>http://localhost:1313/post/rong-chuang-town-day/</guid>
       <description>&lt;p&gt;西方的格言，“不自由，毋宁死！”我要笑他一无是处。世界的意义根本就是坐牢，大家都是来受苦的，你从哪里去接受自由呢？谁又能给你以自由呢？否则为何游乐园里为何都是受苦项目呢？&lt;/p&gt;
 &lt;br&gt;
 &lt;p&gt;融创文旅城去南山二十里路，地铁不可直达，其地无高岩弯道，近大学城而又平，且逢假日，故人声鼎沸，无日无之。门多摊贩，初极香，愈深愈浓，至门口时堪称臭味熏人。入至，左一排为所谓特色商贩，行至底可换票。右则见一小瀑，声若惊雷，所见如连环、如带、如佩环、色则无可记。行不久为碰碰车，大人小孩莫不连臂而至，情侣则靓妆丽服，望之若神肤。此项与后所叙皆约一刻：排排队时摩肩接踵，为何为欢只几何？&lt;/p&gt;
@@ -1260,9 +1300,9 @@ Best regards, 赵连硕&lt;/p&gt;
       
     <item>
       <title>舞动身体的羞耻感</title>
-      <link>https://chlzhong.org/post/the-shame-of-moving-the-body/</link>
+      <link>http://localhost:1313/post/the-shame-of-moving-the-body/</link>
       <pubDate>Mon, 30 Sep 2024 16:06:14 +0800</pubDate>
-      <guid>https://chlzhong.org/post/the-shame-of-moving-the-body/</guid>
+      <guid>http://localhost:1313/post/the-shame-of-moving-the-body/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;或许十年后还是这样子 听到 hip-hop 会想跟着点头 &lt;br&gt;&lt;/p&gt;
 &lt;p&gt;希望你听到现在 头早就跟着点&lt;/p&gt;
@@ -1275,9 +1315,9 @@ Best regards, 赵连硕&lt;/p&gt;
       
     <item>
       <title>今天下雨</title>
-      <link>https://chlzhong.org/post/rainday/</link>
+      <link>http://localhost:1313/post/rainday/</link>
       <pubDate>Mon, 30 Sep 2024 16:05:16 +0800</pubDate>
-      <guid>https://chlzhong.org/post/rainday/</guid>
+      <guid>http://localhost:1313/post/rainday/</guid>
       <description>&lt;p&gt;前天（9/28/2024）晚上在和伊人儿通讯时意外撞见一位故人&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;预与他聊天，便自觉盖上手指。&lt;del&gt;不巧的是旧疾偶发，疼痛难忍，只好移开手指&lt;/del&gt;,总之是瞥见了他们的内容：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;XXX 是不是喜欢男生呢？&lt;/p&gt;
@@ -1291,14 +1331,14 @@ Best regards, 赵连硕&lt;/p&gt;
 &lt;/ol&gt;
 &lt;p&gt;幸好，她很快解释了第一个问题。原来是朋友圈分享的书里有我的回应，于是惊讶于我的看过，继而引其怀疑。&lt;/p&gt;
 &lt;div style=&#34;display: flex; justify-content: center; flex-direction: column; align-items: center;&#34;&gt;
-  &lt;img src=&#34;https://chlzhong.org/images/moments.jpg&#34; alt=&#34;Moments&#34; class=&#34;img-apple&#34;&gt;
+  &lt;img src=&#34;http://localhost:1313/images/moments.jpg&#34; alt=&#34;Moments&#34; class=&#34;img-apple&#34;&gt;
   &lt;small style=&#34;text-align: center;&#34;&gt;事起朋友圈 | 已获小姐姐授权&lt;/small&gt;
 &lt;/div&gt;
 &lt;p&gt;虽然我没有数据研究同性恋看&lt;a href=&#34;https://www.goodreads.com/book/show/36336078-call-me-by-your-name&#34;&gt;这类小说&lt;/a&gt;的比例，但主观上是觉得很奇怪的。（这里先不谈好不好看的问题，我现在更爱看死人的东西）看一部小说而已，怎么能推断我的性取向呢？按照这个逻辑推断岂不是&lt;a href=&#34;https://5zui.com/yuedu-m/jingdian-m/5753-lingshuhua&#34;&gt;酒后&lt;/a&gt;我成牛头人？其实这时候讲讲“可持续性发展”就很好，倘若我有&lt;strong&gt;连续性&lt;/strong&gt;地阅读带有同性标签作品的习惯，她起这个怀疑我是可以理解的。在我当然只是画一个涉猎广泛。&lt;/p&gt;
 &lt;br&gt;
 &lt;p&gt;第二个问题其实比较难回答。我想我不会喜欢抽象的性别，而是选择具体的人。这一点其实看我的 QQ 也能发现。&lt;/p&gt;
 &lt;div style=&#34;display: flex; justify-content: center; flex-direction: column; align-items: center;&#34;&gt;
-  &lt;img src=&#34;https://chlzhong.org/images/qq.jpg&#34; alt=&#34;qq&#34; class=&#34;img-apple&#34;&gt;
+  &lt;img src=&#34;http://localhost:1313/images/qq.jpg&#34; alt=&#34;qq&#34; class=&#34;img-apple&#34;&gt;
   &lt;small style=&#34;text-align: center;&#34;&gt;&lt;/small&gt;
 &lt;/div&gt;
 &lt;p&gt;当然，写下这个回答的时候是在抄阿植诗句的，聚焦于身体这个范围的话我想名单会加长：&lt;a href=&#34;https://www.4kvm.net/episodes/%E6%99%AE%E9%80%9A%E4%BA%BA-1-11&#34;&gt;正常人&lt;/a&gt;的男主也是喜欢的款式。&lt;/p&gt;
@@ -1322,9 +1362,9 @@ Best regards, 赵连硕&lt;/p&gt;
       
     <item>
       <title>麻将集（一）：我独何人，能不靖乱</title>
-      <link>https://chlzhong.org/post/useless-prosper/</link>
+      <link>http://localhost:1313/post/useless-prosper/</link>
       <pubDate>Sun, 29 Sep 2024 10:00:05 +0800</pubDate>
-      <guid>https://chlzhong.org/post/useless-prosper/</guid>
+      <guid>http://localhost:1313/post/useless-prosper/</guid>
       <description>&lt;p&gt;浏览器标签栏越来越长，typora 里的文件数量却不见长。于是把一闪而过的想法记录于此，聊以清净。又高中清秋述胡适之逸事予我极深印象，遂名为麻将。&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -1340,7 +1380,7 @@ Best regards, 赵连硕&lt;/p&gt;
 &lt;li&gt;
 &lt;p&gt;陈宁学校麻辣烫也小火了一把。老实说我自己刚开始看到这个词也觉得不太好，先入脑者是诸如上海媛、佛媛、爬山媛等等奇怪的没有定义的印象，在饼上搜索了一下基本含义是&amp;quot;美女&amp;quot;，又是一个我有&lt;a href=&#34;https://liam-zhong.github.io/post/about-titles/&#34;&gt;偏见&lt;/a&gt;的词汇。但是黑话说了一大堆，到底是什么印象？&lt;/p&gt;
 &lt;div style=&#34;display: flex; justify-content: center; flex-direction: column; align-items: center;&#34;&gt;
-  &lt;img src=&#34;https://chlzhong.org/images/校媛.png&#34; alt=&#34;事起帖子&#34; class=&#34;img-apple&#34;&gt;
+  &lt;img src=&#34;http://localhost:1313/images/校媛.png&#34; alt=&#34;事起帖子&#34; class=&#34;img-apple&#34;&gt;
   &lt;small style=&#34;text-align: center;&#34;&gt;事起帖子 | 图源：小红书&lt;/small&gt;
 &lt;/div&gt;
 &lt;p&gt;这段话对我来说信息密度有点低，带有一些调侃和讽刺的意味，我是这样理解的：&lt;/p&gt;
@@ -1359,7 +1399,7 @@ Best regards, 赵连硕&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;酸唧唧的夜晚看不得这样的句子，尽管我不喜欢妳的楚钦哥哥，但是祝福妳如愿。&lt;/p&gt;
    &lt;div style=&#34;display: flex; justify-content: center; flex-direction: column; align-items: center;&#34;&gt;
-  &lt;img src=&#34;https://chlzhong.org/images/对联.jpg&#34; alt=&#34;对联&#34; class=&#34;img-apple&#34;&gt;
+  &lt;img src=&#34;http://localhost:1313/images/对联.jpg&#34; alt=&#34;对联&#34; class=&#34;img-apple&#34;&gt;
   &lt;small style=&#34;text-align: center;&#34;&gt;&lt;/small&gt;
 &lt;/div&gt;
 &lt;/li&gt;
@@ -1369,9 +1409,9 @@ Best regards, 赵连硕&lt;/p&gt;
       
     <item>
       <title>日寄</title>
-      <link>https://chlzhong.org/post/dieary/</link>
+      <link>http://localhost:1313/post/dieary/</link>
       <pubDate>Sat, 28 Sep 2024 22:15:32 +0800</pubDate>
-      <guid>https://chlzhong.org/post/dieary/</guid>
+      <guid>http://localhost:1313/post/dieary/</guid>
       <description>&lt;p&gt;“以后不管遇到什么困难， &lt;br&gt;
 不管遇到什么伤心的事情，&lt;br&gt;
 还有没有办法得到的事情，&lt;br&gt;
@@ -1388,7 +1428,7 @@ Best regards, 赵连硕&lt;/p&gt;
 “是的 多点辣”&lt;br&gt;
 水哥的天下事就大定了。&lt;br&gt;&lt;/p&gt;
 &lt;div style=&#34;display: flex; justify-content: center; flex-direction: column; align-items: center;&#34;&gt;
-  &lt;img src=&#34;https://chlzhong.org/images/日寄.jpg&#34; alt=&#34;日寄&#34; class=&#34;img-apple&#34;&gt;
+  &lt;img src=&#34;http://localhost:1313/images/日寄.jpg&#34; alt=&#34;日寄&#34; class=&#34;img-apple&#34;&gt;
   &lt;small style=&#34;text-align: center;&#34;&gt;&lt;/small&gt;
 &lt;/div&gt;
 </description>
@@ -1396,40 +1436,40 @@ Best regards, 赵连硕&lt;/p&gt;
       
     <item>
       <title>你所不知道的明志苑之内部装修</title>
-      <link>https://chlzhong.org/post/the-unknown-mingzhi-garden-442/</link>
+      <link>http://localhost:1313/post/the-unknown-mingzhi-garden-442/</link>
       <pubDate>Thu, 19 Sep 2024 20:11:23 +0800</pubDate>
-      <guid>https://chlzhong.org/post/the-unknown-mingzhi-garden-442/</guid>
+      <guid>http://localhost:1313/post/the-unknown-mingzhi-garden-442/</guid>
       <description>&lt;p&gt;&lt;del&gt;山不在高，有仙则名。水不在深，有龙则灵。斯是陋室，惟吾德馨。苔痕上阶绿，草色入帘青。谈笑有鸿儒，往来无白丁。可以调素琴，阅金经。无丝竹之乱耳，无案牍之劳形。南阳诸葛庐，西蜀子云亭。孔子云：“何陋之有？”&lt;/del&gt;&lt;/p&gt;
 </description>
     </item>
       
     <item>
       <title>中秋记忆</title>
-      <link>https://chlzhong.org/post/eudemonia-05/</link>
+      <link>http://localhost:1313/post/eudemonia-05/</link>
       <pubDate>Wed, 18 Sep 2024 16:43:43 +0800</pubDate>
-      <guid>https://chlzhong.org/post/eudemonia-05/</guid>
+      <guid>http://localhost:1313/post/eudemonia-05/</guid>
       <description>&lt;div style=&#34;display: flex; justify-content: center; flex-direction: column; align-items: center;&#34;&gt;
-  &lt;img src=&#34;https://chlzhong.org/images/3k.png&#34; alt=&#34;晨起动征铎&#34; class=&#34;img-apple&#34;&gt;
+  &lt;img src=&#34;http://localhost:1313/images/3k.png&#34; alt=&#34;晨起动征铎&#34; class=&#34;img-apple&#34;&gt;
   &lt;small style=&#34;text-align: center;&#34;&gt;晨起动征铎&lt;/small&gt;
 &lt;/div&gt;
 &lt;br&gt;
 &lt;div style=&#34;display: flex; justify-content: center; flex-direction: column; align-items: center;&#34;&gt;
-  &lt;img src=&#34;https://chlzhong.org/images/中秋之老街.png&#34; alt=&#34;褪色午后街&#34; class=&#34;img-apple&#34;&gt;
+  &lt;img src=&#34;http://localhost:1313/images/中秋之老街.png&#34; alt=&#34;褪色午后街&#34; class=&#34;img-apple&#34;&gt;
   &lt;small style=&#34;text-align: center;&#34;&gt;褪色午后街&lt;/small&gt;
 &lt;/div&gt;
 &lt;br&gt;
 &lt;div style=&#34;display: flex; justify-content: center; flex-direction: column; align-items: center;&#34;&gt;
-  &lt;img src=&#34;https://chlzhong.org/images/中秋之落日.png&#34; alt=&#34;秋夕&#34; class=&#34;img-apple&#34;&gt;
+  &lt;img src=&#34;http://localhost:1313/images/中秋之落日.png&#34; alt=&#34;秋夕&#34; class=&#34;img-apple&#34;&gt;
   &lt;small style=&#34;text-align: center;&#34;&gt;秋夕&lt;/small&gt;
 &lt;/div&gt;
 &lt;br&gt;
 &lt;div style=&#34;display: flex; justify-content: center; flex-direction: column; align-items: center;&#34;&gt;
-  &lt;img src=&#34;https://chlzhong.org/images/中秋之开车.png&#34; alt=&#34;caringclass&#34; class=&#34;img-apple&#34;&gt;
+  &lt;img src=&#34;http://localhost:1313/images/中秋之开车.png&#34; alt=&#34;caringclass&#34; class=&#34;img-apple&#34;&gt;
   &lt;small style=&#34;text-align: center;&#34;&gt;caring&lt;/small&gt;
 &lt;/div&gt;
 &lt;br&gt;
 &lt;div style=&#34;display: flex; justify-content: center; flex-direction: column; align-items: center;&#34;&gt;
-  &lt;img src=&#34;https://chlzhong.org/images/??.png&#34; alt=&#34;这一拍是打的电话&#34;class=&#34;img-apple&#34;&gt;
+  &lt;img src=&#34;http://localhost:1313/images/??.png&#34; alt=&#34;这一拍是打的电话&#34;class=&#34;img-apple&#34;&gt;
   &lt;small style=&#34;text-align: center;&#34;&gt;没图&lt;/small&gt;
 &lt;/div&gt;
 &lt;br&gt;
@@ -1439,9 +1479,9 @@ Best regards, 赵连硕&lt;/p&gt;
       
     <item>
       <title>【转】过中秋</title>
-      <link>https://chlzhong.org/post/mid-autumn-festivial/</link>
+      <link>http://localhost:1313/post/mid-autumn-festivial/</link>
       <pubDate>Tue, 17 Sep 2024 22:47:10 +0800</pubDate>
-      <guid>https://chlzhong.org/post/mid-autumn-festivial/</guid>
+      <guid>http://localhost:1313/post/mid-autumn-festivial/</guid>
       <description>&lt;p&gt;中秋，那必然是有个诗思罢，然而我没有。我向来就没有诗思，而且以此著名，曾蒙见笑于姐姐妹妹之林，说我不喜欢花，不喜欢听鸟叫，“奇怪，你这个人不喜欢看花！”我这个人大概有什么标记应该是喜欢着花的了。小姐们不小心的地方我倒喜欢留意，岂是留意，常常不幸而注意到了罢了，有一回雨打梨花之夜五龙亭上我看见一个人儿喝柠檬水喝得太不好看。&lt;/p&gt;
 &lt;p&gt;今年的中秋又特别没有诗思，简直杀风景得很，不说别的，此刻拿起笔来忽而写下这么一个题目，不禁有一点儿慌张，怕人家要打倒我了，说我有什么趣味了。如今国历之下，这个废历之节，连邮政局里拿了汇票都可以去取钱。于是又很有点儿怏怏然，我也有一张汇票前一个礼拜已经取回来了。这又为什么怏怏然？我说话总是喜欢这样胡里胡涂的。&lt;/p&gt;
 &lt;p&gt;我总是打算盘，打算怎样的过一天，过一月。然而中秋的前一日，黎明即起，揩一揩眼矢，知道明天就是佳节，盥漱甫毕，人不知鬼不觉，出城下乡去玩了。倘若不是跑得快，也许没有去成。然而终于是在乡下走路了。实在自己也不知道为什么。坐在车上很快乐的。记得有一回有一人问我，那时我也是为什么下了一趟乡回来，他不知为什么以为我一定是骑驴的，说，“你是骑驴子罢。”其实我是坐人力车。路上也总是想大大小小的事，关于自己，关于自己以外。碰见拉车的，或是他的年纪大，或是他的气力小，拉得费气力的令人难过，也是不能安然的。今天格外的不能安然，想，我如果到了这地步，那我一定要败于自然罢，决不败于人。这就是说我可以跳到大海里去，或者禁食而死。这就是说我知道我敌不过自然之律，水可以把我湮没，不营养生命就要灭亡。我决没有一个为人所屈服的意思。这都是见笑的话。这都是实话。我如果为得做文章，那一定说得大方多了，可以找不出毛病来。那也不就是假话。这几日恐怕是因为受了一些刺激，所以心绪颇不宁，乱思想。好比前日在一位友人处听到一位青年的谈话，他刚从警备司令部释放了回来，备谈那里面的情形，恐怕都是中国所特有。别的不必说了，有一件令我注意。他说那施刑的是一个老头子，他的老婆，他的儿子，他的儿媳妇，都在里面做同样的事。我想，他的父亲，他的父亲的父亲，恐怕也是子孙相传的。这是很可怕的一件事。&lt;/p&gt;
@@ -1456,9 +1496,9 @@ Best regards, 赵连硕&lt;/p&gt;
       
     <item>
       <title>山水桃柳一女子撑花伞题字曰百无禁忌甲辰中秋</title>
-      <link>https://chlzhong.org/post/landscape-peach-and-willow-a-woman-with-a-flower-umbrella-inscribed-that-there-is-no-taboo-in-the-mid-autumn-festival/</link>
+      <link>http://localhost:1313/post/landscape-peach-and-willow-a-woman-with-a-flower-umbrella-inscribed-that-there-is-no-taboo-in-the-mid-autumn-festival/</link>
       <pubDate>Tue, 17 Sep 2024 10:20:49 +0800</pubDate>
-      <guid>https://chlzhong.org/post/landscape-peach-and-willow-a-woman-with-a-flower-umbrella-inscribed-that-there-is-no-taboo-in-the-mid-autumn-festival/</guid>
+      <guid>http://localhost:1313/post/landscape-peach-and-willow-a-woman-with-a-flower-umbrella-inscribed-that-there-is-no-taboo-in-the-mid-autumn-festival/</guid>
       <description>&lt;p&gt;月桂争辉夜，轻舟泛玉轮。&lt;/p&gt;
 &lt;p&gt;赏菊归来晚，应是惜良辰。&lt;/p&gt;
 </description>
@@ -1466,9 +1506,9 @@ Best regards, 赵连硕&lt;/p&gt;
       
     <item>
       <title>又说钢笔</title>
-      <link>https://chlzhong.org/post/foutainpens-again/</link>
+      <link>http://localhost:1313/post/foutainpens-again/</link>
       <pubDate>Fri, 13 Sep 2024 13:28:39 +0800</pubDate>
-      <guid>https://chlzhong.org/post/foutainpens-again/</guid>
+      <guid>http://localhost:1313/post/foutainpens-again/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;从前的日色变得慢&lt;br&gt;
 车，马，邮件都慢&lt;br&gt;
@@ -1512,11 +1552,11 @@ Best regards, 赵连硕&lt;/p&gt;
 &lt;p&gt;对我来说，每只笔都有自己的故事。哪怕是垃圾如写乐的断杆，也是开学时候里不能磨灭的记忆。用百乐 78G 写下第一封情书，用英雄 100 作了两个月的练字，在不断的使用过程中她们好像是不同性格的女孩子，有源源不绝的可爱。&lt;/p&gt;
 &lt;div style=&#34;display: flex; justify-content: center; gap: 20px; align-items: center;&#34;&gt;
   &lt;div style=&#34;text-align: center;&#34;&gt;
-    &lt;img src=&#34;https://chlzhong.org/images/暗尖.jpeg&#34; alt=&#34;暗尖们&#34; class=&#34;img-apple&#34; style=&#34;max-width: 100%; height: auto;&#34;&gt;
+    &lt;img src=&#34;http://localhost:1313/images/暗尖.jpeg&#34; alt=&#34;暗尖们&#34; class=&#34;img-apple&#34; style=&#34;max-width: 100%; height: auto;&#34;&gt;
     &lt;small&gt;暗尖们&lt;/small&gt;
   &lt;/div&gt;
   &lt;div style=&#34;text-align: center;&#34;&gt;
-    &lt;img src=&#34;https://chlzhong.org/images/明尖.jpeg&#34; alt=&#34;明尖们&#34; class=&#34;img-apple&#34; style=&#34;max-width: 100%; height: auto;&#34;&gt;
+    &lt;img src=&#34;http://localhost:1313/images/明尖.jpeg&#34; alt=&#34;明尖们&#34; class=&#34;img-apple&#34; style=&#34;max-width: 100%; height: auto;&#34;&gt;
     &lt;small&gt;明尖们&lt;/small&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1525,31 +1565,31 @@ Best regards, 赵连硕&lt;/p&gt;
       
     <item>
       <title>Eudemonia - 韶光真似浮云</title>
-      <link>https://chlzhong.org/post/eudemonia-04/</link>
+      <link>http://localhost:1313/post/eudemonia-04/</link>
       <pubDate>Thu, 29 Aug 2024 20:10:39 +0800</pubDate>
-      <guid>https://chlzhong.org/post/eudemonia-04/</guid>
+      <guid>http://localhost:1313/post/eudemonia-04/</guid>
       <description>&lt;div style=&#34;display: flex; justify-content: center; flex-direction: column; align-items: center;&#34;&gt;
-  &lt;img src=&#34;https://chlzhong.org/images/01.png&#34; alt=&#34;海星粉&#34; class=&#34;img-apple&#34;&gt;
+  &lt;img src=&#34;http://localhost:1313/images/01.png&#34; alt=&#34;海星粉&#34; class=&#34;img-apple&#34;&gt;
   &lt;small style=&#34;text-align: center;&#34;&gt;海星粉&lt;/small&gt;
 &lt;/div&gt;
 &lt;br&gt;
 &lt;div style=&#34;display: flex; justify-content: center; flex-direction: column; align-items: center;&#34;&gt;
-  &lt;img src=&#34;https://chlzhong.org/images/02.png&#34; alt=&#34;饿肚海星粉&#34; class=&#34;img-apple&#34;&gt;
+  &lt;img src=&#34;http://localhost:1313/images/02.png&#34; alt=&#34;饿肚海星粉&#34; class=&#34;img-apple&#34;&gt;
   &lt;small style=&#34;text-align: center;&#34;&gt;饿肚海星粉&lt;/small&gt;
 &lt;/div&gt;
 &lt;br&gt;
 &lt;div style=&#34;display: flex; justify-content: center; flex-direction: column; align-items: center;&#34;&gt;
-  &lt;img src=&#34;https://chlzhong.org/images/03.png&#34; alt=&#34;谢阿金&#34; class=&#34;img-apple&#34;&gt;
+  &lt;img src=&#34;http://localhost:1313/images/03.png&#34; alt=&#34;谢阿金&#34; class=&#34;img-apple&#34;&gt;
   &lt;small style=&#34;text-align: center;&#34;&gt;谢阿金&lt;/small&gt;
 &lt;/div&gt;
 &lt;br&gt;
 &lt;div style=&#34;display: flex; justify-content: center; flex-direction: column; align-items: center;&#34;&gt;
-  &lt;img src=&#34;https://chlzhong.org/images/04.png&#34; alt=&#34;海上花&#34; class=&#34;img-apple&#34;&gt;
+  &lt;img src=&#34;http://localhost:1313/images/04.png&#34; alt=&#34;海上花&#34; class=&#34;img-apple&#34;&gt;
   &lt;small style=&#34;text-align: center;&#34;&gt;海上花&lt;/small&gt;
 &lt;/div&gt;
 &lt;br&gt;
 &lt;div style=&#34;display: flex; justify-content: center; flex-direction: column; align-items: center;&#34;&gt;
-  &lt;img src=&#34;https://chlzhong.org/images/05.png&#34; alt=&#34;比基尼海滩&#34; class=&#34;img-apple&#34;&gt;
+  &lt;img src=&#34;http://localhost:1313/images/05.png&#34; alt=&#34;比基尼海滩&#34; class=&#34;img-apple&#34;&gt;
   &lt;small style=&#34;text-align: center;&#34;&gt;比基尼海滩&lt;/small&gt;
 &lt;/div&gt;
 &lt;br&gt;
@@ -1558,9 +1598,9 @@ Best regards, 赵连硕&lt;/p&gt;
       
     <item>
       <title>吹牛之“兴”</title>
-      <link>https://chlzhong.org/post/imagery/</link>
+      <link>http://localhost:1313/post/imagery/</link>
       <pubDate>Tue, 27 Aug 2024 08:17:14 +0800</pubDate>
-      <guid>https://chlzhong.org/post/imagery/</guid>
+      <guid>http://localhost:1313/post/imagery/</guid>
       <description>&lt;p&gt;思而不学之作&lt;/p&gt;
 &lt;hr&gt;
 &lt;blockquote&gt;
@@ -1586,12 +1626,12 @@ Best regards, 赵连硕&lt;/p&gt;
       
     <item>
       <title>青色魇</title>
-      <link>https://chlzhong.org/post/something-about-verta/</link>
+      <link>http://localhost:1313/post/something-about-verta/</link>
       <pubDate>Sun, 11 Aug 2024 14:34:48 +0800</pubDate>
-      <guid>https://chlzhong.org/post/something-about-verta/</guid>
+      <guid>http://localhost:1313/post/something-about-verta/</guid>
       <description>&lt;p&gt;七夕猛雨，十个传统习俗便破了两个。于是观影。&lt;/p&gt;
 &lt;div style=&#34;display: flex; justify-content: center;&#34;&gt;
-  &lt;img src=&#34;https://chlzhong.org/images/白蛇 浮生.png&#34; alt=&#34;电影海报&#34; class=&#34;img-apple&#34;&gt;
+  &lt;img src=&#34;http://localhost:1313/images/白蛇 浮生.png&#34; alt=&#34;电影海报&#34; class=&#34;img-apple&#34;&gt;
 &lt;/div&gt;
 一鸣草又生，草木青青不过一百数十日，到头来又是樵夫担上薪；&lt;/br&gt;
 一鸣虫又生，百虫生来不过一百数十日，到头来又要纷纷扑红灯。&lt;/br&gt;
@@ -1620,9 +1660,9 @@ Best regards, 赵连硕&lt;/p&gt;
       
     <item>
       <title>淘音咩</title>
-      <link>https://chlzhong.org/post/short-video-that-needs-to-be-said/</link>
+      <link>http://localhost:1313/post/short-video-that-needs-to-be-said/</link>
       <pubDate>Mon, 22 Jul 2024 08:50:32 +0800</pubDate>
-      <guid>https://chlzhong.org/post/short-video-that-needs-to-be-said/</guid>
+      <guid>http://localhost:1313/post/short-video-that-needs-to-be-said/</guid>
       <description>&lt;p&gt;纵观我手机里还有的三个购物软件（拼多多、京东、淘宝），前二者只京东带有小红书样式的低质量广告图文，唯独淘宝这个毒瘤，做个短视频在里面。其实我购物流程一般是直奔商品页，复制链接查看历史最低价，根据想要程度判定拿下时间……可谓极典型正常用户。我真的很好奇到底是谁会去淘宝里刷短视频？开发人员自己会刷吗？？？&lt;/p&gt;
 &lt;p&gt;讲到这个事情又想到了带货直播。我也无法理解这种事情:它和反智的电视直销“前 50 打进电话”有什么区别，难道区别就是一个利用网络，一个利用电视台？看电视、追剧的时候我们都会很主动的想避开广告、很讨厌广告，为什么却会主动去看广告，主动接受商家的洗脑？？我愿称之为人间迷惑行为 。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;看来广告不是原罪，烂广告才是。&lt;/strong&gt;&lt;/p&gt;
@@ -1632,9 +1672,9 @@ Best regards, 赵连硕&lt;/p&gt;
       
     <item>
       <title>听歌系列之少年</title>
-      <link>https://chlzhong.org/post/songs_02/</link>
+      <link>http://localhost:1313/post/songs_02/</link>
       <pubDate>Sat, 20 Jul 2024 20:51:57 +0800</pubDate>
-      <guid>https://chlzhong.org/post/songs_02/</guid>
+      <guid>http://localhost:1313/post/songs_02/</guid>
       <description>&lt;p&gt;我读书时很讨厌这两个字，因为他们出现的时候大概是这样子：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;鲜衣怒马少年时，不负韶华行且知&lt;/p&gt;
@@ -1659,16 +1699,16 @@ Best regards, 赵连硕&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;说到鲁迅今天的月夜的确是深蓝色的，记录一下不是少年的我在尴尬期的头发：&lt;/p&gt;
 &lt;div style=&#34;display: flex; justify-content: center;&#34;&gt;
-  &lt;img src=&#34;https://chlzhong.org/images/me.jpeg&#34; alt=&#34;蓝月夜&#34; class=&#34;img-apple&#34;&gt;
+  &lt;img src=&#34;http://localhost:1313/images/me.jpeg&#34; alt=&#34;蓝月夜&#34; class=&#34;img-apple&#34;&gt;
 &lt;/div&gt;
 </description>
     </item>
       
     <item>
       <title>😒</title>
-      <link>https://chlzhong.org/post/funny-day/</link>
+      <link>http://localhost:1313/post/funny-day/</link>
       <pubDate>Tue, 16 Jul 2024 18:44:03 +0800</pubDate>
-      <guid>https://chlzhong.org/post/funny-day/</guid>
+      <guid>http://localhost:1313/post/funny-day/</guid>
       <description>&lt;p&gt;“是这样的大姨，你连了我家的网所以可以用微信，回家要自己连自个家的。”&lt;/p&gt;
 &lt;p&gt;“不不不，我去你家也不能让别人同意你的微信好友申请。”&lt;/p&gt;
 &lt;p&gt;“对对对，这个乱七八糟的头像就是我。”&lt;/p&gt;
@@ -1677,9 +1717,9 @@ Best regards, 赵连硕&lt;/p&gt;
       
     <item>
       <title>从表情包开始</title>
-      <link>https://chlzhong.org/post/stickers/</link>
+      <link>http://localhost:1313/post/stickers/</link>
       <pubDate>Tue, 16 Jul 2024 08:48:21 +0800</pubDate>
-      <guid>https://chlzhong.org/post/stickers/</guid>
+      <guid>http://localhost:1313/post/stickers/</guid>
       <description>&lt;p&gt;很久以前，我在使用 Hello Talk 的时候遇到了一位急切的女士（简直是女色狼）。她的热情让我有些不知所措，我急于脱身，于是对她说我们的聊天是“毫无意义的”。谁知她因此大发雷霆，向我倾泻了一大堆&lt;a href=&#34;https://baike.baidu.com/item/11%E5%8F%B7%E8%84%8F%E8%AF%9D/58377406&#34;&gt;11号单词&lt;/a&gt;，然后就把我拉黑了。&lt;/p&gt;
 &lt;p&gt;现在回想起来，我意识到当时我的英语水平有限，没有能够恰当地表达我的意思。我想解释的是，其实大部分日常聊天都是“毫无意义的”——它们只是一些简单的交流，不必过于认真对待。我并不是想冒犯她，而只是希望她明白，我对这种过于热烈的互动有些不适应。&lt;/p&gt;
 &lt;hr&gt;
@@ -1701,9 +1741,9 @@ Best regards, 赵连硕&lt;/p&gt;
       
     <item>
       <title>谢谢叔叔</title>
-      <link>https://chlzhong.org/post/about-titles/</link>
+      <link>http://localhost:1313/post/about-titles/</link>
       <pubDate>Sat, 13 Jul 2024 19:19:57 +0800</pubDate>
-      <guid>https://chlzhong.org/post/about-titles/</guid>
+      <guid>http://localhost:1313/post/about-titles/</guid>
       <description>&lt;p&gt;或许是很久没有称呼过女生，或许是小脑发育异于常人，前段时间我总觉得“阿姨”是一个非常亲切的称谓：不像“小姐”、“美女”那样轻浮，也不是“女士”、“先生‘那样正式。轻声起一个阿又落在上扬形象状的嘴唇，总之是有温柔有亲切的词语。&lt;/p&gt;
 &lt;p&gt;直到今天帮小女孩拾掇一个扇子，她欣然接过瞬间奶奶高声呵斥：&lt;/p&gt;
 &lt;p&gt;——还不谢谢叔叔！&lt;/p&gt;
@@ -1714,9 +1754,9 @@ Best regards, 赵连硕&lt;/p&gt;
       
     <item>
       <title>二十</title>
-      <link>https://chlzhong.org/post/20-years-old/</link>
+      <link>http://localhost:1313/post/20-years-old/</link>
       <pubDate>Sat, 13 Jul 2024 07:28:23 +0800</pubDate>
-      <guid>https://chlzhong.org/post/20-years-old/</guid>
+      <guid>http://localhost:1313/post/20-years-old/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;人生的意义本来不在它的故事，&lt;br&gt;
 在于渲染这故事的手法。&lt;br&gt;
@@ -1750,9 +1790,9 @@ Best regards, 赵连硕&lt;/p&gt;
       
     <item>
       <title>王大令楷书保母砖题跋卷</title>
-      <link>https://chlzhong.org/post/jiang-kui-post/</link>
+      <link>http://localhost:1313/post/jiang-kui-post/</link>
       <pubDate>Fri, 12 Jul 2024 11:04:58 +0800</pubDate>
-      <guid>https://chlzhong.org/post/jiang-kui-post/</guid>
+      <guid>http://localhost:1313/post/jiang-kui-post/</guid>
       <description>&lt;p&gt;将他的帖&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;，弃置于此：&lt;/p&gt;
 &lt;p&gt;嘉泰壬戌六月六日，□□钱清三槐王畿字千里，得晋大令《保母志》并小砚于稽山樵人周，二物予皆亲见之。志以砖刻，砖四垂，其三为钱文，皆隐起，已断为四。归王氏，又断为五。凡十行。末行缺二字，不可知。第六行缺十二字，犹可考，曰：&amp;ldquo;中冬既望，葬会稽山阴之黄閍。&amp;ldquo;砚背刻&amp;quot;晋献之&amp;rdquo;，字上近右，复有&amp;quot;永和&amp;quot;字，乃划成，甚浅瘦。&amp;ldquo;永&amp;quot;字亡其磔，&amp;ldquo;和&amp;quot;字亡其口。砚石绝类灵璧，又似凤咮，甚细而宜墨，微洼其中。或以为王氏旧物，用故洼，非也。按米氏《书史》，晋、唐砚制皆如此，点笔易圆也。自兴宁距今八百三十载八，异哉！物之隐显，抑有定数，而古之贤达，皆前能知之欤？又按《画记》，大令以晋孝武太元十一年，年四十三乃终，上推至乙丑岁，年廿二，其神悟已如此，言语翰墨之妙，固不论也。此字与《兰亭叙》不少异，真大令之名迹。不经重摹，笔意具在，犹胜定武刻也。梁虞和云：&amp;ldquo;羲之为会稽，献之为吴郡。故三吴之地，偏多遗迹。&amp;ldquo;盖右军自去官后，便家山阴，今蕺山戒珠寺乃其故宅，而云门寺乃大令故宅，去黄閍皆不远，宜有是物也。&lt;/p&gt;
 &lt;p&gt;《保母志》有七美，非他帖所及。一者右军与怀祖同家越，右军郎邪族，怀祖太原族，故大令首言郎邪，所以自别。古人之重氏族如此。二者世传大令书，除《洛神赋》是小楷，余多行草。此乃正行，备尽楷则，笔法劲正，与《兰亭叙》、《乐毅论》合，已外虽《东方赞》、《黄庭经》亦不合也。三者《兰亭叙》世无古本，共宝定武本。定武本刻于数百年之后，宁不失真？此乃大令在时刻，笔意都在，求二王法，莫信于此。四者不惟书似《兰亭》，文势简秀，亦类其父。又与叔夜、伯伦、渊明、远公所作，同一标置。五者定武《兰亭》乃前代巧工所刻，尝以他古本较之，方知太媚。此刻甚深，惟取笔力，不求圆美。&amp;ldquo;双&amp;quot;字之掠，&amp;ldquo;夫&amp;quot;字之磔，&amp;ldquo;载&amp;quot;字之戈，&amp;ldquo;志&amp;quot;字之心，再三刻削，乃成妙画。盖古之能书者多自刻，钟元常刻《受禅表》，李北海之寓名黄仙鹤、伏令芝之类。此砖亦恐是大令自刻，不然何其妙也？六者意如妇人，而能文善书入元，乃知当时文风之盛，妇人可称者不独杨皇后、魏夫人、卫茂猗、谢道蕴辈。又知古人教子，既使之外从师友，退居于内，亦使之妇人之能文艺、知道理者与之处。宜乎子敬为晋名臣也。七者预知八百年余，事虽近于异，然古之贤达如此者众，伊川之为戎，樗里之知葬，此出于神明虚旷，自然前知，岂必运式持筹而后得之哉？但此字较之《兰亭》，则结体小疏，当是年少故尔。右军书《兰亭》，时年五十一，多大令卅年工夫也。数日与诸名公极论，因备著之。&lt;/p&gt;
@@ -1772,9 +1812,9 @@ Best regards, 赵连硕&lt;/p&gt;
       
     <item>
       <title>24年中-步立踌躇</title>
-      <link>https://chlzhong.org/post/history-of-the-ages/</link>
+      <link>http://localhost:1313/post/history-of-the-ages/</link>
       <pubDate>Fri, 12 Jul 2024 09:46:31 +0800</pubDate>
-      <guid>https://chlzhong.org/post/history-of-the-ages/</guid>
+      <guid>http://localhost:1313/post/history-of-the-ages/</guid>
       <description>&lt;h2 id=&#34;1-月&#34;&gt;1 月&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;23 年最后一天和学长出去吃了个螺蛳粉回来肚皮痛。&lt;/strong&gt;&lt;/li&gt;
@@ -1905,9 +1945,9 @@ Best regards, 赵连硕&lt;/p&gt;
       
     <item>
       <title>答辩结束</title>
-      <link>https://chlzhong.org/post/happy-day/</link>
+      <link>http://localhost:1313/post/happy-day/</link>
       <pubDate>Wed, 10 Jul 2024 23:17:27 +0800</pubDate>
-      <guid>https://chlzhong.org/post/happy-day/</guid>
+      <guid>http://localhost:1313/post/happy-day/</guid>
       <description>&lt;p&gt;说谢谢海彬，另外准备回家了。&lt;/p&gt;
 &lt;p&gt;（这个地方留着写一些收获）&lt;/p&gt;
 &lt;p&gt;倒是写啊&lt;/p&gt;
@@ -1920,9 +1960,9 @@ Best regards, 赵连硕&lt;/p&gt;
       
     <item>
       <title>兄弟，愿为西南风</title>
-      <link>https://chlzhong.org/post/caozhi/</link>
+      <link>http://localhost:1313/post/caozhi/</link>
       <pubDate>Sat, 06 Jul 2024 13:36:16 +0800</pubDate>
-      <guid>https://chlzhong.org/post/caozhi/</guid>
+      <guid>http://localhost:1313/post/caozhi/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;别日何易会日难，山川悠远路漫漫。 &lt;br&gt;
 展诗清歌仰自宽，乐往哀来摧肺肝。 &lt;br&gt;
@@ -1980,9 +2020,9 @@ Best regards, 赵连硕&lt;/p&gt;
       
     <item>
       <title>和丫头的信</title>
-      <link>https://chlzhong.org/post/letter-with-that-girl/</link>
+      <link>http://localhost:1313/post/letter-with-that-girl/</link>
       <pubDate>Fri, 05 Jul 2024 15:38:31 +0800</pubDate>
-      <guid>https://chlzhong.org/post/letter-with-that-girl/</guid>
+      <guid>http://localhost:1313/post/letter-with-that-girl/</guid>
       <description>&lt;p&gt;markdown 保持书信格式真难。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;亲爱的丫头：&lt;/p&gt;
@@ -2548,18 +2588,18 @@ copyright.&lt;br&gt;&lt;/p&gt;
       
     <item>
       <title>怎么有人连人机验证都过不了</title>
-      <link>https://chlzhong.org/post/why-cant-some-people-even-pass-the-man-machine-certification/</link>
+      <link>http://localhost:1313/post/why-cant-some-people-even-pass-the-man-machine-certification/</link>
       <pubDate>Thu, 04 Jul 2024 22:38:02 +0800</pubDate>
-      <guid>https://chlzhong.org/post/why-cant-some-people-even-pass-the-man-machine-certification/</guid>
+      <guid>http://localhost:1313/post/why-cant-some-people-even-pass-the-man-machine-certification/</guid>
       <description>&lt;p&gt;忍了又忍，实在想发一句牢骚，刘姐的问题让人真是哭笑不得。甚至找不到刷新和保存，人机验证都不能通过。我没有任何笑话的意思，但我实在觉得这种问题凡是会用计算机的人都应该明白。&lt;/p&gt;
 </description>
     </item>
       
     <item>
       <title>Eudemonia - 夏晚</title>
-      <link>https://chlzhong.org/post/eudemonia-03/</link>
+      <link>http://localhost:1313/post/eudemonia-03/</link>
       <pubDate>Wed, 03 Jul 2024 23:10:30 +0800</pubDate>
-      <guid>https://chlzhong.org/post/eudemonia-03/</guid>
+      <guid>http://localhost:1313/post/eudemonia-03/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;    
 &lt;img src=&#34;https://picx.zhimg.com/80/v2-dd27e048cbb59d7d1c41b6d93329a33e_1440w.jpeg&#34; alt=&#34;即使引导破碎。..算了送你一个天使的礼物&#34; width=&#34;auto&#34; height=&#34;auto&#34;&gt;
 &lt;center&gt;&lt;small&gt;即使引导破碎。..算了送你一个天使的礼物&lt;/small&gt;&lt;/center&gt;
@@ -2596,9 +2636,9 @@ alt=&#34;月亮湖&#34; width=&#34;auto&#34; height=&#34;auto&#34;&gt;
       
     <item>
       <title>也谈才子佳人</title>
-      <link>https://chlzhong.org/post/talented-and-beautiful/</link>
+      <link>http://localhost:1313/post/talented-and-beautiful/</link>
       <pubDate>Wed, 03 Jul 2024 09:09:45 +0800</pubDate>
-      <guid>https://chlzhong.org/post/talented-and-beautiful/</guid>
+      <guid>http://localhost:1313/post/talented-and-beautiful/</guid>
       <description>&lt;p&gt;这篇博客的一个起意来自考试周的&lt;a href=&#34;https://movie.douban.com/subject/5258658/&#34;&gt;电视剧&lt;/a&gt;，只是我没想到它的服化道我实在受不了&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;，便不再看下去。&lt;/p&gt;
 &lt;p&gt;那么这篇博客也就不再更新，钉在耻辱柱上去。&lt;/p&gt;
 &lt;p&gt;发个大愿暑假把这些“不检点”的剧本都看一遍。&lt;/p&gt;
@@ -2615,9 +2655,9 @@ alt=&#34;月亮湖&#34; width=&#34;auto&#34; height=&#34;auto&#34;&gt;
       
     <item>
       <title>Eudemonia - 来自天空的蓝翎鸟儿是我的爱人</title>
-      <link>https://chlzhong.org/post/eudemonia-02/</link>
+      <link>http://localhost:1313/post/eudemonia-02/</link>
       <pubDate>Sun, 30 Jun 2024 21:07:31 +0800</pubDate>
-      <guid>https://chlzhong.org/post/eudemonia-02/</guid>
+      <guid>http://localhost:1313/post/eudemonia-02/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;    
 &lt;img src=&#34;https://picx.zhimg.com/80/v2-3b25d78eecd67346273e879b98120c2a_1440w.jpeg&#34; alt=&#34;久雨后的路口&#34; width=&#34;75%&#34; height=&#34;auto&#34;&gt;
 &lt;center&gt;&lt;small&gt;久雨后的路口&lt;/small&gt;&lt;/center&gt;
@@ -2642,9 +2682,9 @@ alt=&#34;草色青青 仰天打滚&#34; width=&#34;85%&#34; height=&#34;auto&#34
       
     <item>
       <title>DM💣</title>
-      <link>https://chlzhong.org/post/joker/</link>
+      <link>http://localhost:1313/post/joker/</link>
       <pubDate>Thu, 27 Jun 2024 22:04:33 +0800</pubDate>
-      <guid>https://chlzhong.org/post/joker/</guid>
+      <guid>http://localhost:1313/post/joker/</guid>
       <description>&lt;p&gt;当你试图两天学完 DM 并且期间还要应付其他两门考试：&lt;/p&gt;
  &lt;div align=&#34;center&#34;&gt;
  &lt;img src=&#34;https://picx.zhimg.com/80/v2-d532917c1b7d2f4ce5865721c9f2468f_1440w.png&#34; alt=&#34;joker&#34; width=&#34;50%&#34; height=&#34;auto&#34;&gt;
@@ -2656,9 +2696,9 @@ alt=&#34;草色青青 仰天打滚&#34; width=&#34;85%&#34; height=&#34;auto&#34
       
     <item>
       <title>同一片蓝天</title>
-      <link>https://chlzhong.org/post/new-world/</link>
+      <link>http://localhost:1313/post/new-world/</link>
       <pubDate>Wed, 26 Jun 2024 21:05:05 +0800</pubDate>
-      <guid>https://chlzhong.org/post/new-world/</guid>
+      <guid>http://localhost:1313/post/new-world/</guid>
       <description> &lt;div align=&#34;center&#34;&gt;
  &lt;img src=&#34;https://pic1.zhimg.com/80/v2-1913d9bd10cfdad1f44d9401a5ff21b7_1440w.png&#34; alt=&#34;新寝室&#34; width=&#34;50%&#34; height=&#34;auto&#34;&gt;
  &lt;/div&gt;
@@ -2668,9 +2708,9 @@ alt=&#34;草色青青 仰天打滚&#34; width=&#34;85%&#34; height=&#34;auto&#34
       
     <item>
       <title>此情可待成追忆</title>
-      <link>https://chlzhong.org/post/a-new-old-play/</link>
+      <link>http://localhost:1313/post/a-new-old-play/</link>
       <pubDate>Mon, 24 Jun 2024 22:11:28 +0800</pubDate>
-      <guid>https://chlzhong.org/post/a-new-old-play/</guid>
+      <guid>http://localhost:1313/post/a-new-old-play/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://space.bilibili.com/399708274&#34;&gt;学长&lt;/a&gt;毕业了的事现在写不出来了。本来想找找那天的流水账意外发现没有写，只有这几个字：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;十月十六 晴 &lt;br&gt;&lt;/p&gt;
@@ -2682,9 +2722,9 @@ alt=&#34;草色青青 仰天打滚&#34; width=&#34;85%&#34; height=&#34;auto&#34
       
     <item>
       <title>“永不褪色”</title>
-      <link>https://chlzhong.org/post/bad-thing/</link>
+      <link>http://localhost:1313/post/bad-thing/</link>
       <pubDate>Sun, 23 Jun 2024 23:45:02 +0800</pubDate>
-      <guid>https://chlzhong.org/post/bad-thing/</guid>
+      <guid>http://localhost:1313/post/bad-thing/</guid>
       <description> &lt;div align=&#34;center&#34;&gt;
  &lt;img src=&#34;https://pic1.zhimg.com/80/v2-5f0e76d5dee609d877c48cb38792719b_1440w.png&#34; alt=&#34;图一骚话现场&#34; width=&#34;50%&#34; height=&#34;auto&#34;&gt;
  &lt;/div&gt;
@@ -2700,9 +2740,9 @@ alt=&#34;草色青青 仰天打滚&#34; width=&#34;85%&#34; height=&#34;auto&#34
       
     <item>
       <title>学习资料-应付考试版</title>
-      <link>https://chlzhong.org/post/study-materials-exam-preparation-version/</link>
+      <link>http://localhost:1313/post/study-materials-exam-preparation-version/</link>
       <pubDate>Sat, 22 Jun 2024 20:38:44 +0800</pubDate>
-      <guid>https://chlzhong.org/post/study-materials-exam-preparation-version/</guid>
+      <guid>http://localhost:1313/post/study-materials-exam-preparation-version/</guid>
       <description>&lt;h2 id=&#34;考纲&#34;&gt;考纲：&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;排队论模型&lt;/strong&gt;：学习简单的排队论模型的建模方法，熟悉和掌握排队系统中的平均队长、平均顾客数、系统中顾客退留时间、队列中顾客等待时间等的计算。&lt;/li&gt;
@@ -2902,9 +2942,9 @@ $\max {33.6, 18, 10} = 33.6 $&lt;/p&gt;
       
     <item>
       <title>谈情说爱</title>
-      <link>https://chlzhong.org/post/about-love/</link>
+      <link>http://localhost:1313/post/about-love/</link>
       <pubDate>Fri, 21 Jun 2024 22:28:38 +0800</pubDate>
-      <guid>https://chlzhong.org/post/about-love/</guid>
+      <guid>http://localhost:1313/post/about-love/</guid>
       <description>&lt;p&gt;题目写在这里的时候就注定这是一篇讨厌的抽象文章了，但是不要喷我，喷刘姐去。（事实上【狐狸和猫】那篇文章已经表达了我的看法。）&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;两不相欠&lt;br&gt;
@@ -2976,9 +3016,9 @@ $\max {33.6, 18, 10} = 33.6 $&lt;/p&gt;
       
     <item>
       <title>奶奶的</title>
-      <link>https://chlzhong.org/post/fxxk/</link>
+      <link>http://localhost:1313/post/fxxk/</link>
       <pubDate>Fri, 21 Jun 2024 11:30:27 +0800</pubDate>
-      <guid>https://chlzhong.org/post/fxxk/</guid>
+      <guid>http://localhost:1313/post/fxxk/</guid>
       <description>&lt;p&gt;这是习思也是奶奶的：&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;这个 P 事 没做过 再早一点 就爆破&lt;br&gt;
 我想我没听错 你说你 bother 我&lt;br&gt;
@@ -3028,9 +3068,9 @@ $\max {33.6, 18, 10} = 33.6 $&lt;/p&gt;
       
     <item>
       <title>南山夜雨</title>
-      <link>https://chlzhong.org/post/simple-poem/</link>
+      <link>http://localhost:1313/post/simple-poem/</link>
       <pubDate>Thu, 20 Jun 2024 23:55:10 +0800</pubDate>
-      <guid>https://chlzhong.org/post/simple-poem/</guid>
+      <guid>http://localhost:1313/post/simple-poem/</guid>
       <description>&lt;p&gt;东风游莲塘，灼灼入吾心。&lt;/p&gt;
 &lt;p&gt;愿为檐下霖，十旬长倾倾。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://picx.zhimg.com/80/v2-f1c237b1fef29259eddca5fd70feeccc_1440w.jpeg&#34; alt=&#34;lighting&#34;&gt;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
@@ -3047,9 +3087,9 @@ $\max {33.6, 18, 10} = 33.6 $&lt;/p&gt;
       
     <item>
       <title>吹牛（2）</title>
-      <link>https://chlzhong.org/post/chuiniu-02/</link>
+      <link>http://localhost:1313/post/chuiniu-02/</link>
       <pubDate>Tue, 18 Jun 2024 23:49:03 +0800</pubDate>
-      <guid>https://chlzhong.org/post/chuiniu-02/</guid>
+      <guid>http://localhost:1313/post/chuiniu-02/</guid>
       <description>&lt;h2 align=&#34;center&#34;&gt;电子海洛因和我的平替人生&lt;/h2&gt; 
 &lt;p&gt;知乎里的游戏受众总是把游戏视为纯洁无瑕的存在，一看到“电子海洛因”这个词就急忙发知乎惊喜。然而，不论是网游还是单机游戏，作为一种商品，它们的本质都是为了赚钱。许多所谓的第九艺术不过是画面精美的一人称电影，未能展现游戏这一媒体的特殊性质。看看那些单机 3A 手摇电影，我真不知道是如何与第九艺术挂上钩的。在我看来，艺术是作者通过特定的方式和技法来表达自己的思想，媒介并不是必要的。以画面取胜的《Gris》和《荒野大镖客 2》当然是好游戏，要称之为艺术也未尝不可，只是不要强行与第九这个开天辟地的词汇挂钩就好了。（单论网游，更是可以直呼其为电子海洛因：至少它们真的会分泌多巴胺，而所谓的艺术性却谈不上）&lt;/p&gt;
 &lt;p&gt;不过说到底，普通玩家不在乎游戏是否是艺术，好玩就行了。于是来说说所谓我的“平替人生”：&lt;/p&gt;
@@ -3102,9 +3142,9 @@ $\max {33.6, 18, 10} = 33.6 $&lt;/p&gt;
       
     <item>
       <title>吹牛系列</title>
-      <link>https://chlzhong.org/post/%E5%90%B9%E7%89%9B/</link>
+      <link>http://localhost:1313/post/%E5%90%B9%E7%89%9B/</link>
       <pubDate>Mon, 17 Jun 2024 17:28:38 +0800</pubDate>
-      <guid>https://chlzhong.org/post/%E5%90%B9%E7%89%9B/</guid>
+      <guid>http://localhost:1313/post/%E5%90%B9%E7%89%9B/</guid>
       <description>&lt;p&gt;一、面纱&lt;/p&gt;
 &lt;p&gt;勤奋是一种美德，爱国主义，集体主义，忠诚， 责任。词汇学意义上的美好事物侵害个人自由个性和隐私尊严。集体主义始终无法自圆其说地回答一个最基本的质疑:凭什么说我们是自己人？我为什么要爱这个“集体”?民主一点的自由主义呢，事实上他们只是把社会从一种压迫转到了另一种压迫，一种表面看上去公平交易的压迫。人人好像生而平等。&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;，然而当三个人开始为利益投票，中学生都能算出有$C_3^2$种排列组合，倘若是两个歹徒和一位受害者呢？&lt;/p&gt;
 &lt;p&gt;所以无论集体主义还是自由主义都是为了奴役自己，都是一些人为了把自己变成某种“人力资源”，根本不存在那种真正尊重你这个个体的意识形态。人类社会的维持需要一部分人被奴役，没有任何人被奴役的社会是无法存在的。无论是底层的细胞还是大一点的的自然界，都会有作为“苦力”形象的成分存在。&lt;/p&gt;
@@ -3140,9 +3180,9 @@ $\max {33.6, 18, 10} = 33.6 $&lt;/p&gt;
       
     <item>
       <title>Eudemonia - 海底的云和少女</title>
-      <link>https://chlzhong.org/post/eudemonia/</link>
+      <link>http://localhost:1313/post/eudemonia/</link>
       <pubDate>Sun, 16 Jun 2024 23:40:12 +0800</pubDate>
-      <guid>https://chlzhong.org/post/eudemonia/</guid>
+      <guid>http://localhost:1313/post/eudemonia/</guid>
       <description>&lt;p&gt;记忆宝藏系列&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;https://picx.zhimg.com/80/v2-f4748d9c76d36ea0026c26a0a241a558_1440w.jpeg&#34; alt=&#34;云&#34;&gt;&lt;/p&gt;
@@ -3163,9 +3203,9 @@ $\max {33.6, 18, 10} = 33.6 $&lt;/p&gt;
       
     <item>
       <title>重庆市民钟先生遭歹猫袭击受伤 公众呼吁加强治安管理</title>
-      <link>https://chlzhong.org/post/funny-news/</link>
+      <link>http://localhost:1313/post/funny-news/</link>
       <pubDate>Sat, 15 Jun 2024 12:49:27 +0800</pubDate>
-      <guid>https://chlzhong.org/post/funny-news/</guid>
+      <guid>http://localhost:1313/post/funny-news/</guid>
       <description>&lt;p&gt;&lt;strong&gt;重庆，2024 年 6 月 15 日&lt;/strong&gt; —— 今日中午，重庆市一名市民钟先生在回寝室途中遭遇歹猫袭击，不幸受伤流血，事发地点位于南岸区某大学附近。据目击者称，钟先生当时正帮助小猫，突然被这只歹猫拦住并攻击。&lt;/p&gt;
 &lt;p&gt;钟先生在袭击中指头部受伤，随即倒地，歹猫迅速逃离现场。路人见状立即拍下照片，并未报警。相关人员迅速赶到现场，将钟先生送往附近寝室进行救治。舍友表示，钟先生伤势较重，但暂无生命危险，目前正在接受进一步治疗和观察。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://picx.zhimg.com/80/v2-92ad0cfe9ef119cb670fcab4c3a4643a_1440w.jpeg&#34; alt=&#34;受伤图&#34;&gt;&lt;/p&gt;
@@ -3181,9 +3221,9 @@ $\max {33.6, 18, 10} = 33.6 $&lt;/p&gt;
       
     <item>
       <title>我的头发</title>
-      <link>https://chlzhong.org/post/my-hair/</link>
+      <link>http://localhost:1313/post/my-hair/</link>
       <pubDate>Thu, 13 Jun 2024 22:48:27 +0800</pubDate>
-      <guid>https://chlzhong.org/post/my-hair/</guid>
+      <guid>http://localhost:1313/post/my-hair/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://picx.zhimg.com/80/v2-9a95082a657cba35ce15049c5a7d0d3b_1440w.png&#34; alt=&#34;我的头发&#34;&gt;&lt;/p&gt;
 &lt;p&gt;莫名奇妙地变卷(._.`)&lt;/p&gt;
 </description>
@@ -3191,9 +3231,9 @@ $\max {33.6, 18, 10} = 33.6 $&lt;/p&gt;
       
     <item>
       <title>听歌系列之烦恼</title>
-      <link>https://chlzhong.org/post/songs_1/</link>
+      <link>http://localhost:1313/post/songs_1/</link>
       <pubDate>Tue, 11 Jun 2024 19:48:42 +0800</pubDate>
-      <guid>https://chlzhong.org/post/songs_1/</guid>
+      <guid>http://localhost:1313/post/songs_1/</guid>
       <description>&lt;p&gt;第一次听蛋堡是在罗大佑的春夏秋冬里。“过程”给我一个轻快悠扬朗朗上口的感觉，全然与之前（现在也是）对饶舌 rap 歌曲的厌恶不同。“小熊”的调调也非常吸引我的耳虫，早已是我的穿脑魔音了。&lt;/p&gt;
 &lt;p&gt;今天有点不开心，于是打开 AM 开始随机播放蛋堡的歌——&lt;/p&gt;
 &lt;blockquote&gt;
@@ -3222,9 +3262,9 @@ $\max {33.6, 18, 10} = 33.6 $&lt;/p&gt;
       
     <item>
       <title>粽子节快乐</title>
-      <link>https://chlzhong.org/post/%E7%B2%BD%E5%AD%90%E8%8A%82%E5%BF%AB%E4%B9%90/</link>
+      <link>http://localhost:1313/post/%E7%B2%BD%E5%AD%90%E8%8A%82%E5%BF%AB%E4%B9%90/</link>
       <pubDate>Mon, 10 Jun 2024 10:20:58 +0800</pubDate>
-      <guid>https://chlzhong.org/post/%E7%B2%BD%E5%AD%90%E8%8A%82%E5%BF%AB%E4%B9%90/</guid>
+      <guid>http://localhost:1313/post/%E7%B2%BD%E5%AD%90%E8%8A%82%E5%BF%AB%E4%B9%90/</guid>
       <description>&lt;p&gt;不记得哪个互联网人说的了，“我们几千号人每天就在研究怎么让人上瘾，你说你靠意志力战胜了我们 App，这是有多看不起我们的专业水平？要是你只靠意志力就可以避免上瘾，那我们吃什么？”&lt;/p&gt;
 &lt;p&gt;让人上瘾东西太多了，大学生控制力远远不足以对抗，所以每天刷抖音、小红书（笑死我了，原文甚至没有你乎），关注的都是一些无关紧要的信息，什么谁又瘦了 100 斤，哪个明星又分手了哪个明星又有绯闻了 blabla，看起来学到了很多，但其实都对当下的生活没什么帮助。&lt;/p&gt;
 &lt;p&gt;13 年就有大学生意识到学历泛滥了，而大众是在 19 年 20 年才开始对“学历贬值”聊得热火朝天。&lt;/p&gt;
@@ -3261,9 +3301,9 @@ $\max {33.6, 18, 10} = 33.6 $&lt;/p&gt;
       
     <item>
       <title>购书一本</title>
-      <link>https://chlzhong.org/post/buy-a-book/</link>
+      <link>http://localhost:1313/post/buy-a-book/</link>
       <pubDate>Sun, 09 Jun 2024 19:25:53 +0800</pubDate>
-      <guid>https://chlzhong.org/post/buy-a-book/</guid>
+      <guid>http://localhost:1313/post/buy-a-book/</guid>
       <description>&lt;p&gt;今年以来兴趣都在钢笔那里，很久没有买书。&lt;/p&gt;
 &lt;p&gt;昨天在看钢笔时无意瞅到一本￥10 的书，咋一看以为是盗版，不料是当当的拼多多官方店，细看还是人文社的，遂拿下。当当的快递一向很烂，我这本倒是很满意。对多多的印象也改观了。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://picx.zhimg.com/80/v2-d387f0b77f7a044cbdf037c76afe4a64_1440w.jpeg&#34; alt=&#34;book&#34;&gt;&lt;/p&gt;
@@ -3272,9 +3312,9 @@ $\max {33.6, 18, 10} = 33.6 $&lt;/p&gt;
       
     <item>
       <title>搯花</title>
-      <link>https://chlzhong.org/post/tao-flower/</link>
+      <link>http://localhost:1313/post/tao-flower/</link>
       <pubDate>Thu, 06 Jun 2024 22:07:11 +0800</pubDate>
-      <guid>https://chlzhong.org/post/tao-flower/</guid>
+      <guid>http://localhost:1313/post/tao-flower/</guid>
       <description>&lt;p&gt;怎么说呢。&lt;/p&gt;
 &lt;p&gt;布谷鸟的叫声越来越响亮悠扬，随着还有乌鸦、喜鹊跟着哼哼，路上有好些学长们在散步，想起 “早起的鸟儿有虫吃”，但是猫猫们也不吃虫子为啥起这么早呢……&lt;/p&gt;
 &lt;p&gt;外面很凉快，赶早八也不愿切换快步状态，晃晃悠悠的，慢慢享受着清凉的夏日早晨，比起白天三四十度的气温，还有炎炎烈日，这一片刻也显得很难得了。&lt;/p&gt;
@@ -3313,9 +3353,9 @@ $\max {33.6, 18, 10} = 33.6 $&lt;/p&gt;
       
     <item>
       <title>Minecraft</title>
-      <link>https://chlzhong.org/post/minecraft/</link>
+      <link>http://localhost:1313/post/minecraft/</link>
       <pubDate>Wed, 05 Jun 2024 23:39:15 +0800</pubDate>
-      <guid>https://chlzhong.org/post/minecraft/</guid>
+      <guid>http://localhost:1313/post/minecraft/</guid>
       <description>&lt;p&gt;故事的&amp;hellip;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://pic4.zhimg.com/80/v2-f6598674aa505a28aa1323fdbb6b4677_1440w.webp&#34; alt=&#34;小黄花&#34;&gt;&lt;/p&gt;
 &lt;p&gt;说“谢谢海彬”：&lt;/p&gt;
@@ -3330,9 +3370,9 @@ $\max {33.6, 18, 10} = 33.6 $&lt;/p&gt;
       
     <item>
       <title>Soulsan</title>
-      <link>https://chlzhong.org/post/soulsan/</link>
+      <link>http://localhost:1313/post/soulsan/</link>
       <pubDate>Tue, 04 Jun 2024 18:29:48 +0800</pubDate>
-      <guid>https://chlzhong.org/post/soulsan/</guid>
+      <guid>http://localhost:1313/post/soulsan/</guid>
       <description>&lt;p&gt;“
 妳有心事？你说，逗着她玩。&lt;br&gt;
 你怎么看得出来？&lt;br&gt;
@@ -3380,9 +3420,9 @@ $\max {33.6, 18, 10} = 33.6 $&lt;/p&gt;
       
     <item>
       <title>发电系列之图图呢</title>
-      <link>https://chlzhong.org/post/crazy-life_1/</link>
+      <link>http://localhost:1313/post/crazy-life_1/</link>
       <pubDate>Mon, 03 Jun 2024 22:34:40 +0800</pubDate>
-      <guid>https://chlzhong.org/post/crazy-life_1/</guid>
+      <guid>http://localhost:1313/post/crazy-life_1/</guid>
       <description>&lt;p&gt;难得周一课少，再说几句——&lt;/p&gt;
 &lt;p&gt;一直用的知乎作为自己部落格的图床，优点是访问快，缺点就是 bigger 不高，不方便查看（当然主要原因是我没编辑 html&amp;hellip;），于是今天想尝试更换为 Github 的，翻了几篇文章感觉为了这个东西牺牲访问速度不太划算，遂罢（建议加到未遂里）。&lt;/p&gt;
 &lt;p&gt;好玩的是在教程的过程中看到有位自己网站的图都寄了，看来比起国内的审核，github 更严？（知乎惊喜.jpg）&lt;img src=&#34;https://pic4.zhimg.com/80/v2-db0b7b35bc414a52f8c9cbec2d654677_1440w.webp&#34; alt=&#34;图图&#34;&gt;&lt;/p&gt;
@@ -3431,18 +3471,18 @@ $\max {33.6, 18, 10} = 33.6 $&lt;/p&gt;
       
     <item>
       <title>报告未遂</title>
-      <link>https://chlzhong.org/post/attempted-work/</link>
+      <link>http://localhost:1313/post/attempted-work/</link>
       <pubDate>Mon, 03 Jun 2024 13:00:45 +0800</pubDate>
-      <guid>https://chlzhong.org/post/attempted-work/</guid>
+      <guid>http://localhost:1313/post/attempted-work/</guid>
       <description>&lt;p&gt;出现了 XX 就把内容删去了，关于 XX 可&lt;a href=&#34;chlzhong.org/post/some-thing-about-verta&#34;&gt;点这里&lt;/a&gt;。&lt;/p&gt;
 </description>
     </item>
       
     <item>
       <title>Statistic</title>
-      <link>https://chlzhong.org/post/statistic/</link>
+      <link>http://localhost:1313/post/statistic/</link>
       <pubDate>Sun, 02 Jun 2024 14:12:14 +0800</pubDate>
-      <guid>https://chlzhong.org/post/statistic/</guid>
+      <guid>http://localhost:1313/post/statistic/</guid>
       <description>&lt;center&gt;Fountain Pen&lt;/center&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -3605,9 +3645,9 @@ $\max {33.6, 18, 10} = 33.6 $&lt;/p&gt;
       
     <item>
       <title>狐狸和猫</title>
-      <link>https://chlzhong.org/post/fox-and-cat/</link>
+      <link>http://localhost:1313/post/fox-and-cat/</link>
       <pubDate>Fri, 31 May 2024 22:13:59 +0800</pubDate>
-      <guid>https://chlzhong.org/post/fox-and-cat/</guid>
+      <guid>http://localhost:1313/post/fox-and-cat/</guid>
       <description>&lt;p&gt;小猫说：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;今日雨水。&lt;/li&gt;
@@ -3659,9 +3699,9 @@ $\max {33.6, 18, 10} = 33.6 $&lt;/p&gt;
       
     <item>
       <title>我们到底学到了什么？</title>
-      <link>https://chlzhong.org/post/what-on-earth-have-we-learned/</link>
+      <link>http://localhost:1313/post/what-on-earth-have-we-learned/</link>
       <pubDate>Thu, 30 May 2024 11:39:25 +0800</pubDate>
-      <guid>https://chlzhong.org/post/what-on-earth-have-we-learned/</guid>
+      <guid>http://localhost:1313/post/what-on-earth-have-we-learned/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://pic3.zhimg.com/80/v2-8ebe5f7b265b9066904fc8d63ca75b8e_1440w.webp&#34; alt=&#34;课表&#34;&gt;&lt;/p&gt;
 &lt;p&gt;上图是妓院开设的课程表，落实的话我已经是一个熟练掌握高数线代概率论的讨厌花海的学生了。可事实上除了花海符合实际其余都只知名字怎么写而已。到底是怪老师没有讲清楚知识呢？还是怪我们自己没有好好学？还是怪这么课本身就不适合在我们学院开？其实学到机器学习还是可以知道这些知识运用很广泛，还是挺有用、挺有意思的，但是我们的课程根本不可能讲到那里去，课时太少，练习不够。由此我又想到本科阶段到底该学些什么；以我跟老师们的接触，他们大多都说该打好基础，我也赞同，但是我们开的这些课有没有达到这种目的呢？哪些课能显著体现计算机的基础？都是值得大家一起思考的问题。比如现在看机器学习就严重感觉到线代中矩阵的知识忘得差不多了，那才能让人感觉到什么叫基础，像我们所开过的数电、大物等课程有基础作用吗？似乎感觉有些偏了…… 反倒是语言课、数据结构这些课要好好深入学习学习，但是这些课我们又上好了吗？似乎也没有…… 我们的课程安排似乎是想让学生尽量多学些东西，但是顾了广度肯定会顾不上深度，这永远是一对矛盾，又是一个权重的问题。&lt;/p&gt;
 &lt;p&gt;拚命狂赶了两年（？），但是一点也不值得高兴……&lt;/p&gt;
@@ -3670,9 +3710,9 @@ $\max {33.6, 18, 10} = 33.6 $&lt;/p&gt;
       
     <item>
       <title>江阿姨</title>
-      <link>https://chlzhong.org/post/jiangjiang/</link>
+      <link>http://localhost:1313/post/jiangjiang/</link>
       <pubDate>Sun, 26 May 2024 12:47:31 +0800</pubDate>
-      <guid>https://chlzhong.org/post/jiangjiang/</guid>
+      <guid>http://localhost:1313/post/jiangjiang/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;江阿姨要我写一篇文章纪念她，我觉得很好玩：一者从高中毕业以后没有再写过记人的文章（其实估计初中后就没写过了），二者人还在这却真真是两年的不相见，实在不知道要怎么开一个头，只得乱写。因为一直觉得记不住的事情就是没有，加之自己的忘性确实太大，所以本文杜撰为主，记忆为辅。又这个时代没有离别，那我就重新造一个“她”来思念：&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -3730,9 +3770,9 @@ $\max {33.6, 18, 10} = 33.6 $&lt;/p&gt;
       
     <item>
       <title>建站指北</title>
-      <link>https://chlzhong.org/post/guide-to-building-a-website/</link>
+      <link>http://localhost:1313/post/guide-to-building-a-website/</link>
       <pubDate>Sun, 26 May 2024 11:20:57 +0800</pubDate>
-      <guid>https://chlzhong.org/post/guide-to-building-a-website/</guid>
+      <guid>http://localhost:1313/post/guide-to-building-a-website/</guid>
       <description>&lt;h4 id=&#34;原文见如何用-github-pages--hugo-搭建个人博客--小绵尾巴-cuttontailbloghttpscuttontailblogblogcreate-a-wesite-using-github-pages-and-hugo&#34;&gt;原文见&lt;a href=&#34;https://cuttontail.blog/blog/create-a-wesite-using-github-pages-and-hugo/&#34;&gt;如何用 GitHub Pages + Hugo 搭建个人博客 · 小绵尾巴 (cuttontail.blog)&lt;/a&gt;&lt;/h4&gt;
 &lt;h4 id=&#34;整个过程基于-windows11&#34;&gt;整个过程基于 Windows11&lt;/h4&gt;
 &lt;hr&gt;
@@ -3951,9 +3991,9 @@ $\max {33.6, 18, 10} = 33.6 $&lt;/p&gt;
       
     <item>
       <title>Demo01</title>
-      <link>https://chlzhong.org/post/demo01/</link>
+      <link>http://localhost:1313/post/demo01/</link>
       <pubDate>Sun, 26 May 2024 11:18:23 +0800</pubDate>
-      <guid>https://chlzhong.org/post/demo01/</guid>
+      <guid>http://localhost:1313/post/demo01/</guid>
       <description>&lt;p&gt;这是我的第一篇博客。&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;HELLO WORLD！&lt;/code&gt;&lt;/p&gt;
 </description>
