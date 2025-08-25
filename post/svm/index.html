@@ -1,0 +1,317 @@
+<!doctype html>
+
+
+
+
+
+
+
+<html
+  class="not-ready lg:text-base"
+  style="--bg:#faf8f1"
+  lang="en"
+  dir="ltr"
+><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+
+  
+  <title>SVM 支持向量机 - Chlzhong</title>
+
+  
+  <meta name="theme-color" />
+
+  <meta name="description" content="写这篇博客时看到知乎一篇 16 年的文章，作者指出传统 SVM 在对一些稀奇古怪的样本进行分类时有比较好的效果，但是评论区纷纷表示：多来几层神经网络就搞定了。由于我知识储备有限，在此就简单讲讲我的理解。
+
+SVM基本形式求解
+给定一个二分类问题的训练样本集：
+$D=(x_1,y_1),(x_2,y_2),…,(x_m,y_m),y_i∈−1,&#43;1$1，
+我们的目标是找到一条分界线/超平面2来将两类区分开，如下图：
+
+  
+  
+  
+  
+
+在样本空间中，用 $w^{T}x&#43;b=0$​ 来描述超平面。其中：
+
+$w=(w_1,w_2,…,w_d)$ 为法向量，决定了超平面的方向
+$b$ 为位移项，决定了超平面与原点的距离。
+
+如果一个超平面能够将训练样本正确分类，则我们希望这个超平面具有的性质是，对于 $(x_i,y_i)∈D$，有：
+$$
+f(x) =
+\begin{cases}
+w^T x &#43; b \geq 0, &amp; y_i = &#43;1; \
+w^T x &#43; b \leq 0, &amp; y_i = -1.
+\end{cases}
+$$
+换言之，在进行分类的时候，遇到一个新的数据点 $x$，将 $x$ 代入 $f(x)$ 中：
+
+如果 $f(x)$ 小于 $0$ ，则将 $x$ 的类别赋为 $-1$
+如果 $f(x)$ 大于 $0$ ，则将 $x$ 的类别赋为 $1$
+
+接下来的问题是，如何确定这个超平面呢? SVM 算法的标准是使直线离两边的点间隔最大。" />
+  <meta name="author" content="Liam" /><link rel="preload stylesheet" as="style" href="http://localhost:1313/main.min.css" />
+
+  
+  <link rel="preload" as="image" href="http://localhost:1313/theme.svg" />
+
+  <link rel="preload" as="image" href="https://picx.zhimg.com/v2-5fe3afc9c57d74165650721e7a38c045_xll.jpg" />
+
+  <link rel="preload" as="image" href="http://localhost:1313/github.svg" /><link rel="preload" as="image" href="http://localhost:1313/rss.svg" />
+
+  <script
+    defer
+    src="http://localhost:1313/highlight.min.js"
+    onload="hljs.initHighlightingOnLoad();"
+  ></script><link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.css"
+  integrity="sha384-3UiQGuEI4TTMaFmGIZumfRPtfKQ3trwQE2JgosJxCnGmQpL/lJdjpcHkaaFwHlcI"
+  crossorigin="anonymous"
+/>
+<script
+  defer
+  src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.js"
+  integrity="sha384-G0zcxDFp5LWZtDuRMnBkk3EphCK1lhEf4UEyEM693ka574TZGwo4IWwS6QLzM/2t"
+  crossorigin="anonymous"
+></script>
+<script
+  defer
+  src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/auto-render.min.js"
+  integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05"
+  crossorigin="anonymous"
+></script><script>
+  document.addEventListener('DOMContentLoaded', () =>
+    renderMathInElement(document.body, {
+      
+      
+      delimiters: [
+        { left: '$$', right: '$$', display: true },
+        { left: '$', right: '$', display: false },
+      ],
+      
+      throwOnError: false,
+    }),
+  );
+</script>
+
+
+  
+  <link
+    rel="icon"
+    href="http://localhost:1313/favicon.ico"
+  />
+  <link
+    rel="apple-touch-icon"
+    href="http://localhost:1313/apple-touch-icon.png"
+  />
+
+  <meta name="generator" content="Hugo 0.148.2">
+</head>
+<body
+    class="bg-(--bg) text-black antialiased duration-200 ease-out [-webkit-tap-highlight-color:transparent] dark:text-white"
+  ><header
+  class="mx-auto flex h-[4.5rem] max-w-(--w) px-8 whitespace-nowrap lg:justify-center"
+>
+  <div class="relative z-50 flex items-center ltr:mr-auto rtl:ml-auto">
+    <a
+      class="-translate-y-[1px] text-2xl font-medium"
+      href="http://localhost:1313/"
+      >Chlzhong</a
+    >
+    <div
+      class="btn-dark text-[0px] ltr:ml-4 rtl:mr-4 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.svg)_left_center/cover_no-repeat] dark:invert dark:[background-position:right]"
+      role="button"
+      aria-label="Dark"
+    ></div>
+  </div>
+
+  <div
+    class="btn-menu relative z-50 flex h-[4.5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden ltr:-mr-8 rtl:-ml-8"
+    role="button"
+    aria-label="Menu"
+  ></div>
+
+  <script>
+    
+    const htmlClass = document.documentElement.classList;
+    setTimeout(() => {
+      htmlClass.remove('not-ready');
+    }, 10);
+
+    
+    const btnMenu = document.querySelector('.btn-menu');
+    btnMenu.addEventListener('click', () => {
+      htmlClass.toggle('open');
+    });
+
+    
+    const metaTheme = document.querySelector('meta[name="theme-color"]');
+    const lightBg = '#faf8f1'.replace(/"/g, '');
+    const setDark = (isDark) => {
+      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
+      htmlClass[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark);
+    };
+
+    
+    const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    if (htmlClass.contains('dark')) {
+      setDark(true);
+    } else {
+      const darkVal = localStorage.getItem('dark');
+      setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
+    }
+
+    
+    darkScheme.addEventListener('change', (event) => {
+      setDark(event.matches);
+    });
+
+    
+    const btnDark = document.querySelector('.btn-dark');
+    btnDark.addEventListener('click', () => {
+      setDark(localStorage.getItem('dark') !== 'true');
+    });
+  </script>
+
+  <div
+    class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full flex-col justify-center bg-(--bg) pb-16 duration-200 select-none lg:static lg:h-auto lg:flex-row lg:bg-transparent! lg:pb-0 lg:transition-none"
+  ><nav
+      class="lg:ml-12 lg:flex lg:flex-row lg:items-center lg:space-x-10 rtl:space-x-reverse"
+    ><a
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/about/"
+        >About</a
+      ><a
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/archives/"
+        >Archives</a
+      ><a
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/contact/"
+        >Contact</a
+      ></nav><nav
+      class="mt-12 flex justify-center space-x-10 lg:mt-0 lg:items-center ltr:lg:ml-14 rtl:space-x-reverse rtl:lg:mr-14 dark:invert"
+    >
+      <a
+        class="h-7 w-7 text-[0px] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./github.svg)"
+        href="https://github.com/Liam-Zhong"
+        target="_blank"
+        rel="me"
+      >github</a>
+      <a
+        class="h-7 w-7 text-[0px] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./rss.svg)"
+        href="http://localhost:1313/index.xml"
+        target="_blank"
+        rel="alternate"
+      >rss</a>
+    </nav>
+  </div>
+</header>
+<main
+      class="prose prose-neutral dark:prose-invert relative mx-auto min-h-[calc(100vh-9rem)] max-w-(--w) px-8 pt-14 pb-16"
+    ><article class="post special-page">
+  <header class="mb-14">
+    <h1 class="my-0! pb-2.5">SVM 支持向量机</h1><div class="text-xs antialiased opacity-60"><time>Dec 5, 2024</time><span class="mx-1">&middot;</span>
+      <span>Liam</span></div></header>
+
+  <section><p>写这篇博客时看到知乎一篇 16 年的<a href="https://www.zhihu.com/question/41066458/answer/102865064">文章</a>，作者指出传统 SVM 在对一些稀奇古怪的样本进行分类时有比较好的效果，但是评论区纷纷表示：多来几层神经网络就搞定了。由于我知识储备有限，在此就简单讲讲我的理解。</p>
+<hr>
+<h3 id="svm基本形式求解">SVM基本形式求解</h3>
+<p>给定一个二分类问题的训练样本集：</p>
+<p>$D=(x_1,y_1),(x_2,y_2),…,(x_m,y_m),y_i∈−1,+1$<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>，</p>
+<p>我们的目标是找到一条分界线/超平面<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>来将两类区分开，如下图：</p>
+<div style="display: flex; justify-content: center; flex-direction: column; align-items: center;">
+  <!-- 图片部分 -->
+  <img src="https://pic1.zhimg.com/80/v2-37649244ba89c6387a151e8c0937f019_1440w.png" alt="晨起动征铎" class="img-apple">
+  <!-- 文字说明 -->
+  <small style="text-align: center;"></small>
+</div>
+在样本空间中，用 $w^{T}x+b=0$​ 来描述超平面。其中：
+<ul>
+<li>$w=(w_1,w_2,…,w_d)$ 为法向量，决定了超平面的方向</li>
+<li>$b$ 为位移项，决定了超平面与原点的距离。</li>
+</ul>
+<p>如果一个超平面能够将训练样本正确分类，则我们希望这个超平面具有的性质是，对于 $(x_i,y_i)∈D$，有：
+$$
+f(x) =
+\begin{cases}
+w^T x + b \geq 0, &amp; y_i = +1; \
+w^T x + b \leq 0, &amp; y_i = -1.
+\end{cases}
+$$</p>
+<p>换言之，在进行分类的时候，遇到一个新的数据点 $x$，将 $x$ 代入 $f(x)$ 中：</p>
+<ul>
+<li>如果 $f(x)$ 小于 $0$ ，则将 $x$ 的类别赋为 $-1$</li>
+<li>如果 $f(x)$ 大于 $0$ ，则将 $x$ 的类别赋为 $1$</li>
+</ul>
+<p>接下来的问题是，如何确定这个超平面呢? SVM 算法的标准是使直线离两边的点间隔最大。</p>
+<h3 id="间距计算">间距计算</h3>
+<p>点到超平面的距离公式<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>为：</p>
+<p>$$\text{distance} = \frac{|w^T x + b|}{||w||}$$</p>
+<p>注意到这个距离并未区分样本类别，于是令支持向量满足：</p>
+<p><font color="red">$y_i(w^T x_i + b) = λ = 1$</font><sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup></p>
+<p>此时得到间距：$\gamma =\frac{2}{||w||}$</p>
+<h3 id="最优化问题">最优化问题</h3>
+<p>$$\begin{aligned} \max  &amp; \frac{2}{||w||} \ ,\quad\text{s.t.} \quad y_i(w^T x_i + b) \geq 1, \quad i = 1,\ldots,n \end{aligned}$$</p>
+<p>等价地，可以转化为：</p>
+<p><font color="red">$\begin{aligned} \min  &amp; \frac{1}{2}||w||^2 \ \quad\text{s.t.}  \quad y_i(w^T x_i + b) \geq 1, \quad i = 1,\ldots,n \end{aligned}$ </font></p>
+<p>这是一个凸二次规划问题，可以使用拉格朗日对偶理论求解<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup>。</p>
+<h3 id="求得模型">求得模型</h3>
+<p>具体过程此处不题，得：<strong>$f(x)=w^{T}x+b= \sum_{i=1}^m\alpha_i y_i x_i^{T}x+b$</strong></p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>这里的一个问题是为什么 $y$ 取值在 $1$ 和 $-1$ 之间，实际上是随便取的，只不过这样取值比较好计算。&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>此处也不对 <code>超平面</code> 这个词作过多讨论，大概是来源于逻辑回归。&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>$||\omega||$ 表示的就是 $\omega$ 的欧几里得范数或向量的长度（模） 。&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p>本质上，这是一个数学技巧，$\lambda$ 也可以取别的值。&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5">
+<p>那什么是拉格朗日对偶性呢?简单来讲，通过给每一一个约束条件加 $\alpha$，定义拉格朗日函数，最终只对一个式子求最值。&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+</section>
+
+  <nav
+    class="mt-24 flex overflow-hidden rounded-xl bg-black/[3%] text-lg leading-[1.2]! *:flex *:w-1/2 *:items-center *:p-5 *:font-medium *:no-underline dark:bg-white/[8%] [&>*:hover]:bg-black/[2%] dark:[&>*:hover]:bg-white/[3%]"
+  ><a class="ltr:pr-3 rtl:pl-3 no-special-link" href="http://localhost:1313/post/san_xia/">
+      ><span class="ltr:mr-1.5 rtl:ml-1.5">←</span><span>三峡——思君在渝州</span></a
+    ><a
+      class="justify-end pl-3 ltr:ml-auto rtl:mr-auto no-special-link"
+      href="http://localhost:1313/post/linear-regression/"
+      ><span>线性回归</span><span class="ltr:ml-1.5 rtl:mr-1.5">→</span></a
+    ></nav></article></main><footer
+  class="mx-auto flex h-[4.5rem] max-w-(--w) items-center px-8 text-xs tracking-wider uppercase opacity-60"
+>
+  <div class="mr-auto">© 2024-2025, liam.so</div>
+  <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
+    >powered by hugo️️</a
+  >️
+  <a
+    class="link"
+    href="https://github.com/nanxiaobei/hugo-paper"
+    rel="noopener"
+    target="_blank"
+    >hugo-paper</a
+  >
+</footer>
+</body>
+</html>

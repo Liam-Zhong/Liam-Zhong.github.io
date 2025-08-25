@@ -1,0 +1,761 @@
+<!doctype html>
+
+
+
+
+
+
+
+<html
+  class="not-ready lg:text-base"
+  style="--bg:#faf8f1"
+  lang="en"
+  dir="ltr"
+><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+
+  
+  <title>Archives - Chlzhong</title>
+
+  
+  <meta name="theme-color" />
+
+  <meta name="description" content="" />
+  <meta name="author" content="Liam" /><link rel="preload stylesheet" as="style" href="http://localhost:1313/main.min.css" />
+
+  
+  <link rel="preload" as="image" href="http://localhost:1313/theme.svg" />
+
+  <link rel="preload" as="image" href="https://picx.zhimg.com/v2-5fe3afc9c57d74165650721e7a38c045_xll.jpg" />
+
+  <link rel="preload" as="image" href="http://localhost:1313/github.svg" /><link rel="preload" as="image" href="http://localhost:1313/rss.svg" />
+
+  <script
+    defer
+    src="http://localhost:1313/highlight.min.js"
+    onload="hljs.initHighlightingOnLoad();"
+  ></script>
+
+  
+  <link
+    rel="icon"
+    href="http://localhost:1313/favicon.ico"
+  />
+  <link
+    rel="apple-touch-icon"
+    href="http://localhost:1313/apple-touch-icon.png"
+  />
+
+  <meta name="generator" content="Hugo 0.148.2">
+</head>
+<body
+    class="bg-(--bg) text-black antialiased duration-200 ease-out [-webkit-tap-highlight-color:transparent] dark:text-white"
+  ><header
+  class="mx-auto flex h-[4.5rem] max-w-(--w) px-8 whitespace-nowrap lg:justify-center"
+>
+  <div class="relative z-50 flex items-center ltr:mr-auto rtl:ml-auto">
+    <a
+      class="-translate-y-[1px] text-2xl font-medium"
+      href="http://localhost:1313/"
+      >Chlzhong</a
+    >
+    <div
+      class="btn-dark text-[0px] ltr:ml-4 rtl:mr-4 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.svg)_left_center/cover_no-repeat] dark:invert dark:[background-position:right]"
+      role="button"
+      aria-label="Dark"
+    ></div>
+  </div>
+
+  <div
+    class="btn-menu relative z-50 flex h-[4.5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden ltr:-mr-8 rtl:-ml-8"
+    role="button"
+    aria-label="Menu"
+  ></div>
+
+  <script>
+    
+    const htmlClass = document.documentElement.classList;
+    setTimeout(() => {
+      htmlClass.remove('not-ready');
+    }, 10);
+
+    
+    const btnMenu = document.querySelector('.btn-menu');
+    btnMenu.addEventListener('click', () => {
+      htmlClass.toggle('open');
+    });
+
+    
+    const metaTheme = document.querySelector('meta[name="theme-color"]');
+    const lightBg = '#faf8f1'.replace(/"/g, '');
+    const setDark = (isDark) => {
+      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
+      htmlClass[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark);
+    };
+
+    
+    const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    if (htmlClass.contains('dark')) {
+      setDark(true);
+    } else {
+      const darkVal = localStorage.getItem('dark');
+      setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
+    }
+
+    
+    darkScheme.addEventListener('change', (event) => {
+      setDark(event.matches);
+    });
+
+    
+    const btnDark = document.querySelector('.btn-dark');
+    btnDark.addEventListener('click', () => {
+      setDark(localStorage.getItem('dark') !== 'true');
+    });
+  </script>
+
+  <div
+    class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full flex-col justify-center bg-(--bg) pb-16 duration-200 select-none lg:static lg:h-auto lg:flex-row lg:bg-transparent! lg:pb-0 lg:transition-none"
+  ><nav
+      class="lg:ml-12 lg:flex lg:flex-row lg:items-center lg:space-x-10 rtl:space-x-reverse"
+    ><a
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/about/"
+        >About</a
+      ><a
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/archives/"
+        >Archives</a
+      ><a
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/contact/"
+        >Contact</a
+      ></nav><nav
+      class="mt-12 flex justify-center space-x-10 lg:mt-0 lg:items-center ltr:lg:ml-14 rtl:space-x-reverse rtl:lg:mr-14 dark:invert"
+    >
+      <a
+        class="h-7 w-7 text-[0px] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./github.svg)"
+        href="https://github.com/Liam-Zhong"
+        target="_blank"
+        rel="me"
+      >github</a>
+      <a
+        class="h-7 w-7 text-[0px] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./rss.svg)"
+        href="http://localhost:1313/index.xml"
+        target="_blank"
+        rel="alternate"
+      >rss</a>
+    </nav>
+  </div>
+</header>
+<main
+      class="prose prose-neutral dark:prose-invert relative mx-auto min-h-[calc(100vh-9rem)] max-w-(--w) px-8 pt-14 pb-16"
+    >
+<div id="archives-page">
+  <h1>Archives</h1>
+  
+  
+  <div class="archives-container">
+    
+    
+    <div class="year-column">
+      <h2>2025</h2>
+      
+      <div class="month-column">
+        <ul>
+          
+          <li>
+            <span class="date">2025-07-07</span>
+            <a href="http://localhost:1313/post/buliangren/"> Eudemonia - 不良人！</a>
+          </li>
+          
+        </ul>
+      </div>
+      
+      <div class="month-column">
+        <ul>
+          
+          <li>
+            <span class="date">2025-06-23</span>
+            <a href="http://localhost:1313/post/why-i-hate-apple/">我为什么讨厌苹果</a>
+          </li>
+          
+          <li>
+            <span class="date">2025-06-06</span>
+            <a href="http://localhost:1313/post/guardianship-and-guardianships-sequel/">守和守的续</a>
+          </li>
+          
+          <li>
+            <span class="date">2025-06-06</span>
+            <a href="http://localhost:1313/post/moon-and-moons-sequel/">月和月的续</a>
+          </li>
+          
+          <li>
+            <span class="date">2025-06-06</span>
+            <a href="http://localhost:1313/post/autumn-and-autumns-sequel/">秋和秋的续</a>
+          </li>
+          
+        </ul>
+      </div>
+      
+      <div class="month-column">
+        <ul>
+          
+          <li>
+            <span class="date">2025-05-11</span>
+            <a href="http://localhost:1313/post/mothers-day/">Mothers Day</a>
+          </li>
+          
+          <li>
+            <span class="date">2025-05-11</span>
+            <a href="http://localhost:1313/post/mothers-day/">【转】病人</a>
+          </li>
+          
+          <li>
+            <span class="date">2025-05-11</span>
+            <a href="http://localhost:1313/post/casual-chat03/">闲话之伊</a>
+          </li>
+          
+          <li>
+            <span class="date">2025-05-11</span>
+            <a href="http://localhost:1313/post/casual-chat02/">闲话之月</a>
+          </li>
+          
+          <li>
+            <span class="date">2025-05-11</span>
+            <a href="http://localhost:1313/post/casual-chat01/">闲话之秋</a>
+          </li>
+          
+          <li>
+            <span class="date">2025-05-11</span>
+            <a href="http://localhost:1313/post/casual-chat/">闲话零</a>
+          </li>
+          
+        </ul>
+      </div>
+      
+      <div class="month-column">
+        <ul>
+          
+          <li>
+            <span class="date">2025-04-07</span>
+            <a href="http://localhost:1313/post/movies/">清明观影</a>
+          </li>
+          
+          <li>
+            <span class="date">2025-04-06</span>
+            <a href="http://localhost:1313/post/how-are-you/">你好吗？</a>
+          </li>
+          
+        </ul>
+      </div>
+      
+      <div class="month-column">
+        <ul>
+          
+          <li>
+            <span class="date">2025-03-07</span>
+            <a href="http://localhost:1313/post/high-school-life/">双休新闻</a>
+          </li>
+          
+        </ul>
+      </div>
+      
+      <div class="month-column">
+        <ul>
+          
+          <li>
+            <span class="date">2025-01-31</span>
+            <a href="http://localhost:1313/post/joyful-reunion/">相见欢</a>
+          </li>
+          
+          <li>
+            <span class="date">2025-01-24</span>
+            <a href="http://localhost:1313/post/the-tragic-end-of-a-graduate-student/">研殇</a>
+          </li>
+          
+          <li>
+            <span class="date">2025-01-20</span>
+            <a href="http://localhost:1313/post/theory-of-chastity/">贞操论</a>
+          </li>
+          
+          <li>
+            <span class="date">2025-01-15</span>
+            <a href="http://localhost:1313/post/keep-dying/">Keep Dying</a>
+          </li>
+          
+        </ul>
+      </div>
+      
+    </div>
+    
+    
+    
+    <div class="year-column">
+      <h2>2024</h2>
+      
+      <div class="month-column">
+        <ul>
+          
+          <li>
+            <span class="date">2024-12-17</span>
+            <a href="http://localhost:1313/post/eudemonia-07/">Eudemonia - 见雨后</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-12-16</span>
+            <a href="http://localhost:1313/post/how-to-spawn-chained-girls-in-bulk/">如何批量生产铁链女——董志民在第二十届会议上的讲话</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-12-15</span>
+            <a href="http://localhost:1313/post/how-to-stop-windows-11-update/">How to Stop Windows 11 Update</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-12-14</span>
+            <a href="http://localhost:1313/post/bring-instant-noodles/">泡面拿来</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-12-08</span>
+            <a href="http://localhost:1313/post/san_xia/">三峡——思君在渝州</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-12-05</span>
+            <a href="http://localhost:1313/post/svm/">SVM 支持向量机</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-12-05</span>
+            <a href="http://localhost:1313/post/linear-regression/">线性回归</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-12-03</span>
+            <a href="http://localhost:1313/post/navie-bayes-classifer/">朴素贝叶斯算法与垃圾短信识别</a>
+          </li>
+          
+        </ul>
+      </div>
+      
+      <div class="month-column">
+        <ul>
+          
+          <li>
+            <span class="date">2024-11-24</span>
+            <a href="http://localhost:1313/post/integrity-and-kindness/">诚信友善</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-11-23</span>
+            <a href="http://localhost:1313/post/report-format-complaints/">报告格式——通往知识的路上给你绊一跤</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-11-19</span>
+            <a href="http://localhost:1313/post/nothing-but-sighs/">无外乎叹息</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-11-03</span>
+            <a href="http://localhost:1313/post/my-hair_2/">头发二辑</a>
+          </li>
+          
+        </ul>
+      </div>
+      
+      <div class="month-column">
+        <ul>
+          
+          <li>
+            <span class="date">2024-10-31</span>
+            <a href="http://localhost:1313/post/computer-network-train/">计算机网络习题</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-10-28</span>
+            <a href="http://localhost:1313/post/its-ok-its-ok/">Its OK , Its OK</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-10-21</span>
+            <a href="http://localhost:1313/post/denso-internship/">Denso Internship</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-10-18</span>
+            <a href="http://localhost:1313/post/eudemonia-06/">Eudemonia - 烟波山上使人愁</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-10-16</span>
+            <a href="http://localhost:1313/post/esterbrook-yes/">EsterBrook Yes !</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-10-13</span>
+            <a href="http://localhost:1313/post/sohow/">So How?</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-10-10</span>
+            <a href="http://localhost:1313/post/poem-from-he_cheng_chun/">承春的诗</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-10-08</span>
+            <a href="http://localhost:1313/post/how-much-storage-do-you-need-on-your-phone/">你需要多大「内存」的手机？</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-10-07</span>
+            <a href="http://localhost:1313/post/china-day/">【转】国庆日之朝</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-10-05</span>
+            <a href="http://localhost:1313/post/rong-chuang-town-day/">融创小镇：渝西南游乐行</a>
+          </li>
+          
+        </ul>
+      </div>
+      
+      <div class="month-column">
+        <ul>
+          
+          <li>
+            <span class="date">2024-09-30</span>
+            <a href="http://localhost:1313/post/the-shame-of-moving-the-body/">舞动身体的羞耻感</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-09-30</span>
+            <a href="http://localhost:1313/post/rainday/">今天下雨</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-09-29</span>
+            <a href="http://localhost:1313/post/useless-prosper/">麻将集（一）：我独何人，能不靖乱</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-09-28</span>
+            <a href="http://localhost:1313/post/dieary/">日寄</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-09-19</span>
+            <a href="http://localhost:1313/post/the-unknown-mingzhi-garden-442/">你所不知道的明志苑之内部装修</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-09-18</span>
+            <a href="http://localhost:1313/post/eudemonia-05/">中秋记忆</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-09-17</span>
+            <a href="http://localhost:1313/post/mid-autumn-festivial/">【转】过中秋</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-09-17</span>
+            <a href="http://localhost:1313/post/landscape-peach-and-willow-a-woman-with-a-flower-umbrella-inscribed-that-there-is-no-taboo-in-the-mid-autumn-festival/">山水桃柳一女子撑花伞题字曰百无禁忌甲辰中秋</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-09-13</span>
+            <a href="http://localhost:1313/post/foutainpens-again/">又说钢笔</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-09-10</span>
+            <a href="http://localhost:1313/post/fountainpens/">印象中的钢笔们</a>
+          </li>
+          
+        </ul>
+      </div>
+      
+      <div class="month-column">
+        <ul>
+          
+          <li>
+            <span class="date">2024-08-29</span>
+            <a href="http://localhost:1313/post/eudemonia-04/">Eudemonia - 韶光真似浮云</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-08-27</span>
+            <a href="http://localhost:1313/post/imagery/">吹牛之“兴”</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-08-11</span>
+            <a href="http://localhost:1313/post/something-about-verta/">青色魇</a>
+          </li>
+          
+        </ul>
+      </div>
+      
+      <div class="month-column">
+        <ul>
+          
+          <li>
+            <span class="date">2024-07-22</span>
+            <a href="http://localhost:1313/post/short-video-that-needs-to-be-said/">淘音咩</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-07-20</span>
+            <a href="http://localhost:1313/post/songs_02/">听歌系列之少年</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-07-16</span>
+            <a href="http://localhost:1313/post/funny-day/">😒</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-07-16</span>
+            <a href="http://localhost:1313/post/stickers/">从表情包开始</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-07-13</span>
+            <a href="http://localhost:1313/post/about-titles/">谢谢叔叔</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-07-13</span>
+            <a href="http://localhost:1313/post/20-years-old/">二十</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-07-12</span>
+            <a href="http://localhost:1313/post/jiang-kui-post/">王大令楷书保母砖题跋卷</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-07-12</span>
+            <a href="http://localhost:1313/post/history-of-the-ages/">24年中-步立踌躇</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-07-10</span>
+            <a href="http://localhost:1313/post/happy-day/">答辩结束</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-07-06</span>
+            <a href="http://localhost:1313/post/caozhi/">兄弟，愿为西南风</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-07-05</span>
+            <a href="http://localhost:1313/post/letter-with-that-girl/">和丫头的信</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-07-04</span>
+            <a href="http://localhost:1313/post/why-cant-some-people-even-pass-the-man-machine-certification/">怎么有人连人机验证都过不了</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-07-03</span>
+            <a href="http://localhost:1313/post/eudemonia-03/">Eudemonia - 夏晚</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-07-03</span>
+            <a href="http://localhost:1313/post/talented-and-beautiful/">也谈才子佳人</a>
+          </li>
+          
+        </ul>
+      </div>
+      
+      <div class="month-column">
+        <ul>
+          
+          <li>
+            <span class="date">2024-06-30</span>
+            <a href="http://localhost:1313/post/eudemonia-02/">Eudemonia - 来自天空的蓝翎鸟儿是我的爱人</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-06-27</span>
+            <a href="http://localhost:1313/post/joker/">DM💣</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-06-26</span>
+            <a href="http://localhost:1313/post/new-world/">同一片蓝天</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-06-24</span>
+            <a href="http://localhost:1313/post/a-new-old-play/">此情可待成追忆</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-06-23</span>
+            <a href="http://localhost:1313/post/bad-thing/">“永不褪色”</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-06-22</span>
+            <a href="http://localhost:1313/post/study-materials-exam-preparation-version/">学习资料-应付考试版</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-06-21</span>
+            <a href="http://localhost:1313/post/about-love/">谈情说爱</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-06-21</span>
+            <a href="http://localhost:1313/post/fxxk/">奶奶的</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-06-20</span>
+            <a href="http://localhost:1313/post/simple-poem/">南山夜雨</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-06-18</span>
+            <a href="http://localhost:1313/post/chuiniu-02/">吹牛（2）</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-06-17</span>
+            <a href="http://localhost:1313/post/%E5%90%B9%E7%89%9B/">吹牛系列</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-06-16</span>
+            <a href="http://localhost:1313/post/eudemonia/">Eudemonia - 海底的云和少女</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-06-15</span>
+            <a href="http://localhost:1313/post/funny-news/">重庆市民钟先生遭歹猫袭击受伤 公众呼吁加强治安管理</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-06-13</span>
+            <a href="http://localhost:1313/post/my-hair/">我的头发</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-06-11</span>
+            <a href="http://localhost:1313/post/songs_1/">听歌系列之烦恼</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-06-10</span>
+            <a href="http://localhost:1313/post/%E7%B2%BD%E5%AD%90%E8%8A%82%E5%BF%AB%E4%B9%90/">粽子节快乐</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-06-09</span>
+            <a href="http://localhost:1313/post/buy-a-book/">购书一本</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-06-06</span>
+            <a href="http://localhost:1313/post/tao-flower/">搯花</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-06-05</span>
+            <a href="http://localhost:1313/post/minecraft/">Minecraft</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-06-04</span>
+            <a href="http://localhost:1313/post/soulsan/">Soulsan</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-06-03</span>
+            <a href="http://localhost:1313/post/crazy-life_1/">发电系列之图图呢</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-06-03</span>
+            <a href="http://localhost:1313/post/attempted-work/">报告未遂</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-06-02</span>
+            <a href="http://localhost:1313/post/statistic/">Statistic</a>
+          </li>
+          
+        </ul>
+      </div>
+      
+      <div class="month-column">
+        <ul>
+          
+          <li>
+            <span class="date">2024-05-31</span>
+            <a href="http://localhost:1313/post/fox-and-cat/">狐狸和猫</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-05-30</span>
+            <a href="http://localhost:1313/post/what-on-earth-have-we-learned/">我们到底学到了什么？</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-05-26</span>
+            <a href="http://localhost:1313/post/jiangjiang/">江阿姨</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-05-26</span>
+            <a href="http://localhost:1313/post/guide-to-building-a-website/">建站指北</a>
+          </li>
+          
+          <li>
+            <span class="date">2024-05-26</span>
+            <a href="http://localhost:1313/post/demo01/">Demo01</a>
+          </li>
+          
+        </ul>
+      </div>
+      
+    </div>
+    
+    
+    
+    
+  </div>
+</div>
+</main><footer
+  class="mx-auto flex h-[4.5rem] max-w-(--w) items-center px-8 text-xs tracking-wider uppercase opacity-60"
+>
+  <div class="mr-auto">© 2024-2025, liam.so</div>
+  <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
+    >powered by hugo️️</a
+  >️
+  <a
+    class="link"
+    href="https://github.com/nanxiaobei/hugo-paper"
+    rel="noopener"
+    target="_blank"
+    >hugo-paper</a
+  >
+</footer>
+</body>
+</html>
