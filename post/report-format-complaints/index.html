@@ -23,7 +23,8 @@
   <title>报告格式——通往知识的路上给你绊一跤 - Chlzhong</title>
 
   
-  <meta name="theme-color" />
+  <meta name="theme-color" content="#FAF8F2" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#262525" media="(prefers-color-scheme: dark)">
 
   <meta name="description" content="早在今年 6 月 3 号，我就已经被格式这东西折磨过一遍了。如果说大学的知识还能勉强算是人类进步的阶梯，那么格式就是这个阶梯的绊脚石，放着好好的 Markdown 不用，给一个 95 年的 .doc 修修改改（各种格式刷字号间距什么的），收齐给老师之后除了收到是什么都没得的一个东西。实在是反人类。
 幸好，还有 pandoc 。尽管博主只是第一次接触这个东西，但已经控制不住安利给同学们的冲动，因为你甚至不需要在饼子上搜索学习它的种种用法，只需要准备一个完成的样例.docx、你写好的 name.md，放在同一个目录下，终端敲一句简单的：
@@ -83,7 +84,7 @@ OK，去交作业吧  :P" />
 <link rel="manifest" href="/site.webmanifest" />
 
 
-<meta property="og:title" content="chlzhong">
+<meta property="og:title" content="Chlzhong">
 <meta property="og:description" content="Personal blog by Chlzhong">
 <meta property="og:image" content="/og.png">
 <meta property="og:url" content="https://chlzhong.org">
@@ -149,9 +150,11 @@ OK，去交作业吧  :P" />
 
     
     const metaTheme = document.querySelector('meta[name="theme-color"]');
-    const lightBg = '#faf8f1'.replace(/"/g, '');
+    const lightColor = '#FAF8F2';  
+    const darkColor = '#262525';   
+
     const setDark = (isDark) => {
-      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
+      metaTheme.setAttribute('content', isDark ? darkColor : lightColor);
       htmlClass[isDark ? 'add' : 'remove']('dark');
       localStorage.setItem('dark', isDark);
     };

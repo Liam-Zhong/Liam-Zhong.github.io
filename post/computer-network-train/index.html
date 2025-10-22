@@ -23,7 +23,8 @@
   <title>计算机网络习题 - Chlzhong</title>
 
   
-  <meta name="theme-color" />
+  <meta name="theme-color" content="#FAF8F2" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#262525" media="(prefers-color-scheme: dark)">
 
   <meta name="description" content="第1次作业
 
@@ -123,7 +124,7 @@ t发送时延 =  $\frac{数据帧长度}{数据率}$
 <link rel="manifest" href="/site.webmanifest" />
 
 
-<meta property="og:title" content="chlzhong">
+<meta property="og:title" content="Chlzhong">
 <meta property="og:description" content="Personal blog by Chlzhong">
 <meta property="og:image" content="/og.png">
 <meta property="og:url" content="https://chlzhong.org">
@@ -189,9 +190,11 @@ t发送时延 =  $\frac{数据帧长度}{数据率}$
 
     
     const metaTheme = document.querySelector('meta[name="theme-color"]');
-    const lightBg = '#faf8f1'.replace(/"/g, '');
+    const lightColor = '#FAF8F2';  
+    const darkColor = '#262525';   
+
     const setDark = (isDark) => {
-      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
+      metaTheme.setAttribute('content', isDark ? darkColor : lightColor);
       htmlClass[isDark ? 'add' : 'remove']('dark');
       localStorage.setItem('dark', isDark);
     };

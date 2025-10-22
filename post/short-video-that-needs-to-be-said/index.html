@@ -23,7 +23,8 @@
   <title>淘音咩 - Chlzhong</title>
 
   
-  <meta name="theme-color" />
+  <meta name="theme-color" content="#FAF8F2" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#262525" media="(prefers-color-scheme: dark)">
 
   <meta name="description" content="纵观我手机里还有的三个购物软件（拼多多、京东、淘宝），前二者只京东带有小红书样式的低质量广告图文，唯独淘宝这个毒瘤，做个短视频在里面。其实我购物流程一般是直奔商品页，复制链接查看历史最低价，根据想要程度判定拿下时间……可谓极典型正常用户。我真的很好奇到底是谁会去淘宝里刷短视频？开发人员自己会刷吗？？？
 讲到这个事情又想到了带货直播。我也无法理解这种事情:它和反智的电视直销“前 50 打进电话”有什么区别，难道区别就是一个利用网络，一个利用电视台？看电视、追剧的时候我们都会很主动的想避开广告、很讨厌广告，为什么却会主动去看广告，主动接受商家的洗脑？？我愿称之为人间迷惑行为 。
@@ -83,7 +84,7 @@
 <link rel="manifest" href="/site.webmanifest" />
 
 
-<meta property="og:title" content="chlzhong">
+<meta property="og:title" content="Chlzhong">
 <meta property="og:description" content="Personal blog by Chlzhong">
 <meta property="og:image" content="/og.png">
 <meta property="og:url" content="https://chlzhong.org">
@@ -149,9 +150,11 @@
 
     
     const metaTheme = document.querySelector('meta[name="theme-color"]');
-    const lightBg = '#faf8f1'.replace(/"/g, '');
+    const lightColor = '#FAF8F2';  
+    const darkColor = '#262525';   
+
     const setDark = (isDark) => {
-      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
+      metaTheme.setAttribute('content', isDark ? darkColor : lightColor);
       htmlClass[isDark ? 'add' : 'remove']('dark');
       localStorage.setItem('dark', isDark);
     };

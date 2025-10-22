@@ -23,7 +23,8 @@
   <title>贞操论 - Chlzhong</title>
 
   
-  <meta name="theme-color" />
+  <meta name="theme-color" content="#FAF8F2" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#262525" media="(prefers-color-scheme: dark)">
 
   <meta name="description" content="笔者最近在阅读金瓶梅，对社会问题的漠漠使我自然地关注到男女之事上，遂作此文。
 逐一盘点西门庆的她们，非但男子的贞操，连女子的贞操，也不为书中各角色所在意：除正室吴月娘，哪位不是别人的妻子？就拿潘金莲来说，西门庆没有嫌弃她从卖饼的武大郎那里出来，照样娶进门，为后来“禁书”的评价留下诸多描写。还有李瓶儿，除去钱财的 buff，花子虚死后又和另一位男子结婚，就这样西门庆也没有嫌人家“不是白纸”，盖新楼娶了过来还育一子。
@@ -87,7 +88,7 @@
 <link rel="manifest" href="/site.webmanifest" />
 
 
-<meta property="og:title" content="chlzhong">
+<meta property="og:title" content="Chlzhong">
 <meta property="og:description" content="Personal blog by Chlzhong">
 <meta property="og:image" content="/og.png">
 <meta property="og:url" content="https://chlzhong.org">
@@ -174,9 +175,11 @@
 
     
     const metaTheme = document.querySelector('meta[name="theme-color"]');
-    const lightBg = '#faf8f1'.replace(/"/g, '');
+    const lightColor = '#FAF8F2';  
+    const darkColor = '#262525';   
+
     const setDark = (isDark) => {
-      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
+      metaTheme.setAttribute('content', isDark ? darkColor : lightColor);
       htmlClass[isDark ? 'add' : 'remove']('dark');
       localStorage.setItem('dark', isDark);
     };

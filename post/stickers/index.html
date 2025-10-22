@@ -23,7 +23,8 @@
   <title>从表情包开始 - Chlzhong</title>
 
   
-  <meta name="theme-color" />
+  <meta name="theme-color" content="#FAF8F2" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#262525" media="(prefers-color-scheme: dark)">
 
   <meta name="description" content="很久以前，我在使用 Hello Talk 的时候遇到了一位急切的女士（简直是女色狼）。她的热情让我有些不知所措，我急于脱身，于是对她说我们的聊天是“毫无意义的”。谁知她因此大发雷霆，向我倾泻了一大堆11号单词，然后就把我拉黑了。
 现在回想起来，我意识到当时我的英语水平有限，没有能够恰当地表达我的意思。我想解释的是，其实大部分日常聊天都是“毫无意义的”——它们只是一些简单的交流，不必过于认真对待。我并不是想冒犯她，而只是希望她明白，我对这种过于热烈的互动有些不适应。
@@ -94,7 +95,7 @@
 <link rel="manifest" href="/site.webmanifest" />
 
 
-<meta property="og:title" content="chlzhong">
+<meta property="og:title" content="Chlzhong">
 <meta property="og:description" content="Personal blog by Chlzhong">
 <meta property="og:image" content="/og.png">
 <meta property="og:url" content="https://chlzhong.org">
@@ -160,9 +161,11 @@
 
     
     const metaTheme = document.querySelector('meta[name="theme-color"]');
-    const lightBg = '#faf8f1'.replace(/"/g, '');
+    const lightColor = '#FAF8F2';  
+    const darkColor = '#262525';   
+
     const setDark = (isDark) => {
-      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
+      metaTheme.setAttribute('content', isDark ? darkColor : lightColor);
       htmlClass[isDark ? 'add' : 'remove']('dark');
       localStorage.setItem('dark', isDark);
     };

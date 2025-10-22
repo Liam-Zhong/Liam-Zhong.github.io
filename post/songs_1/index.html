@@ -23,7 +23,8 @@
   <title>听歌系列之烦恼 - Chlzhong</title>
 
   
-  <meta name="theme-color" />
+  <meta name="theme-color" content="#FAF8F2" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#262525" media="(prefers-color-scheme: dark)">
 
   <meta name="description" content="第一次听蛋堡是在罗大佑的春夏秋冬里。“过程”给我一个轻快悠扬朗朗上口的感觉，全然与之前（现在也是）对饶舌 rap 歌曲的厌恶不同。“小熊”的调调也非常吸引我的耳虫，早已是我的穿脑魔音了。
 今天有点不开心，于是打开 AM 开始随机播放蛋堡的歌——
@@ -100,7 +101,7 @@
 <link rel="manifest" href="/site.webmanifest" />
 
 
-<meta property="og:title" content="chlzhong">
+<meta property="og:title" content="Chlzhong">
 <meta property="og:description" content="Personal blog by Chlzhong">
 <meta property="og:image" content="/og.png">
 <meta property="og:url" content="https://chlzhong.org">
@@ -166,9 +167,11 @@
 
     
     const metaTheme = document.querySelector('meta[name="theme-color"]');
-    const lightBg = '#faf8f1'.replace(/"/g, '');
+    const lightColor = '#FAF8F2';  
+    const darkColor = '#262525';   
+
     const setDark = (isDark) => {
-      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
+      metaTheme.setAttribute('content', isDark ? darkColor : lightColor);
       htmlClass[isDark ? 'add' : 'remove']('dark');
       localStorage.setItem('dark', isDark);
     };

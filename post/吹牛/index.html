@@ -23,7 +23,8 @@
   <title>吹牛系列 - Chlzhong</title>
 
   
-  <meta name="theme-color" />
+  <meta name="theme-color" content="#FAF8F2" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#262525" media="(prefers-color-scheme: dark)">
 
   <meta name="description" content="一、面纱
 勤奋是一种美德，爱国主义，集体主义，忠诚， 责任。词汇学意义上的美好事物侵害个人自由个性和隐私尊严。集体主义始终无法自圆其说地回答一个最基本的质疑:凭什么说我们是自己人？我为什么要爱这个“集体”?民主一点的自由主义呢，事实上他们只是把社会从一种压迫转到了另一种压迫，一种表面看上去公平交易的压迫。人人好像生而平等。1，然而当三个人开始为利益投票，中学生都能算出有$C_3^2$种排列组合，倘若是两个歹徒和一位受害者呢？
@@ -108,7 +109,7 @@ Il n&rsquo;y a qu&rsquo;un héroïsme au monde: c&rsquo;est de renaître d&rsquo
 <link rel="manifest" href="/site.webmanifest" />
 
 
-<meta property="og:title" content="chlzhong">
+<meta property="og:title" content="Chlzhong">
 <meta property="og:description" content="Personal blog by Chlzhong">
 <meta property="og:image" content="/og.png">
 <meta property="og:url" content="https://chlzhong.org">
@@ -174,9 +175,11 @@ Il n&rsquo;y a qu&rsquo;un héroïsme au monde: c&rsquo;est de renaître d&rsquo
 
     
     const metaTheme = document.querySelector('meta[name="theme-color"]');
-    const lightBg = '#faf8f1'.replace(/"/g, '');
+    const lightColor = '#FAF8F2';  
+    const darkColor = '#262525';   
+
     const setDark = (isDark) => {
-      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
+      metaTheme.setAttribute('content', isDark ? darkColor : lightColor);
       htmlClass[isDark ? 'add' : 'remove']('dark');
       localStorage.setItem('dark', isDark);
     };

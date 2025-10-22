@@ -23,7 +23,8 @@
   <title>粽子节快乐 - Chlzhong</title>
 
   
-  <meta name="theme-color" />
+  <meta name="theme-color" content="#FAF8F2" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#262525" media="(prefers-color-scheme: dark)">
 
   <meta name="description" content="不记得哪个互联网人说的了，“我们几千号人每天就在研究怎么让人上瘾，你说你靠意志力战胜了我们 App，这是有多看不起我们的专业水平？要是你只靠意志力就可以避免上瘾，那我们吃什么？”
 让人上瘾东西太多了，大学生控制力远远不足以对抗，所以每天刷抖音、小红书（笑死我了，原文甚至没有你乎），关注的都是一些无关紧要的信息，什么谁又瘦了 100 斤，哪个明星又分手了哪个明星又有绯闻了 blabla，看起来学到了很多，但其实都对当下的生活没什么帮助。
@@ -109,7 +110,7 @@
 <link rel="manifest" href="/site.webmanifest" />
 
 
-<meta property="og:title" content="chlzhong">
+<meta property="og:title" content="Chlzhong">
 <meta property="og:description" content="Personal blog by Chlzhong">
 <meta property="og:image" content="/og.png">
 <meta property="og:url" content="https://chlzhong.org">
@@ -175,9 +176,11 @@
 
     
     const metaTheme = document.querySelector('meta[name="theme-color"]');
-    const lightBg = '#faf8f1'.replace(/"/g, '');
+    const lightColor = '#FAF8F2';  
+    const darkColor = '#262525';   
+
     const setDark = (isDark) => {
-      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
+      metaTheme.setAttribute('content', isDark ? darkColor : lightColor);
       htmlClass[isDark ? 'add' : 'remove']('dark');
       localStorage.setItem('dark', isDark);
     };

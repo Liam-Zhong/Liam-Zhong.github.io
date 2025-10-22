@@ -23,7 +23,8 @@
   <title>三峡——思君在渝州 - Chlzhong</title>
 
   
-  <meta name="theme-color" />
+  <meta name="theme-color" content="#FAF8F2" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#262525" media="(prefers-color-scheme: dark)">
 
   <meta name="description" content="秋远。峡谷的叶子也越来越红，一早一晚是它们最爱的时间，大概吝啬似细植也爱妩媚的江山。风起的时候，我常常站在队尾看风吹山红们，把生命枯萎的叶片吹掉，留下羞而热情的被风吹得透彻的叶子。
 这次出游的小伙伴很多，定了行程发现实在匆匆忙忙（甚至带上了电脑……），神经本该绷得紧了些。却忍不住给自己喘口轻松气，呼吸下学校 6 点的空气，呼吸下山野里水波和着红叶的清新。
@@ -108,7 +109,7 @@
 <link rel="manifest" href="/site.webmanifest" />
 
 
-<meta property="og:title" content="chlzhong">
+<meta property="og:title" content="Chlzhong">
 <meta property="og:description" content="Personal blog by Chlzhong">
 <meta property="og:image" content="/og.png">
 <meta property="og:url" content="https://chlzhong.org">
@@ -195,9 +196,11 @@ hello world">
 
     
     const metaTheme = document.querySelector('meta[name="theme-color"]');
-    const lightBg = '#faf8f1'.replace(/"/g, '');
+    const lightColor = '#FAF8F2';  
+    const darkColor = '#262525';   
+
     const setDark = (isDark) => {
-      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
+      metaTheme.setAttribute('content', isDark ? darkColor : lightColor);
       htmlClass[isDark ? 'add' : 'remove']('dark');
       localStorage.setItem('dark', isDark);
     };

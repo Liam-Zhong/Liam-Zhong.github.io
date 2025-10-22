@@ -23,7 +23,8 @@
   <title>线性回归 - Chlzhong</title>
 
   
-  <meta name="theme-color" />
+  <meta name="theme-color" content="#FAF8F2" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#262525" media="(prefers-color-scheme: dark)">
 
   <meta name="description" content="线性回归理解起来很简单，当参数样本只有一个特征与一个标签时就是高中学最小二乘法的那个模型，两个特征及以上时则是大学概率论上学的参数估计，只不过估计参数时选用了梯度下降法。
 值得注意的是损失函数的选择，为什么是平方误差函数而不是差的绝对值呢？这里其实是因为我们假定偏差的分布符合高斯分布，其对应的概率密度函数就是平方和形式，而且差的绝对值（拉普拉斯分布）所对应的极大似然函数没法方便寻优。
@@ -102,7 +103,7 @@ $\nabla f = \left( \frac{\partial f}{\partial x_1}, \frac{\partial f}{\partial x
 <link rel="manifest" href="/site.webmanifest" />
 
 
-<meta property="og:title" content="chlzhong">
+<meta property="og:title" content="Chlzhong">
 <meta property="og:description" content="Personal blog by Chlzhong">
 <meta property="og:image" content="/og.png">
 <meta property="og:url" content="https://chlzhong.org">
@@ -168,9 +169,11 @@ $\nabla f = \left( \frac{\partial f}{\partial x_1}, \frac{\partial f}{\partial x
 
     
     const metaTheme = document.querySelector('meta[name="theme-color"]');
-    const lightBg = '#faf8f1'.replace(/"/g, '');
+    const lightColor = '#FAF8F2';  
+    const darkColor = '#262525';   
+
     const setDark = (isDark) => {
-      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
+      metaTheme.setAttribute('content', isDark ? darkColor : lightColor);
       htmlClass[isDark ? 'add' : 'remove']('dark');
       localStorage.setItem('dark', isDark);
     };
