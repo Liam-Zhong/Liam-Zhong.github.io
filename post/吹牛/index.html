@@ -162,6 +162,7 @@ Il n&rsquo;y a qu&rsquo;un héroïsme au monde: c&rsquo;est de renaître d&rsquo
 
   <script>
     
+  document.addEventListener('DOMContentLoaded',()=> {
     const htmlClass = document.documentElement.classList;
     setTimeout(() => {
       htmlClass.remove('not-ready');
@@ -203,6 +204,7 @@ Il n&rsquo;y a qu&rsquo;un héroïsme au monde: c&rsquo;est de renaître d&rsquo
     btnDark.addEventListener('click', () => {
       setDark(localStorage.getItem('dark') !== 'true');
     });
+  });
   </script>
 
   <div

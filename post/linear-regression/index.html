@@ -156,6 +156,7 @@ $\nabla f = \left( \frac{\partial f}{\partial x_1}, \frac{\partial f}{\partial x
 
   <script>
     
+  document.addEventListener('DOMContentLoaded',()=> {
     const htmlClass = document.documentElement.classList;
     setTimeout(() => {
       htmlClass.remove('not-ready');
@@ -197,6 +198,7 @@ $\nabla f = \left( \frac{\partial f}{\partial x_1}, \frac{\partial f}{\partial x
     btnDark.addEventListener('click', () => {
       setDark(localStorage.getItem('dark') !== 'true');
     });
+  });
   </script>
 
   <div

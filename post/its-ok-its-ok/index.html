@@ -137,6 +137,7 @@ After spending an entire class period building up my mental fortitude, I finally
 
   <script>
     
+  document.addEventListener('DOMContentLoaded',()=> {
     const htmlClass = document.documentElement.classList;
     setTimeout(() => {
       htmlClass.remove('not-ready');
@@ -178,6 +179,7 @@ After spending an entire class period building up my mental fortitude, I finally
     btnDark.addEventListener('click', () => {
       setDark(localStorage.getItem('dark') !== 'true');
     });
+  });
   </script>
 
   <div

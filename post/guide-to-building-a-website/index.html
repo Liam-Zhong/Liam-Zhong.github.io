@@ -143,6 +143,7 @@ hugo version
 
   <script>
     
+  document.addEventListener('DOMContentLoaded',()=> {
     const htmlClass = document.documentElement.classList;
     setTimeout(() => {
       htmlClass.remove('not-ready');
@@ -184,6 +185,7 @@ hugo version
     btnDark.addEventListener('click', () => {
       setDark(localStorage.getItem('dark') !== 'true');
     });
+  });
   </script>
 
   <div

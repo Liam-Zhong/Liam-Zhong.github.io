@@ -227,6 +227,7 @@ Steve Jobs 重新发明了手机，在晚些时候，他还带来了 APP Store �
 
   <script>
     
+  document.addEventListener('DOMContentLoaded',()=> {
     const htmlClass = document.documentElement.classList;
     setTimeout(() => {
       htmlClass.remove('not-ready');
@@ -268,6 +269,7 @@ Steve Jobs 重新发明了手机，在晚些时候，他还带来了 APP Store �
     btnDark.addEventListener('click', () => {
       setDark(localStorage.getItem('dark') !== 'true');
     });
+  });
   </script>
 
   <div

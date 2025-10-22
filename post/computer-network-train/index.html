@@ -177,6 +177,7 @@ t发送时延 =  $\frac{数据帧长度}{数据率}$
 
   <script>
     
+  document.addEventListener('DOMContentLoaded',()=> {
     const htmlClass = document.documentElement.classList;
     setTimeout(() => {
       htmlClass.remove('not-ready');
@@ -218,6 +219,7 @@ t发送时延 =  $\frac{数据帧长度}{数据率}$
     btnDark.addEventListener('click', () => {
       setDark(localStorage.getItem('dark') !== 'true');
     });
+  });
   </script>
 
   <div

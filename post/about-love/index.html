@@ -164,6 +164,7 @@ $L \subseteq P \times P $ 。如果 $(p_1, p_2) \in L $，这表示人 $p_1 $ �
 
   <script>
     
+  document.addEventListener('DOMContentLoaded',()=> {
     const htmlClass = document.documentElement.classList;
     setTimeout(() => {
       htmlClass.remove('not-ready');
@@ -205,6 +206,7 @@ $L \subseteq P \times P $ 。如果 $(p_1, p_2) \in L $，这表示人 $p_1 $ �
     btnDark.addEventListener('click', () => {
       setDark(localStorage.getItem('dark') !== 'true');
     });
+  });
   </script>
 
   <div
