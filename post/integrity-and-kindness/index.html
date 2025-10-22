@@ -23,8 +23,7 @@
   <title>诚信友善 - Chlzhong</title>
 
   
-  <meta name="theme-color" content="#FAF8F2" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#262525" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" />
 
   <meta name="description" content="笔者自 2020 年来，便鲜少在网络社交平台上发表任何言论。缘由有二：一方面，疫情期间我们见证了太多情绪化的言辞，言辞激烈，脆弱的人心在这些情绪化的语言中往往容易受到伤害；另一方面，许多平台的设计不能提供诸如“我的评论”一类的功能，用户很难方便地管理或回顾自己的评论，除非有他人回复，否则你再也无法找到那条曾经自己留下的观点。正是因为这些原因，我逐渐疏远了社交平台，直到我遇见了钢笔，这种新的爱好给了我一个回归的理由。
 在 FPN 网站上，尽管地理上的距离和文化的差异使得人与人之间的交流带有一定的局限性，但钢笔爱好者群体的互相尊重与严谨却让我久违地感受到了人与人之间的温暖与欣喜。或许是因为这个社区的用户大多来自于国外，而钢笔这一传统文化的持有者大多为中老年人，大家在交流时往往会更加细致与体贴。这种氛围让我不禁反思（😒），网络社交平台为何不能有更多这样的交流空间呢？
@@ -36,7 +35,7 @@
   
   <link rel="preload" as="image" href="https://chlzhong.org/theme.svg" />
 
-  <link rel="preload" as="image" href="https://cdn.jsdelivr.net/gh/Liam-Zhong/image-host/my-notion-face-transparent.png" />
+  <link rel="preload" as="image" href="https://pic3.zhimg.com/80/v2-5598b103af19fca6dfc20d8183853c48_1440w.jpg" />
 
   <link rel="preload" as="image" href="https://chlzhong.org/github.svg" /><link rel="preload" as="image" href="https://chlzhong.org/mastodon.svg" /><link rel="preload" as="image" href="https://chlzhong.org/rss.svg" />
 
@@ -138,7 +137,6 @@
 
   <script>
     
-  document.addEventListener('DOMContentLoaded',()=> {
     const htmlClass = document.documentElement.classList;
     setTimeout(() => {
       htmlClass.remove('not-ready');
@@ -152,11 +150,9 @@
 
     
     const metaTheme = document.querySelector('meta[name="theme-color"]');
-    const lightColor = '#FAF8F2';  
-    const darkColor = '#262525';   
-
+    const lightBg = '#faf8f1'.replace(/"/g, '');
     const setDark = (isDark) => {
-      metaTheme.setAttribute('content', isDark ? darkColor : lightColor);
+      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
       htmlClass[isDark ? 'add' : 'remove']('dark');
       localStorage.setItem('dark', isDark);
     };
@@ -180,7 +176,6 @@
     btnDark.addEventListener('click', () => {
       setDark(localStorage.getItem('dark') !== 'true');
     });
-  });
   </script>
 
   <div

@@ -23,8 +23,7 @@
   <title>如何批量生产铁链女——董志民在第二十届会议上的讲话 - Chlzhong</title>
 
   
-  <meta name="theme-color" content="#FAF8F2" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#262525" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" />
 
   <meta name="description" content="各位教授好，我们研究组长期致力于探究如何批量生产铁链女的话题。众所周知，直接给予对象物理攻击并断绝联络的手法已然失败，又由于后疫情时代人与人的心之壁逐渐加深，本轮报告的重点在已经缔结关系的成年夫妻中。
 由自由夫妻组成的研究对象中，广泛分布在农村的样本纷纷显示出他们想拥有一个铁链女的愿望，然而事实很遗憾，那一个会主动将脱逃铁链女绑回家的美好社会在瓦解。同时，维护她们的成本正变得越来越高，不仅要费心于她们的逃离，还要保证在生活上的支出小于她们所承担的所有家务劳动。自十九次会议来我们不断进行实践探索和理论思考，终于形成了一套高效的批量生产铁链女的办法。
@@ -38,7 +37,7 @@
   
   <link rel="preload" as="image" href="https://chlzhong.org/theme.svg" />
 
-  <link rel="preload" as="image" href="https://cdn.jsdelivr.net/gh/Liam-Zhong/image-host/my-notion-face-transparent.png" />
+  <link rel="preload" as="image" href="https://pic3.zhimg.com/80/v2-5598b103af19fca6dfc20d8183853c48_1440w.jpg" />
 
   <link rel="preload" as="image" href="https://chlzhong.org/github.svg" /><link rel="preload" as="image" href="https://chlzhong.org/mastodon.svg" /><link rel="preload" as="image" href="https://chlzhong.org/rss.svg" />
 
@@ -146,7 +145,6 @@
 
   <script>
     
-  document.addEventListener('DOMContentLoaded',()=> {
     const htmlClass = document.documentElement.classList;
     setTimeout(() => {
       htmlClass.remove('not-ready');
@@ -160,11 +158,9 @@
 
     
     const metaTheme = document.querySelector('meta[name="theme-color"]');
-    const lightColor = '#FAF8F2';  
-    const darkColor = '#262525';   
-
+    const lightBg = '#faf8f1'.replace(/"/g, '');
     const setDark = (isDark) => {
-      metaTheme.setAttribute('content', isDark ? darkColor : lightColor);
+      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
       htmlClass[isDark ? 'add' : 'remove']('dark');
       localStorage.setItem('dark', isDark);
     };
@@ -188,7 +184,6 @@
     btnDark.addEventListener('click', () => {
       setDark(localStorage.getItem('dark') !== 'true');
     });
-  });
   </script>
 
   <div

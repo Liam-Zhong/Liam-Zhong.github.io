@@ -23,8 +23,7 @@
   <title>吹牛（2） - Chlzhong</title>
 
   
-  <meta name="theme-color" content="#FAF8F2" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#262525" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" />
 
   <meta name="description" content="电子海洛因和我的平替人生 
 知乎里的游戏受众总是把游戏视为纯洁无瑕的存在，一看到“电子海洛因”这个词就急忙发知乎惊喜。然而，不论是网游还是单机游戏，作为一种商品，它们的本质都是为了赚钱。许多所谓的第九艺术不过是画面精美的一人称电影，未能展现游戏这一媒体的特殊性质。看看那些单机 3A 手摇电影，我真不知道是如何与第九艺术挂上钩的。在我看来，艺术是作者通过特定的方式和技法来表达自己的思想，媒介并不是必要的。以画面取胜的《Gris》和《荒野大镖客 2》当然是好游戏，要称之为艺术也未尝不可，只是不要强行与第九这个开天辟地的词汇挂钩就好了。（单论网游，更是可以直呼其为电子海洛因：至少它们真的会分泌多巴胺，而所谓的艺术性却谈不上）
@@ -75,7 +74,7 @@
   
   <link rel="preload" as="image" href="https://chlzhong.org/theme.svg" />
 
-  <link rel="preload" as="image" href="https://cdn.jsdelivr.net/gh/Liam-Zhong/image-host/my-notion-face-transparent.png" />
+  <link rel="preload" as="image" href="https://pic3.zhimg.com/80/v2-5598b103af19fca6dfc20d8183853c48_1440w.jpg" />
 
   <link rel="preload" as="image" href="https://chlzhong.org/github.svg" /><link rel="preload" as="image" href="https://chlzhong.org/mastodon.svg" /><link rel="preload" as="image" href="https://chlzhong.org/rss.svg" />
 
@@ -177,7 +176,6 @@
 
   <script>
     
-  document.addEventListener('DOMContentLoaded',()=> {
     const htmlClass = document.documentElement.classList;
     setTimeout(() => {
       htmlClass.remove('not-ready');
@@ -191,11 +189,9 @@
 
     
     const metaTheme = document.querySelector('meta[name="theme-color"]');
-    const lightColor = '#FAF8F2';  
-    const darkColor = '#262525';   
-
+    const lightBg = '#faf8f1'.replace(/"/g, '');
     const setDark = (isDark) => {
-      metaTheme.setAttribute('content', isDark ? darkColor : lightColor);
+      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
       htmlClass[isDark ? 'add' : 'remove']('dark');
       localStorage.setItem('dark', isDark);
     };
@@ -219,7 +215,6 @@
     btnDark.addEventListener('click', () => {
       setDark(localStorage.getItem('dark') !== 'true');
     });
-  });
   </script>
 
   <div

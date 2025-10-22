@@ -23,8 +23,7 @@
   <title>So How? - Chlzhong</title>
 
   
-  <meta name="theme-color" content="#FAF8F2" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#262525" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" />
 
   <meta name="description" content="In this information age, no matter what you&rsquo;re trying to learn, the first crucial step is learning how to ask questions. If Google and Bing can solve your problem, don&rsquo;t bother others with it.
 I have a friend who always likes to ask me extremely abstract questions (concrete ones are fine too, as long as they&rsquo;re easily answerable just by looking at the words, even though I know they mean something else). Especially when done through WeChat, it turns already inefficient communication into a grueling ordeal. She just drop a question that&rsquo;s pointless to ask and quickly open a new chat window, which ultimately benefits neither of us. I don&rsquo;t mean anything else by this, I just think that while abstract weirdos are fine in entertainment, in academics, one should be more specific no matter what. Don&rsquo;t be a riddler." />
@@ -33,7 +32,7 @@ I have a friend who always likes to ask me extremely abstract questions (concret
   
   <link rel="preload" as="image" href="https://chlzhong.org/theme.svg" />
 
-  <link rel="preload" as="image" href="https://cdn.jsdelivr.net/gh/Liam-Zhong/image-host/my-notion-face-transparent.png" />
+  <link rel="preload" as="image" href="https://pic3.zhimg.com/80/v2-5598b103af19fca6dfc20d8183853c48_1440w.jpg" />
 
   <link rel="preload" as="image" href="https://chlzhong.org/github.svg" /><link rel="preload" as="image" href="https://chlzhong.org/mastodon.svg" /><link rel="preload" as="image" href="https://chlzhong.org/rss.svg" />
 
@@ -135,7 +134,6 @@ I have a friend who always likes to ask me extremely abstract questions (concret
 
   <script>
     
-  document.addEventListener('DOMContentLoaded',()=> {
     const htmlClass = document.documentElement.classList;
     setTimeout(() => {
       htmlClass.remove('not-ready');
@@ -149,11 +147,9 @@ I have a friend who always likes to ask me extremely abstract questions (concret
 
     
     const metaTheme = document.querySelector('meta[name="theme-color"]');
-    const lightColor = '#FAF8F2';  
-    const darkColor = '#262525';   
-
+    const lightBg = '#faf8f1'.replace(/"/g, '');
     const setDark = (isDark) => {
-      metaTheme.setAttribute('content', isDark ? darkColor : lightColor);
+      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
       htmlClass[isDark ? 'add' : 'remove']('dark');
       localStorage.setItem('dark', isDark);
     };
@@ -177,7 +173,6 @@ I have a friend who always likes to ask me extremely abstract questions (concret
     btnDark.addEventListener('click', () => {
       setDark(localStorage.getItem('dark') !== 'true');
     });
-  });
   </script>
 
   <div

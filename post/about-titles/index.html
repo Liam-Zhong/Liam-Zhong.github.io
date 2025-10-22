@@ -23,8 +23,7 @@
   <title>谢谢叔叔 - Chlzhong</title>
 
   
-  <meta name="theme-color" content="#FAF8F2" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#262525" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" />
 
   <meta name="description" content="或许是很久没有称呼过女生，或许是小脑发育异于常人，前段时间我总觉得“阿姨”是一个非常亲切的称谓：不像“小姐”、“美女”那样轻浮，也不是“女士”、“先生‘那样正式。轻声起一个阿又落在上扬形象状的嘴唇，总之是有温柔有亲切的词语。
 直到今天帮小女孩拾掇一个扇子，她欣然接过瞬间奶奶高声呵斥：
@@ -36,7 +35,7 @@
   
   <link rel="preload" as="image" href="https://chlzhong.org/theme.svg" />
 
-  <link rel="preload" as="image" href="https://cdn.jsdelivr.net/gh/Liam-Zhong/image-host/my-notion-face-transparent.png" />
+  <link rel="preload" as="image" href="https://pic3.zhimg.com/80/v2-5598b103af19fca6dfc20d8183853c48_1440w.jpg" />
 
   <link rel="preload" as="image" href="https://chlzhong.org/github.svg" /><link rel="preload" as="image" href="https://chlzhong.org/mastodon.svg" /><link rel="preload" as="image" href="https://chlzhong.org/rss.svg" />
 
@@ -138,7 +137,6 @@
 
   <script>
     
-  document.addEventListener('DOMContentLoaded',()=> {
     const htmlClass = document.documentElement.classList;
     setTimeout(() => {
       htmlClass.remove('not-ready');
@@ -152,11 +150,9 @@
 
     
     const metaTheme = document.querySelector('meta[name="theme-color"]');
-    const lightColor = '#FAF8F2';  
-    const darkColor = '#262525';   
-
+    const lightBg = '#faf8f1'.replace(/"/g, '');
     const setDark = (isDark) => {
-      metaTheme.setAttribute('content', isDark ? darkColor : lightColor);
+      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
       htmlClass[isDark ? 'add' : 'remove']('dark');
       localStorage.setItem('dark', isDark);
     };
@@ -180,7 +176,6 @@
     btnDark.addEventListener('click', () => {
       setDark(localStorage.getItem('dark') !== 'true');
     });
-  });
   </script>
 
   <div

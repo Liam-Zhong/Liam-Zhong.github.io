@@ -23,8 +23,7 @@
   <title>王大令楷书保母砖题跋卷 - Chlzhong</title>
 
   
-  <meta name="theme-color" content="#FAF8F2" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#262525" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" />
 
   <meta name="description" content="将他的帖1，弃置于此：
 嘉泰壬戌六月六日，□□钱清三槐王畿字千里，得晋大令《保母志》并小砚于稽山樵人周，二物予皆亲见之。志以砖刻，砖四垂，其三为钱文，皆隐起，已断为四。归王氏，又断为五。凡十行。末行缺二字，不可知。第六行缺十二字，犹可考，曰：&ldquo;中冬既望，葬会稽山阴之黄閍。&ldquo;砚背刻&quot;晋献之&rdquo;，字上近右，复有&quot;永和&quot;字，乃划成，甚浅瘦。&ldquo;永&quot;字亡其磔，&ldquo;和&quot;字亡其口。砚石绝类灵璧，又似凤咮，甚细而宜墨，微洼其中。或以为王氏旧物，用故洼，非也。按米氏《书史》，晋、唐砚制皆如此，点笔易圆也。自兴宁距今八百三十载八，异哉！物之隐显，抑有定数，而古之贤达，皆前能知之欤？又按《画记》，大令以晋孝武太元十一年，年四十三乃终，上推至乙丑岁，年廿二，其神悟已如此，言语翰墨之妙，固不论也。此字与《兰亭叙》不少异，真大令之名迹。不经重摹，笔意具在，犹胜定武刻也。梁虞和云：&ldquo;羲之为会稽，献之为吴郡。故三吴之地，偏多遗迹。&ldquo;盖右军自去官后，便家山阴，今蕺山戒珠寺乃其故宅，而云门寺乃大令故宅，去黄閍皆不远，宜有是物也。
@@ -45,7 +44,7 @@
   
   <link rel="preload" as="image" href="https://chlzhong.org/theme.svg" />
 
-  <link rel="preload" as="image" href="https://cdn.jsdelivr.net/gh/Liam-Zhong/image-host/my-notion-face-transparent.png" />
+  <link rel="preload" as="image" href="https://pic3.zhimg.com/80/v2-5598b103af19fca6dfc20d8183853c48_1440w.jpg" />
 
   <link rel="preload" as="image" href="https://chlzhong.org/github.svg" /><link rel="preload" as="image" href="https://chlzhong.org/mastodon.svg" /><link rel="preload" as="image" href="https://chlzhong.org/rss.svg" />
 
@@ -147,7 +146,6 @@
 
   <script>
     
-  document.addEventListener('DOMContentLoaded',()=> {
     const htmlClass = document.documentElement.classList;
     setTimeout(() => {
       htmlClass.remove('not-ready');
@@ -161,11 +159,9 @@
 
     
     const metaTheme = document.querySelector('meta[name="theme-color"]');
-    const lightColor = '#FAF8F2';  
-    const darkColor = '#262525';   
-
+    const lightBg = '#faf8f1'.replace(/"/g, '');
     const setDark = (isDark) => {
-      metaTheme.setAttribute('content', isDark ? darkColor : lightColor);
+      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
       htmlClass[isDark ? 'add' : 'remove']('dark');
       localStorage.setItem('dark', isDark);
     };
@@ -189,7 +185,6 @@
     btnDark.addEventListener('click', () => {
       setDark(localStorage.getItem('dark') !== 'true');
     });
-  });
   </script>
 
   <div

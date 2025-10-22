@@ -23,8 +23,7 @@
   <title>【转】过中秋 - Chlzhong</title>
 
   
-  <meta name="theme-color" content="#FAF8F2" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#262525" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" />
 
   <meta name="description" content="中秋，那必然是有个诗思罢，然而我没有。我向来就没有诗思，而且以此著名，曾蒙见笑于姐姐妹妹之林，说我不喜欢花，不喜欢听鸟叫，“奇怪，你这个人不喜欢看花！”我这个人大概有什么标记应该是喜欢着花的了。小姐们不小心的地方我倒喜欢留意，岂是留意，常常不幸而注意到了罢了，有一回雨打梨花之夜五龙亭上我看见一个人儿喝柠檬水喝得太不好看。
 今年的中秋又特别没有诗思，简直杀风景得很，不说别的，此刻拿起笔来忽而写下这么一个题目，不禁有一点儿慌张，怕人家要打倒我了，说我有什么趣味了。如今国历之下，这个废历之节，连邮政局里拿了汇票都可以去取钱。于是又很有点儿怏怏然，我也有一张汇票前一个礼拜已经取回来了。这又为什么怏怏然？我说话总是喜欢这样胡里胡涂的。
@@ -40,7 +39,7 @@ Excerpt From
   
   <link rel="preload" as="image" href="https://chlzhong.org/theme.svg" />
 
-  <link rel="preload" as="image" href="https://cdn.jsdelivr.net/gh/Liam-Zhong/image-host/my-notion-face-transparent.png" />
+  <link rel="preload" as="image" href="https://pic3.zhimg.com/80/v2-5598b103af19fca6dfc20d8183853c48_1440w.jpg" />
 
   <link rel="preload" as="image" href="https://chlzhong.org/github.svg" /><link rel="preload" as="image" href="https://chlzhong.org/mastodon.svg" /><link rel="preload" as="image" href="https://chlzhong.org/rss.svg" />
 
@@ -142,7 +141,6 @@ Excerpt From
 
   <script>
     
-  document.addEventListener('DOMContentLoaded',()=> {
     const htmlClass = document.documentElement.classList;
     setTimeout(() => {
       htmlClass.remove('not-ready');
@@ -156,11 +154,9 @@ Excerpt From
 
     
     const metaTheme = document.querySelector('meta[name="theme-color"]');
-    const lightColor = '#FAF8F2';  
-    const darkColor = '#262525';   
-
+    const lightBg = '#faf8f1'.replace(/"/g, '');
     const setDark = (isDark) => {
-      metaTheme.setAttribute('content', isDark ? darkColor : lightColor);
+      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
       htmlClass[isDark ? 'add' : 'remove']('dark');
       localStorage.setItem('dark', isDark);
     };
@@ -184,7 +180,6 @@ Excerpt From
     btnDark.addEventListener('click', () => {
       setDark(localStorage.getItem('dark') !== 'true');
     });
-  });
   </script>
 
   <div
